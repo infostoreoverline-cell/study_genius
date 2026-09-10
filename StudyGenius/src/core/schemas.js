@@ -285,8 +285,20 @@ const VISUAL_TAXONOMY = {
   SURFACE_2D_3D: 'surface_2d_3d',
   MULTI_PANEL: 'multi_panel',
   DECORATIVE: 'decorative',
-  UNDETERMINED: 'undetermined',
-  // --- CHEMICAL INTELLIGENCE TYPES (v2.0) ---
+  UNDETERMINED: 'undetermined'
+};
+
+const VISUAL_DECISION = {
+  SCIENTIFIC_PLOT: 'SCIENTIFIC_PLOT',
+  CONCEPT_MAP: 'CONCEPT_MAP',
+  PROCESS_DIAGRAM: 'PROCESS_DIAGRAM',
+  COMPARISON_TABLE: 'COMPARISON_TABLE',
+  SOURCE_RECONSTRUCTION: 'SOURCE_RECONSTRUCTION',
+  KEEP_AS_TEXT: 'KEEP_AS_TEXT',
+  NEEDS_REVIEW: 'NEEDS_REVIEW'
+};
+
+// --- CHEMICAL INTELLIGENCE TYPES (v2.0) ---
   COORDINATION_COMPLEX: 'coordination_complex',           // Complessi metallici con geometria (sq. planar, ottaedrico, tetraedrico)
   REACTION_MECHANISM: 'reaction_mechanism',               // Schema a frecce curvilinee con pushing elettronico
   CATALYTIC_CYCLE_ORGANOMETALLIC: 'catalytic_cycle_organometallic', // Ciclo catalitico con step di ossidazione/coordinazione
@@ -478,7 +490,7 @@ const VISUAL_SPEC_SCHEMA = {
         'coordination_complex', 'reaction_mechanism', 'catalytic_cycle_organometallic',
         'electron_count_pathway', 'trans_effect_diagram', 'reaction_network',
         'quantitative_plot', 'flowsheet_blocks', 'timeline', 'comparison_matrix',
-        'conceptual_roadmap', 'cyclic_mechanism'
+        'conceptual_roadmap', 'cyclic_mechanism', 'legacy_svg'
       ]
     },
     // --- Entità chimiche/concettuali ---
@@ -546,6 +558,8 @@ const VISUAL_SPEC_SCHEMA = {
         }
       }
     },
+    // --- Legacy SVG (per mantenere coordinate raw solo in modo esplicito) ---
+    legacySvgContent: { type: ['string', 'null'] },
     // --- Didattica ---
     didacticFocus: { type: 'string' },          // Cosa il lettore deve capire
     examTrap: { type: ['string', 'null'] },     // Errore tipico d'esame da evitare
@@ -987,5 +1001,6 @@ module.exports = {
   validateSemanticReference,
   validateGraphSpec,
   validateJobState,
-  validateVisualEvidence
+  validateVisualEvidence,
+  VISUAL_DECISION
 };

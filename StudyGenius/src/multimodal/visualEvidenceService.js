@@ -404,65 +404,16 @@ ATTENZIONE: NON scrivere spiegazioni narrative da professore, introduzioni o com
 Genera ESCLUSIVAMENTE un oggetto JSON compatto conforme al seguente schema:
 
 {
-  "figureId": "${figureId}",
-  "source": {
-    "fileHash": "${fileHash}",
-    "page": ${pageNum},
-    "bbox": [${bbox.join(', ')}]
-  },
-  "classification": {
-    "type": "${visualItem.type || 'quantitative_plot'}",
-    "subtype": "es. arrhenius_plot, titration_curve o null",
-    "confidence": 0.95
-  },
-  "caption": {
-    "text": "testo esatto della didascalia",
-    "source": "page_text",
-    "confidence": 0.98
-  },
-  "axes": {
-    "x": {
-      "label": "etichetta asse X",
-      "unit": "unita' o null",
-      "scale": "linear",
-      "confidence": 0.95
-    },
-    "y": {
-      "label": "etichetta asse Y",
-      "unit": "unita' o null",
-      "scale": "linear",
-      "confidence": 0.95
-    }
-  },
-  "series": [
-    {
-      "name": "nome della serie o curva",
-      "representation": "points o line",
-      "provenance": "SOURCE_EXACT",
-      "confidence": 0.92
-    }
-  ],
-  "qualitativeObservations": [
-    "Sintetica osservazione dell'andamento (es. decrescita esponenziale, asintoto a y=0)"
-  ],
-  "explicitValues": [],
-  "estimatedValues": [],
-  "formulaLinks": [
-    {
-      "formula": "legge matematica in LaTeX",
-      "status": "CONFIRMED_BY_SOURCE",
-      "confidence": 0.95
-    }
-  ],
-  "uncertainty": {
-    "errorBarsPresent": false,
-    "confidenceBandPresent": false,
-    "notes": null
-  },
-  "ambiguities": [],
-  "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+  "visualId": "${figureId}",
+  "decision": "SCIENTIFIC_PLOT | CONCEPT_MAP | PROCESS_DIAGRAM | COMPARISON_TABLE | SOURCE_RECONSTRUCTION | KEEP_AS_TEXT | NEEDS_REVIEW",
   "provenance": "SOURCE_EXACT",
-  "requiresReview": false
+  "mandatoryConcepts": ["concetto 1", "concetto 2"],
+  "mandatoryRelations": ["A -> B"],
+  "availableData": ["dato 1", "unità"],
+  "chosenRepresentation": "xy_plot",
+  "motivation": "ragione della scelta",
+  "confidence": 0.95,
+  "abstentionReason": null
 }
 
 REGOLE RIGIDE:
@@ -598,24 +549,16 @@ Restituisci un JSON compatto con: {"certified": true, "revisedConfidence": numbe
       if (err.isEmptyOutput || err.code === 'ERR_EMPTY_MODEL_OUTPUT') {
         console.warn(`    ⚠️ [EMPTY_OUTPUT_DEGRADATION]: Modello ha restituito output vuoto per ${figureId}. Degradazione a TRIAGE_ONLY.`);
         const emptyOutputEvidence = {
-          figureId,
-          source: { fileHash, page: pageNum, bbox },
-          classification: { type: visualItem.type || 'unknown', subtype: null, confidence: 0.4 },
-          caption: { text: visualItem.captionCandidate || null, source: 'page_text', confidence: 0.4 },
-          axes: null,
-          series: [],
-          qualitativeObservations: [`Figura rilevata in pagina ${pageNum} (analisi rifiutata dal modello - output vuoto).`],
-          explicitValues: [],
-          estimatedValues: [],
-          formulaLinks: [],
-          uncertainty: { errorBarsPresent: false, confidenceBandPresent: false, notes: 'EMPTY_MODEL_OUTPUT: il modello non ha prodotto analisi per questa figura' },
-          ambiguities: ['Analisi Tier C non disponibile: risposta vuota dal modello (RECITATION o filtro di sicurezza silenzioso)'],
-          reconstructionStrategy: RECONSTRUCTION_STRATEGIES.PRESERVE_ORIGINAL,
+          visualId: figureId,
+          decision: 'NEEDS_REVIEW',
           provenance: 'TRIAGE_ONLY',
-          status: 'EMPTY_MODEL_OUTPUT',
-          requiresReview: true,
-          cropPath: cropFilePath,
-          cropKey
+          mandatoryConcepts: [],
+          mandatoryRelations: [],
+          availableData: [],
+          chosenRepresentation: 'none',
+          motivation: 'Analisi Tier C non disponibile: risposta vuota dal modello (RECITATION o filtro di sicurezza silenzioso)',
+          confidence: 0.4,
+          abstentionReason: 'EMPTY_MODEL_OUTPUT'
         };
         cache.set(cacheKey, emptyOutputEvidence);
         return emptyOutputEvidence;
@@ -635,24 +578,16 @@ Restituisci un JSON compatto con: {"certified": true, "revisedConfidence": numbe
           // Degradazione controllata consentita solo per figure non critiche
           console.warn(`    ⚠️ [CONTROLLED_DEGRADATION]: Tutti i modelli sovraccarichi. Figura ${figureId} non critica (rilevanza ${visualItem.relevance || 0.5}) -> Degradazione controllata a TRIAGE_ONLY.`);
           const degradedEvidence = {
-            figureId,
-            source: { fileHash, page: pageNum, bbox },
-            classification: { type: visualItem.type || 'unknown', subtype: null, confidence: 0.6 },
-            caption: { text: visualItem.captionCandidate, source: 'page_text', confidence: 0.6 },
-            axes: null,
-            series: [],
-            qualitativeObservations: [`Descrizione preliminare da Tier B: ${visualItem.captionCandidate}`],
-            explicitValues: [],
-            estimatedValues: [],
-            formulaLinks: [],
-            uncertainty: { errorBarsPresent: false, confidenceBandPresent: false, notes: 'Degradazione controllata TRIAGE_ONLY per sovraccarico provider' },
-            ambiguities: ['Analisi Tier C non disponibile per congestione temporanea'],
-            reconstructionStrategy: RECONSTRUCTION_STRATEGIES.PRESERVE_ORIGINAL,
+            visualId: figureId,
+            decision: 'KEEP_AS_TEXT',
             provenance: 'TRIAGE_ONLY',
-            status: 'TRIAGE_ONLY',
-            requiresReview: false,
-            cropPath: cropFilePath,
-            cropKey
+            mandatoryConcepts: [],
+            mandatoryRelations: [],
+            availableData: [],
+            chosenRepresentation: 'text',
+            motivation: 'Degradazione controllata TRIAGE_ONLY per sovraccarico provider',
+            confidence: 0.6,
+            abstentionReason: 'ALL_CANDIDATES_OVERLOADED'
           };
           cache.set(cacheKey, degradedEvidence);
           return degradedEvidence;
@@ -673,47 +608,32 @@ Restituisci un JSON compatto con: {"certified": true, "revisedConfidence": numbe
           deferredRetryQueue.push(deferredItem);
 
           const deferredEvidence = {
-            figureId,
-            source: { fileHash, page: pageNum, bbox },
-            classification: { type: visualItem.type || 'quantitative_plot', subtype: null, confidence: 0.0 },
-            caption: { text: visualItem.captionCandidate || null, source: 'page_text', confidence: 0.0 },
-            axes: null,
-            series: [],
-            qualitativeObservations: ['Figura critica in attesa di retry differito (sovraccarico temporaneo endpoint Gemini).'],
-            explicitValues: [],
-            estimatedValues: [],
-            formulaLinks: [],
-            uncertainty: { errorBarsPresent: false, confidenceBandPresent: false, notes: 'FONTE VISUALE NON ANCORA VERIFICATA - IN CODA DIFFERITA' },
-            ambiguities: ['DEFERRED_RETRY: Richiesta in attesa di ripresa post-congestione'],
-            reconstructionStrategy: RECONSTRUCTION_STRATEGIES.PRESERVE_ORIGINAL,
+            visualId: figureId,
+            decision: 'NEEDS_REVIEW',
             provenance: 'SOURCE_VISUAL_UNVERIFIED',
-            status: 'DEFERRED_RETRY',
-            requiresDeferredRetry: true,
-            cropPath: cropFilePath,
-            cropKey
+            mandatoryConcepts: [],
+            mandatoryRelations: [],
+            availableData: [],
+            chosenRepresentation: 'none',
+            motivation: 'Figura critica in attesa di retry differito',
+            confidence: 0.0,
+            abstentionReason: 'DEFERRED_RETRY'
           };
           return deferredEvidence;
         }
       }
 
       const fallbackEvidence = {
-        figureId,
-        source: { fileHash, page: pageNum, bbox },
-        classification: { type: visualItem.type || VISUAL_TAXONOMY.QUANTITATIVE_PLOT, subtype: null, confidence: 0.5 },
-        caption: { text: visualItem.captionCandidate || null, source: 'page_text', confidence: 0.5 },
-        axes: null,
-        series: [],
-        qualitativeObservations: ['Figura rilevata nel documento (analisi fallback).'],
-        explicitValues: [],
-        estimatedValues: [],
-        formulaLinks: [],
-        uncertainty: { errorBarsPresent: false, confidenceBandPresent: false, notes: 'Analisi automatica parziale' },
-        ambiguities: [err.message],
-        reconstructionStrategy: RECONSTRUCTION_STRATEGIES.PRESERVE_ORIGINAL,
+        visualId: figureId,
+        decision: 'NEEDS_REVIEW',
         provenance: PROVENANCE_CLASSES.SOURCE_EXTRACTED,
-        requiresReview: true,
-        cropPath: cropFilePath,
-        cropKey
+        mandatoryConcepts: [],
+        mandatoryRelations: [],
+        availableData: [],
+        chosenRepresentation: 'none',
+        motivation: 'Analisi automatica parziale fallita',
+        confidence: 0.5,
+        abstentionReason: err.message
       };
       cache.set(cacheKey, fallbackEvidence);
       return fallbackEvidence;
@@ -787,23 +707,16 @@ Genera ESCLUSIVAMENTE un oggetto JSON valido:
   "page": ${pageNum},
   "visuals": [
     {
-      "figureId": "${fileHash ? fileHash.slice(0, 8) + '_' : ''}p${pageNum}-v1",
-      "source": { "page": ${pageNum}, "bbox": [0.05, 0.15, 0.95, 0.85] },
-      "classification": { "type": "quantitative_plot", "subtype": "es. titration_curve o schema_pompa", "confidence": 0.95 },
-      "caption": { "text": "didascalia o titolo", "source": "page_text", "confidence": 0.95 },
-      "axes": {
-        "x": { "label": "asse X", "unit": "unità o null", "scale": "linear", "confidence": 0.95 },
-        "y": { "label": "asse Y", "unit": "unità o null", "scale": "linear", "confidence": 0.95 }
-      },
-      "series": [ { "name": "Curva 1", "representation": "line", "confidence": 0.92 } ],
-      "qualitativeObservations": [ "andamento qualitativo chiaro" ],
-      "explicitValues": [],
-      "estimatedValues": [],
-      "formulaLinks": [],
-      "uncertainty": { "errorBarsPresent": false, "notes": null },
-      "ambiguities": [],
-      "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
-      "requiresReview": false
+      "visualId": "${fileHash ? fileHash.slice(0, 8) + '_' : ''}p${pageNum}-v1",
+      "decision": "SCIENTIFIC_PLOT | CONCEPT_MAP | PROCESS_DIAGRAM | COMPARISON_TABLE | SOURCE_RECONSTRUCTION | KEEP_AS_TEXT | NEEDS_REVIEW",
+      "provenance": "SOURCE_EXACT",
+      "mandatoryConcepts": ["concetto 1", "concetto 2"],
+      "mandatoryRelations": ["A -> B"],
+      "availableData": ["dato 1", "unità"],
+      "chosenRepresentation": "xy_plot",
+      "motivation": "ragione della scelta",
+      "confidence": 0.95,
+      "abstentionReason": null
     }
   ]
 }`;
@@ -944,23 +857,16 @@ DIRETTIVA FONDAMENTALE A ZERO RITRASCRIZIONE DEL TESTO DIGITALE:
 
 <<<VISUAL_CONTRACT id="fig_pX_Y">>>
 {
-  "figureId": "${fileHash.slice(0, 8)}_pX-vY",
-  "source": { "page": X, "bbox": [0.05, 0.15, 0.95, 0.85] },
-  "classification": { "type": "quantitative_plot", "subtype": "es. titration_curve, spettro_ir o schema_pompa", "confidence": 0.95 },
-  "caption": { "text": "didascalia o titolo della figura presente nella pagina" },
-  "axes": {
-    "x": { "label": "etichetta asse X", "unit": "unità o null", "scale": "linear", "confidence": 0.95 },
-    "y": { "label": "etichetta asse Y", "unit": "unità o null", "scale": "linear", "confidence": 0.95 }
-  },
-  "series": [ { "name": "Curva o serie 1", "representation": "line", "confidence": 0.92 } ],
-  "qualitativeObservations": [ "andamento qualitativo deducibile (es. flesso, picco a X=..., asintoto)" ],
-  "explicitValues": [],
-  "estimatedValues": [],
-  "formulaLinks": [],
-  "ocrCorrections": [ "eventuali scritte o etichette interne all'immagine non selezionabili" ],
-  "ambiguities": [],
-  "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
-  "requiresReview": false
+  "visualId": "${fileHash.slice(0, 8)}_pX-vY",
+  "decision": "SCIENTIFIC_PLOT | CONCEPT_MAP | PROCESS_DIAGRAM | COMPARISON_TABLE | SOURCE_RECONSTRUCTION | KEEP_AS_TEXT | NEEDS_REVIEW",
+  "provenance": "SOURCE_EXACT",
+  "mandatoryConcepts": ["concetto 1", "concetto 2"],
+  "mandatoryRelations": ["A -> B"],
+  "availableData": ["dato 1", "unità"],
+  "chosenRepresentation": "xy_plot",
+  "motivation": "ragione della scelta",
+  "confidence": 0.95,
+  "abstentionReason": null
 }
 <<<VISUAL_END id="fig_pX_Y">>>
 

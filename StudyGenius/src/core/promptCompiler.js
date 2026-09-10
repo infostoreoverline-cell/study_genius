@@ -272,9 +272,10 @@ Utilizza rigorosamente i seguenti callout Markdown:
 - **DIVIETO ASSOLUTO:** Non usare mai backtick code spans (\`E\`, \`pH\`) per la matematica o la chimica.
 
 ### 5. Contratto delle Visuali e Grafici Quantitativi (Sezione 9)
-Ogni grafico o figura tecnica inserita DEVE rispondere a una domanda didattica precisa:
-- **Strutture Molecolari e Chimica di Coordinazione (v2.0):** Per complessi di coordinazione, effetto trans, pathway 16e⁻/18e⁻, cicli catalitici o reti di reazione, produci un blocco \`\`\`json:visual-spec\`\`\` strutturato. Non produrre MAI SVG grezzo né pseudo-visuali ASCII (\`├──\`, \`└──\`).
-- **Mappe Concettuali e Gerarchiche (IN TUTTE LE MATERIE - v2.0):** Per la sezione "Mappa concettuale" in QUALSIASI materia (Fisica, Chimica, Ingegneria, Matematica, Informatica, Biologia, ecc.), produci SEMPRE un blocco \`\`\`json:visual-spec\`\`\` strutturato con \`kind: "concept_map"\`. È SEVERAMENTE VIETATO produrre mappe concettuali con caratteri ASCII (\`├──\`, \`└──\`, \`│\`) o blocchi di codice monospace. Schema obbligatorio:
+Ogni grafico o figura tecnica inserita DEVE rispondere a una domanda didattica precisa e generare ESCLUSIVAMENTE una specifica semantica in formato JSON.
+E' ASSOLUTAMENTE VIETATO produrre codice SVG grezzo. Il modello non deve MAI inventare coordinate SVG, topologie arbitrarie o interpolare dati fittizi.
+- **Strutture Molecolari, Mappe Concettuali, Circuiti e Grafici (IN TUTTE LE MATERIE - v2.0):** Produci SEMPRE un blocco \`\`\`json:visual-spec\`\`\` strutturato (es. \`kind: "concept_map"\`, \`kind: "quantitative_plot"\`). È SEVERAMENTE VIETATO produrre mappe concettuali con caratteri ASCII (\`├──\`, \`└──\`, \`│\`) o blocchi di codice monospace.
+Esempio di schema obbligatorio per mappe concettuali:
 \`\`\`json:visual-spec
 {
   "schemaVersion": "1.0",
@@ -285,17 +286,15 @@ Ogni grafico o figura tecnica inserita DEVE rispondere a una domanda didattica p
     "layoutIntent": "top_down",
     "nodes": [
       { "id": "root", "label": "Concetto Cardine", "category": "Fondamento" },
-      { "id": "sub1", "label": "Sotto-concetto A", "category": "Principio" },
-      { "id": "sub2", "label": "Sotto-concetto B", "category": "Applicazione" }
+      { "id": "sub1", "label": "Sotto-concetto A", "category": "Principio" }
     ],
     "edges": [
-      { "id": "e1", "from": "root", "to": "sub1", "relation": "classification", "label": "classificazione" },
-      { "id": "e2", "from": "root", "to": "sub2", "relation": "dependency", "label": "dipendenza" }
+      { "id": "e1", "from": "root", "to": "sub1", "relation": "classification", "label": "classificazione" }
     ]
   }
 }
 \`\`\`
-Il compilatore visivo convertirà questo blocco in un SVG vettoriale ad alta definizione con nodi a gradiente, ombre e connettori curvi morbidi.`;
+Il compilatore visivo convertirà questo blocco semantico in un SVG vettoriale ad alta definizione, integrando i dati effettivi senza richiedere a te calcoli geometrici.`;
   }
 
   getLevel7QualityGates() {
@@ -365,7 +364,7 @@ ${visualDirectives}
 REGOLE DIDATTICHE ED EDITORIALI FONDAMENTALI:
 1. Inizia direttamente con il primo titolo (# ...), senza convenevoli né frasi conversazionali.
 2. Formule matematiche in LaTeX impeccabile: $ ... $ in linea, $$ ... $$ in blocco. Mai backtick code span (\`x\`) per simboli o formule.
-3. Se sono presenti schede di evidenze visuali, incorpora i grafici indicati tramite segnaposto {{GRAPH:id}} o diagrammi Mermaid. Non inventare dati non sostenuti dalla fonte.
+3. Se sono presenti schede di evidenze visuali, incorpora le decisioni visuali generando ESCLUSIVAMENTE un blocco \`\`\`json:visual-spec\`\`\`. È ASSOLUTAMENTE VIETATO produrre coordinate SVG raw. Non inventare dati non sostenuti dalla fonte.
 4. Concludi ogni sezione con intuizione fisica, controlli di coerenza e trappole d'esame tipiche.`;
     }
 

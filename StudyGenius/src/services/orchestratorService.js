@@ -82,7 +82,7 @@ ${shardsOverview}
 
 COMPITO DI COORDINAMENTO DIDATTICO:
 Genera il Master Plan Accademico stabilendo per ciascuno Shard (da 1 a ${shards.length}):
-1. **Titoli dei Capitoli e Mappa Concettuale Vettoriale**: Prerequisiti necessari, concetti cardine e progressione logica. Pianifica per ciascun capitolo lo schema concettuale, impiantistico o circuito che dovrà essere reso in blocco vettoriale SVG puro (\`\`\`svg ... \`\`\`), con divieto totale di caratteri ASCII tree (├──, └──).
+1. **Titoli dei Capitoli e Mappa Concettuale Vettoriale**: Prerequisiti necessari, concetti cardine e progressione logica. Pianifica per ciascun capitolo lo schema concettuale, impiantistico o circuito che dovrà essere reso come specifica semantica (\`\`\`json:visual-spec\`\`\`), con divieto totale di caratteri ASCII tree (├──, └──) e divieto totale di generare SVG grezzo (\`\`\`svg\`\`\`).
 2. **Formula Lineage**: Formule e teoremi chiave da dimostrare integralmente senza scorciatoie.
 3. **Eserciziario d'Esame**: Elenco mirato degli esercizi chiave d'esame presenti da risolvere con schema mentale e controlli di coerenza.
 4. **Trappole d'Esame**: Fraintendimenti tipici da evidenziare.
@@ -386,25 +386,25 @@ Inserisci un richiamo didattico formale (es. "> 📌 **Richiamo:** per la teoria
         }
       }
 
-      let visualContractsContext = '';
       if (Array.isArray(visualContracts) && visualContracts.length > 0) {
-        visualContractsContext = `\n## 🎨 EVIDENZE E SCHEMI VISUALI ESTRATTI DALLA FONTE ORIGINALE (RENDERING VETTORIALE SVG OBBLIGATORIO):
+        visualContractsContext = `\n## 🎨 EVIDENZE E SCHEMI VISUALI ESTRATTI DALLA FONTE ORIGINALE:
 Le seguenti evidenze visive sono state rilevate nel materiale originale e analizzate dal modello di visione artificiale:
 ${visualContracts.slice(0, 10).map((vc, idx) => {
   const cap = vc.caption?.text || vc.title || `Schema ${idx + 1}`;
-  const desc = vc.qualitativeObservations?.[0] || vc.description || vc.didacticDirective || 'Schema tecnico di processo/concettuale';
-  return `- **[${vc.figureId || `Figura_${idx + 1}`}] ${cap}**: ${desc}`;
+  const desc = vc.qualitativeObservations?.[0] || vc.description || vc.didacticDirective || vc.motivation || 'Schema tecnico di processo/concettuale';
+  return `- **[${vc.visualId || vc.figureId || `Figura_${idx + 1}`}] ${cap}**: ${desc} (Decisione: ${vc.decision || 'Sconosciuta'})`;
 }).join('\n')}
 
 DIRETTIVA VISUALE PER LO SHARD:
-Se il tuo modulo tratta o sviluppa i concetti di una delle figure sopra indicate, DEVI includere lo schema corrispondente ricostruito in SVG vettoriale puro (\`\`\`svg ... \`\`\` oppure \`\`\`json:visual-spec ... \`\`\`), spiegandone dettagliatamente tutti i flussi, i componenti e il significato scientifico prima e dopo il grafico. BANDO TOTALE AGLI ALBERI ASCII.\n---\n`;
+Se il tuo modulo tratta o sviluppa i concetti di una delle figure sopra indicate, DEVI includere la definizione semantica ricostruita tramite blocco \`\`\`json:visual-spec\`\`\`, spiegandone dettagliatamente tutti i flussi, i componenti e il significato scientifico prima e dopo. E' ASSOLUTAMENTE VIETATO produrre codice SVG grezzo.\n---\n`;
       }
 
       const shardRoleMission = assignShardMission(shard.shardId - 1, shards.length, subject || 'generic', studyMode || 'complete');
 
-      const svgDirective = `\nOBBLIGO RENDERING GRAFICA E SCHEMI IN SVG VETTORIALE PURO:
-Qualsiasi mappa concettuale, schema a blocchi, diagramma di flusso, flowsheet d'impianto (BFD/PFD/P&ID), circuito elettrico, schema di apparato o grafo DEVE essere generato direttamente come blocco SVG vettoriale puro (\`\`\`svg\\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="100%">...</svg>\\n\`\`\` oppure con specifica deterministica \`\`\`json:visual-spec\`\`\`).
-BANDO TOTALE AGLI ALBERI ASCII: È severamente vietato qualsiasi albero di testo o carattere ASCII tree (come ├── o └──), la cui presenza attiva il blocco di compilazione del PDF (ASCII_CONCEPT_MAP_DETECTED).`;
+      const svgDirective = `\nOBBLIGO RENDERING GRAFICA E SCHEMI (VISUAL_SPEC):
+Qualsiasi mappa concettuale, schema a blocchi, diagramma di flusso, flowsheet d'impianto, circuito o grafico DEVE essere generato ESCLUSIVAMENTE come specifica semantica \`\`\`json:visual-spec\`\`\`.
+È ASSOLUTAMENTE VIETATO produrre codice SVG grezzo (\`\`\`svg\`). DeepSeek deve produrre la spiegazione e la VisualSpec semantica, non deve mai calcolare coordinate, né inventare topologie. Il rendering effettivo sarà gestito dal Visual Compiler.
+BANDO TOTALE AGLI ALBERI ASCII: È severamente vietato qualsiasi albero di testo o carattere ASCII tree (come ├── o └──), la cui presenza attiva il blocco di compilazione del PDF.`;
 
       const finalGenerationDirective = isSummaryMode
         ? `Genera ora la SINTESI ACCADEMICA AD ALTA DENSITÀ per questa sezione conforme all'Academic Contract.
