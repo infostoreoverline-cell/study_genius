@@ -1,0 +1,61 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p26-v1",
+    "source": {
+      "page": 26,
+      "bbox": [
+        0.15,
+        0.08,
+        0.92,
+        0.92
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "engineering_symbols_pumps_compressors",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Pompe (G), Compressori (P), Eiettori (PJ)"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Tabella di simbologia per pompe, compressori ed eiettori"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Generica o centrifuga",
+      "Rotative a capsulismi, ingranaggi, lobi, vite",
+      "Ad anello liquido",
+      "Alternativa di ogni tipo",
+      "Eiettore",
+      "Alternativo orizzontale",
+      "Rotativo",
+      "Alternativo a più stadi",
+      "Compressore centrifugo",
+      "Ventilatore o soffiante"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:51.271Z"
+}

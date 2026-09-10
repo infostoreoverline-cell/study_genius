@@ -1,0 +1,32 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "7265252d-de82-4dd9-b974-5a9ef6b15848",
+  "subject": "Chimica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "stan-",
+      "objectives": [
+        "Comprendere a fondo l'argomento stan-",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "requiredNodes": [
+        "concept-726525-1",
+        "concept-726525-2",
+        "concept-726525-3",
+        "concept-726525-4",
+        "concept-726525-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-06T09:28:50.336Z"
+}

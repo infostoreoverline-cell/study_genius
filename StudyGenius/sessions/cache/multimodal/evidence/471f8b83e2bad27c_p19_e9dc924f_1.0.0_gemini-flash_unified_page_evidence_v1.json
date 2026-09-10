@@ -1,0 +1,46 @@
+{
+  "0": {
+    "figureId": "471f8b83_p19-v1",
+    "source": {
+      "page": 19,
+      "bbox": [
+        0.2,
+        0.62,
+        0.89,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_evaporatore_film_cadente",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatore a film cadente"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema di un evaporatore a film cadente con distributore in testa, fascio tubiero verticale, mantello e separatore di gocce laterale a valle."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Distributore",
+      "Ingresso vapore di riscaldamento",
+      "Fascio tubiero",
+      "Mantello",
+      "Uscita vapore generato",
+      "Sfiato incondensabili",
+      "Uscita condensa",
+      "Uscita prodotto concentrato"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:33.193Z"
+}

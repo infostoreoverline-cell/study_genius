@@ -1,0 +1,48 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p36-v1",
+    "source": {
+      "page": 36,
+      "bbox": [
+        0.3,
+        0.1,
+        0.68,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "control_loop_diagram",
+      "confidence": 0.97
+    },
+    "caption": {
+      "text": "Esempio: controllo del livello in un serbatoio (D-01), confronto tra sistema ad anello aperto/indicazione locale (LI) e anello chiuso con controllo di livello (LIC)"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Diagramma comparativo di due schemi di serbatoio D-01: il primo con indicatore di livello locale (LI) e valvola manuale o non regolata in retroazione; il secondo con trasmettitore/regolatore di livello in anello chiuso (LIC) che agisce sulla valvola di scarico in base all'altezza H del liquido."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "D-01",
+      "LI",
+      "LIC",
+      "Q",
+      "Q'",
+      "H",
+      "h=0",
+      "Variabile controllata: ???",
+      "Variabile controllante: ???",
+      "Variabile indipendente: ???"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:12.688Z"
+}

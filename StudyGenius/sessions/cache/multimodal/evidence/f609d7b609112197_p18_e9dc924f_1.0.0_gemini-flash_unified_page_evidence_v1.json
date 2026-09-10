@@ -1,0 +1,74 @@
+{
+  "0": {
+    "figureId": "f609d7b6_p18-v1",
+    "source": {
+      "page": 18,
+      "bbox": [
+        0.06,
+        0.08,
+        0.28,
+        0.86
+      ]
+    },
+    "classification": {
+      "type": "quantitative_plot",
+      "subtype": "titration_curve",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Figura 7: Curva schematica di una titolazione di precipitazione. La forte variazione vicino all'equivalenza permette di individuare il punto finale con un indicatore adeguato o con una misura strumentale."
+    },
+    "axes": {
+      "x": {
+        "label": "\\phi = V/V_E",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      },
+      "y": {
+        "label": "-\\log[\\text{ione libero}]",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      }
+    },
+    "series": [
+      {
+        "name": "Curva di titolazione di precipitazione",
+        "representation": "line",
+        "confidence": 0.95
+      }
+    ],
+    "qualitativeObservations": [
+      "Curva sigmoide tipica di titolazioni di precipitazione",
+      "salto verticale marcato in prossimità di \\phi = 1"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "0",
+      "0.2",
+      "0.4",
+      "0.6",
+      "0.8",
+      "1",
+      "1.2",
+      "1.4",
+      "1.6",
+      "1.8",
+      "2",
+      "0",
+      "5",
+      "10",
+      "\\phi = V/V_E",
+      "-[\\log\\text{ione libero}]"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:37:31.769Z"
+}

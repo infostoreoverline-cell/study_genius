@@ -1,0 +1,50 @@
+{
+  "0": {
+    "figureId": "471f8b83_p11-v1",
+    "source": {
+      "page": 11,
+      "bbox": [
+        0.14,
+        0.54,
+        0.93,
+        0.94
+      ]
+    },
+    "classification": {
+      "type": "schema_impianto",
+      "subtype": "schema_evaporatore_robert",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Fascio tubiero verticale evaporatore Robert (standard)"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema tecnico e sezione trasversale di un evaporatore Robert con fasci tubieri verticali, tubo centrale di ritorno (down take), e indicazione dei flussi di risalita e discesa liquor."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Vapour outlet",
+      "Vapour disengagement space",
+      "Feed",
+      "Steam in",
+      "Vent",
+      "Tube",
+      "Down take",
+      "Condensate",
+      "Thick liquor",
+      "Risalita liquor",
+      "Discesa liquor",
+      "Vapore condensante"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:09.234Z"
+}

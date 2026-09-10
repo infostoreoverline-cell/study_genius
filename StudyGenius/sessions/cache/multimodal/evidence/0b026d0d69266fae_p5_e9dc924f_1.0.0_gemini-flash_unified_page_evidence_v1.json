@@ -1,0 +1,37 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p5-v3",
+    "source": {
+      "page": 5,
+      "bbox": [
+        0.65,
+        0.68,
+        0.85,
+        0.92
+      ]
+    },
+    "classification": {
+      "type": "schematic",
+      "subtype": "disegno_esecutivo",
+      "confidence": 0.95
+    },
+    "caption": {
+      "text": "Disegni esecutivi"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Assonometria di tubazioni con quote geometriche e componenti"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:22:54.072Z"
+}

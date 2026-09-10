@@ -1,0 +1,60 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p47-v1",
+    "source": {
+      "page": 47,
+      "bbox": [
+        0.3,
+        0.25,
+        0.9,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "schematic",
+      "subtype": "schema_montaggio_meccanico",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Disegni meccanici che evidenziano rigorosamente i collegamenti fra le varie linee, le posizioni di installazione delle apparecchiature e l'effettiva costruzione delle loro connessioni."
+    },
+    "axes": {
+      "x": {
+        "label": "null",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.5
+      },
+      "y": {
+        "label": "null",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.5
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema meccanico ed esecutivo con quote geometriche, identificativi apparecchiature (T-1, D-3) e linee di tubazione."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "T-1",
+      "D-3",
+      "AREA 1",
+      "AREA 2",
+      "AREA 4",
+      "AREA 5",
+      "100-ST-16",
+      "200-0A-55",
+      "150-0A-99"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:45.448Z"
+}

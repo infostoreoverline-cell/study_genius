@@ -1,0 +1,52 @@
+{
+  "0": {
+    "figureId": "471f8b83_p24-v1",
+    "source": {
+      "page": 24,
+      "bbox": [
+        0.13,
+        0.03,
+        0.67,
+        0.72
+      ]
+    },
+    "classification": {
+      "type": "photograph",
+      "subtype": "impianto_industriale",
+      "confidence": 0.95
+    },
+    "caption": {
+      "text": "Evaporatori a piastre"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Fotografia o rendering di un impianto chimico industriale con tubazioni e colonne di distillazione/evaporazione."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Evaporatori a piastre"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:47.381Z"
+}

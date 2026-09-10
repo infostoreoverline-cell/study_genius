@@ -1,0 +1,246 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "e748b491-fa4d-493f-941c-66177187cf01",
+  "subject": "modus_operandi_fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico - Chimica Fisica II (Modus Operandi: Exercises)",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Master Plan Accademico - Chimica Fisica II (Modus Operandi: Exercises)"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Master Plan Accademico - Chimica Fisica II (Modus Operandi: Exercises)"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Shard 1: Radiazione e Corpo Nero",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Shard 1: Radiazione e Corpo Nero"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Shard 1: Radiazione e Corpo Nero"
+      ],
+      "prerequisites": [
+        "cap1"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "1. Titoli dei Capitoli e Mappa Concettuale",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 1. Titoli dei Capitoli e Mappa Concettuale"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: 1. Titoli dei Capitoli e Mappa Concettuale"
+      ],
+      "prerequisites": [
+        "cap2"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "2. Formula Lineage",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 2. Formula Lineage"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: 2. Formula Lineage"
+      ],
+      "prerequisites": [
+        "cap3"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap5",
+      "title": "3. Eserciziario d'Esame",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 3. Eserciziario d'Esame"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: 3. Eserciziario d'Esame"
+      ],
+      "prerequisites": [
+        "cap4"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap6",
+      "title": "4. Trappole d'Esame",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 4. Trappole d'Esame"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: 4. Trappole d'Esame"
+      ],
+      "prerequisites": [
+        "cap5"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-07T19:08:05.814Z"
+}

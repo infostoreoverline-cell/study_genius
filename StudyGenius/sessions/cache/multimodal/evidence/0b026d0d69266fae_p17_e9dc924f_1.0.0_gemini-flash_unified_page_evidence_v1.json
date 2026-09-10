@@ -1,0 +1,64 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p17-v1",
+    "source": {
+      "page": 17,
+      "bbox": [
+        0.2,
+        0.05,
+        0.88,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "schema",
+      "subtype": "schema_processo_strumentato",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "II. Schemi di processo strumentato"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema P&ID semplificato di un impianto chimico con colonne di assorbimento/distillazione (C-01, C-02), scambiatori di calore (E-01, E-02, E-03), serbatoi (D-02) e strumentazione di controllo (TC, PC, LC, CC)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "C-01",
+      "C-02",
+      "E-01",
+      "E-02",
+      "E-03",
+      "D-02",
+      "G-01",
+      "G-02",
+      "G-03",
+      "G-04",
+      "Aria",
+      "Benzene",
+      "Olio"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:21.885Z"
+}

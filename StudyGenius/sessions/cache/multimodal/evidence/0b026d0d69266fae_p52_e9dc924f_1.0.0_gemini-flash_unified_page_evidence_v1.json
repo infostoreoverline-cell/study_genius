@@ -1,0 +1,68 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p52-v1",
+    "source": {
+      "page": 52,
+      "bbox": [
+        0.14,
+        0.53,
+        0.93,
+        0.93
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_impianto_chimico_operazioni_unitarie",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Schemi di operazioni unitarie di separazione: colonna di distillazione, assorbimento e assorbimento esotermico."
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schemi P&ID semplificati per la purificazione di miscele liquide e gassose.",
+      "Rappresentazione di una colonna di distillazione a piatti con bollitore (Riscald.), condensatore (Refrig.) e riflusso.",
+      "Rappresentazione di colonne di assorbimento a riempimento con correnti di alimentazione (Gas impuro / Solvente) e prodotti (Gas depurato / Residuo)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Colonna di distillazione",
+      "Assorbimento",
+      "Assorbimento esotermico",
+      "Aliment.",
+      "Residuo",
+      "Distillato",
+      "Solvente",
+      "Gas depurato",
+      "Gas impuro",
+      "Refrig.",
+      "Riscald.",
+      "PC",
+      "LC",
+      "FC",
+      "TC"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:58.239Z"
+}

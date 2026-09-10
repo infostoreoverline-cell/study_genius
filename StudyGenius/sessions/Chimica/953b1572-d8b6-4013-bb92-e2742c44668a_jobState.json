@@ -1,0 +1,58 @@
+{
+  "pipelineVersion": "3.0.0",
+  "graphSchemaVersion": "2.0.0",
+  "sessionId": "953b1572-d8b6-4013-bb92-e2742c44668a",
+  "subject": "Chimica",
+  "currentPhase": "RENDER_PDF",
+  "completedPhases": [
+    "INSPECT",
+    "EXTRACT",
+    "MAP_GRAPH",
+    "PLAN_BLUEPRINT",
+    "GENERATE_CHAPTERS",
+    "VERIFY",
+    "REPAIR",
+    "COMPILE_MASTER"
+  ],
+  "phaseOutputs": {
+    "INSPECT": {
+      "charCount": 17343
+    },
+    "EXTRACT": {
+      "nodesCount": 0
+    },
+    "MAP_GRAPH": {
+      "chaptersCount": 1
+    },
+    "PLAN_BLUEPRINT": {
+      "shardsCount": 1
+    },
+    "REPAIR": {
+      "fullLength": 83
+    }
+  },
+  "chapters": {},
+  "invalidatedChapters": [],
+  "retries": {},
+  "timestamps": {
+    "startedAt": "2026-09-09T12:20:14.650Z",
+    "lastUpdatedAt": "2026-09-09T12:20:50.868Z",
+    "EXTRACT": "2026-09-09T12:20:14.653Z",
+    "MAP_GRAPH": "2026-09-09T12:20:14.654Z",
+    "PLAN_BLUEPRINT": "2026-09-09T12:20:14.655Z",
+    "GENERATE_CHAPTERS": "2026-09-09T12:20:14.655Z",
+    "VERIFY": "2026-09-09T12:20:49.397Z",
+    "REPAIR": "2026-09-09T12:20:49.400Z",
+    "COMPILE_MASTER": "2026-09-09T12:20:50.868Z",
+    "RENDER_PDF": "2026-09-09T12:20:50.868Z"
+  },
+  "masteryState": {
+    "masteredNodes": [],
+    "reviewNeededNodes": [],
+    "prerequisiteGaps": []
+  },
+  "recurringErrors": [],
+  "activeContract": null,
+  "nextRecommendedAction": null,
+  "status": "running"
+}

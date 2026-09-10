@@ -1,0 +1,58 @@
+{
+  "0": {
+    "figureId": "471f8b83_p25-v1",
+    "source": {
+      "page": 25,
+      "bbox": [
+        0.18,
+        0.33,
+        0.95,
+        0.65
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_impianto_evaporatore",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatore a piastre"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "linear",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "linear",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema impiantistico di un evaporatore a piastre con scambiatore, separatore centrifugo e condensatore",
+      "Flussi indicati: Steam, Steam condensate, Cooling water, Vapor condensate, Concentrate, Feed"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Steam",
+      "Steam condensate",
+      "Cooling water",
+      "Vapor condensate",
+      "Concentrate",
+      "Feed"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:20:01.260Z"
+}

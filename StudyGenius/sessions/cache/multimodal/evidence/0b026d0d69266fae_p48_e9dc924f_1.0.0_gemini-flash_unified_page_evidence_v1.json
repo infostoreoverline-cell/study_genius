@@ -1,0 +1,56 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p48-v1",
+    "source": {
+      "page": 48,
+      "bbox": [
+        0.18,
+        0.18,
+        0.88,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "schematic",
+      "subtype": "isometric_piping_sketch",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "schizzi di montaggio tubazioni o scketches"
+    },
+    "axes": {
+      "x": {
+        "label": "null",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.5
+      },
+      "y": {
+        "label": "null",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.5
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Proiezione assonometrica isometrica di una linea di tubazione con quote dettagliate, valvole, riduzioni di sezione e orientamento."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "T-1",
+      "T-2C",
+      "DN.150",
+      "DN.80",
+      "RID.CONC. 150x80"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:45.449Z"
+}

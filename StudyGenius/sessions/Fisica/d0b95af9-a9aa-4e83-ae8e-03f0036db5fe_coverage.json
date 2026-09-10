@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-09-07T09:35:32.002Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico — Chimica Fisica II",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Corso di Laurea in Chimica Industriale — Università degli Studi di Padova",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap3",
+      "title": "Modalità: Sintesi ad Alta Densità per Riassunto d'Esame",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap4",
+      "title": "SHARD 1 — Crisi della Fisica Classica e Introduzione alla Meccanica Quantistica",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap5",
+      "title": "1. Titolo del Capitolo e Mappa Concettuale",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap6",
+      "title": "2. Formula Lineage",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    }
+  ],
+  "totalRequired": 0,
+  "totalCovered": 0,
+  "overallCoverage": 1,
+  "passed": true
+}

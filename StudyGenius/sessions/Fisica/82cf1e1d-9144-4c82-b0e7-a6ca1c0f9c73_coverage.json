@@ -1,0 +1,207 @@
+{
+  "timestamp": "2026-09-09T19:16:36.501Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 27df7bd6_p1-v1 (\"Scambiatori di calore - Fondamenti di Impianti Chimici\"):",
+      "items": [
+        {
+          "nodeId": "concept-82cf1e-1",
+          "label": "DIRETTIVA PER 27df7bd6_p1-v1 (\"Scambiatori di calore - Fondamenti di Impianti Chimici\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-2",
+          "label": "DIRETTIVA PER 27df7bd6_p2-v1 (\"Sommario della lezione\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-3",
+          "label": "DIRETTIVA PER 27df7bd6_p3-v1 (\"Lo scambio termico\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-4",
+          "label": "DIRETTIVA PER 27df7bd6_p8-v1 (\"Scambiatori di calore\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-5",
+          "label": "DIRETTIVA PER 27df7bd6_p10-v1 (\"Scambiatori tubo-in-tubo\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-82cf1e-1",
+          "label": "DIRETTIVA PER 27df7bd6_p1-v1 (\"Scambiatori di calore - Fondamenti di Impianti Chimici\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-2",
+          "label": "DIRETTIVA PER 27df7bd6_p2-v1 (\"Sommario della lezione\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-3",
+          "label": "DIRETTIVA PER 27df7bd6_p3-v1 (\"Lo scambio termico\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-4",
+          "label": "DIRETTIVA PER 27df7bd6_p8-v1 (\"Scambiatori di calore\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-5",
+          "label": "DIRETTIVA PER 27df7bd6_p10-v1 (\"Scambiatori tubo-in-tubo\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 27df7bd6_p18-v1 (\"Scambiatori a fascio tubiero\"):",
+      "items": [
+        {
+          "nodeId": "concept-82cf1e-6",
+          "label": "DIRETTIVA PER 27df7bd6_p18-v1 (\"Scambiatori a fascio tubiero\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-7",
+          "label": "DIRETTIVA PER 27df7bd6_p35-v1 (\"Scambiatori a piastre\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-8",
+          "label": "DIRETTIVA PER 27df7bd6_p43-v1 (\"Università degli Studi di Padova logo\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-9",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v1 (\"A spirale\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-10",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v2 (\"A pacchi alettati\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-82cf1e-6",
+          "label": "DIRETTIVA PER 27df7bd6_p18-v1 (\"Scambiatori a fascio tubiero\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-7",
+          "label": "DIRETTIVA PER 27df7bd6_p35-v1 (\"Scambiatori a piastre\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-8",
+          "label": "DIRETTIVA PER 27df7bd6_p43-v1 (\"Università degli Studi di Padova logo\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-9",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v1 (\"A spirale\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-10",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v2 (\"A pacchi alettati\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 27df7bd6_p46-v3 (\"A tubi alettati - alettatura longitudinale\"):",
+      "items": [
+        {
+          "nodeId": "concept-82cf1e-11",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v3 (\"A tubi alettati - alettatura longitudinale\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-12",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v4 (\"A tubi alettati - alettatura elicoidale\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-13",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v5 (\"A pioggia\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-82cf1e-14",
+          "label": "DIRETTIVA PER 27df7bd6_p47-v1 (\"Raffigurazione CFD dei flussi e dei gradienti termici in uno scambiatore a fascio tubiero\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-82cf1e-11",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v3 (\"A tubi alettati - alettatura longitudinale\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-12",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v4 (\"A tubi alettati - alettatura elicoidale\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-13",
+          "label": "DIRETTIVA PER 27df7bd6_p46-v5 (\"A pioggia\"):"
+        },
+        {
+          "nodeId": "concept-82cf1e-14",
+          "label": "DIRETTIVA PER 27df7bd6_p47-v1 (\"Raffigurazione CFD dei flussi e dei gradienti termici in uno scambiatore a fascio tubiero\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 14,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

@@ -1,0 +1,367 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "03a8d661-9a60-40b7-aba6-f02f9e00128c",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-03a8d6-1",
+        "concept-03a8d6-2",
+        "concept-03a8d6-3",
+        "concept-03a8d6-4",
+        "concept-03a8d6-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-03a8d6-1",
+        "concept-03a8d6-2",
+        "concept-03a8d6-3",
+        "concept-03a8d6-4",
+        "concept-03a8d6-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-03a8d6-6",
+        "concept-03a8d6-7",
+        "concept-03a8d6-8",
+        "concept-03a8d6-9",
+        "concept-03a8d6-10"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [
+        {
+          "id": "vcm-1",
+          "conceptId": "concept-03a8d6-6",
+          "sourceId": null,
+          "label": "Macrostruttura e orientamento: DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+          "detectedStructure": "HIERARCHY",
+          "cognitiveNeed": "ORIENTATION",
+          "strategicDecision": "VISUALIZE",
+          "candidateRepresentations": [
+            "roadmap_stepper",
+            "typographic_table",
+            "feature_tree"
+          ],
+          "chosenRepresentation": "roadmap_stepper",
+          "pedagogicalWhy": "Roadmap concettuale a tappe per costruire il modello mentale dello studente",
+          "provenanceIntent": "MODEL_SYNTHESIZED",
+          "status": "PLANNED",
+          "chapterId": "cap2"
+        }
+      ],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-03a8d6-6",
+        "concept-03a8d6-7",
+        "concept-03a8d6-8",
+        "concept-03a8d6-9",
+        "concept-03a8d6-10"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 5bc4505a_p8-v1 (\"Palloncino riempito con aria a velocità costante\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p8-v1 (\"Palloncino riempito con aria a velocità costante\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p8-v1 (\"Palloncino riempito con aria a velocità costante\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-03a8d6-11",
+        "concept-03a8d6-12",
+        "concept-03a8d6-13",
+        "concept-03a8d6-14",
+        "concept-03a8d6-15"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-03a8d6-11",
+        "concept-03a8d6-12",
+        "concept-03a8d6-13",
+        "concept-03a8d6-14",
+        "concept-03a8d6-15"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER 5bc4505a_p15-v2 (\"INGRESSO = USCITA\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p15-v2 (\"INGRESSO = USCITA\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p15-v2 (\"INGRESSO = USCITA\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-03a8d6-16",
+        "concept-03a8d6-17",
+        "concept-03a8d6-18",
+        "concept-03a8d6-19",
+        "concept-03a8d6-20"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-03a8d6-16",
+        "concept-03a8d6-17",
+        "concept-03a8d6-18",
+        "concept-03a8d6-19",
+        "concept-03a8d6-20"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap5",
+      "title": "DIRETTIVA PER 5bc4505a_p35-v1 (\"Il diagramma di flusso di questo processo a due unità potrebbe apparire come:\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p35-v1 (\"Il diagramma di flusso di questo processo a due unità potrebbe apparire come:\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p35-v1 (\"Il diagramma di flusso di questo processo a due unità potrebbe apparire come:\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-03a8d6-21",
+        "concept-03a8d6-22",
+        "concept-03a8d6-23",
+        "concept-03a8d6-24",
+        "concept-03a8d6-25"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-03a8d6-21",
+        "concept-03a8d6-22",
+        "concept-03a8d6-23",
+        "concept-03a8d6-24",
+        "concept-03a8d6-25"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap6",
+      "title": "DIRETTIVA PER 5bc4505a_p43-v1 (\"Diagramma di flusso con evidenziazione dei flussi per il bilancio molare sull'acqua\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p43-v1 (\"Diagramma di flusso con evidenziazione dei flussi per il bilancio molare sull'acqua\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 5bc4505a_p43-v1 (\"Diagramma di flusso con evidenziazione dei flussi per il bilancio molare sull'acqua\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-03a8d6-26",
+        "concept-03a8d6-27",
+        "concept-03a8d6-28",
+        "concept-03a8d6-29",
+        "concept-03a8d6-30"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-03a8d6-26",
+        "concept-03a8d6-27",
+        "concept-03a8d6-28",
+        "concept-03a8d6-29",
+        "concept-03a8d6-30"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T13:53:26.164Z",
+  "visualCoverageMatrix": [
+    {
+      "id": "vcm-1",
+      "conceptId": "concept-03a8d6-6",
+      "sourceId": null,
+      "label": "Macrostruttura e orientamento: DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+      "detectedStructure": "HIERARCHY",
+      "cognitiveNeed": "ORIENTATION",
+      "strategicDecision": "VISUALIZE",
+      "candidateRepresentations": [
+        "roadmap_stepper",
+        "typographic_table",
+        "feature_tree"
+      ],
+      "chosenRepresentation": "roadmap_stepper",
+      "pedagogicalWhy": "Roadmap concettuale a tappe per costruire il modello mentale dello studente",
+      "provenanceIntent": "MODEL_SYNTHESIZED",
+      "status": "PLANNED",
+      "chapterId": "cap2"
+    }
+  ]
+}

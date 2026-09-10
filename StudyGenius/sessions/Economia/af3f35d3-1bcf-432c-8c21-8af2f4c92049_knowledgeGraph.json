@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "graphVersion": 1,
+  "sessionId": "af3f35d3-1bcf-432c-8c21-8af2f4c92049",
+  "subject": "Economia",
+  "nodes": [
+    {
+      "id": "concept-af3f35-1",
+      "type": "CONCEPT",
+      "label": "=== DOCUMENTO DIGITALE: Finanza MIO.pdf (19 pagine) ===",
+      "content": "",
+      "chapterId": "cap1",
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false
+      },
+      "version": 1
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,64 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p51-v1",
+    "source": {
+      "page": 51,
+      "bbox": [
+        0.23,
+        0.52,
+        0.89,
+        0.89
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_impianto_chimico_reattori",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Schemi di reattori gas-liquido ad alta conversione, a bassa conversione, liquido-liquido debolmente esotermico e gas-liquido esotermico con controlli di processo (FC, LC, PC, TC)."
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Diagramma di flusso P&ID semplificato di quattro diverse configurazioni di reattori chimici.",
+      "Presenza di apparecchiature di controllo (FC = Flow Controller, LC = Level Controller, PC = Pressure Controller, TC = Temperature Controller).",
+      "Include scambiatori di calore per il controllo termico (Refrig. / Riscald.)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Reattore gas-liquido ad alta conversione",
+      "Reattore gas-liquido a bassa conversione",
+      "Reattore liquido-liquido debolmente esotermico",
+      "Reattore gas-liquido esotermico",
+      "Liq.",
+      "Gas",
+      "Refrig.",
+      "PC",
+      "LC",
+      "FC",
+      "TC"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:58.239Z"
+}

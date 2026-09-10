@@ -1,0 +1,50 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "53b755e1-0108-4c8b-a963-304f32c65981",
+  "subject": "Chimica",
+  "chapters": [
+    {
+      "chapterId": "cap1-trattazione-integrale",
+      "title": "Chimica — Trattazione Magistrale",
+      "objectives": [
+        "Padronanza dei primi principi teorici",
+        "Ricostruibilità delle derivazioni matematiche",
+        "Risoluzione rigorosa dei problemi d'esame con schema mentale"
+      ],
+      "learningObjectives": [
+        "Padronanza dei primi principi teorici",
+        "Ricostruibilità delle derivazioni matematiche",
+        "Risoluzione rigorosa dei problemi d'esame con schema mentale"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T09:38:09.066Z"
+}

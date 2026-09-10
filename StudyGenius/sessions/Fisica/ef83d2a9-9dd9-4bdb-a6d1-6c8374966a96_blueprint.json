@@ -1,0 +1,94 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "ef83d2a9-9dd9-4bdb-a6d1-6c8374966a96",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 0b026d0d_p40-v1 (\"Schemi, Specifiche, Disegni esecutivi\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p40-v1 (\"Schemi, Specifiche, Disegni esecutivi\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p40-v1 (\"Schemi, Specifiche, Disegni esecutivi\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-ef83d2-1"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [
+        {
+          "id": "vcm-1",
+          "conceptId": "0b026d0d_p40-v1",
+          "sourceId": "0b026d0d_p40-v1",
+          "label": "Schemi, Specifiche, Disegni esecutivi",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        }
+      ],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-ef83d2-1"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T20:36:41.605Z",
+  "visualCoverageMatrix": [
+    {
+      "id": "vcm-1",
+      "conceptId": "0b026d0d_p40-v1",
+      "sourceId": "0b026d0d_p40-v1",
+      "label": "Schemi, Specifiche, Disegni esecutivi",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    }
+  ]
+}

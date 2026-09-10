@@ -1,0 +1,45 @@
+{
+  "0": {
+    "figureId": "471f8b83_p10-v1",
+    "source": {
+      "page": 10,
+      "bbox": [
+        0.29,
+        0.55,
+        0.88,
+        0.88
+      ]
+    },
+    "classification": {
+      "type": "schema_impianto",
+      "subtype": "schema_evaporatore_orizzontale",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Fascio tubiero orizzontale - Evaporatore a circolazione naturale"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema impiantistico di un evaporatore a fascio tubiero orizzontale con indicazione di Vapour, Steam, Feed, Vent, Calandria, Drips e Thick liquor."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Vapour",
+      "Steam",
+      "Feed",
+      "Vent",
+      "Calandria",
+      "Drips",
+      "Thick liquor"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:09.233Z"
+}

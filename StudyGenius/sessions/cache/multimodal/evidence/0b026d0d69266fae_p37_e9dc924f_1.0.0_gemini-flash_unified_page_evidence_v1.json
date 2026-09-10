@@ -1,0 +1,59 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p37-v1",
+    "source": {
+      "page": 37,
+      "bbox": [
+        0.28,
+        0.11,
+        0.67,
+        0.66
+      ]
+    },
+    "classification": {
+      "type": "process_diagram",
+      "subtype": "schema_controllo_serbatoio",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Esempio: controllo del livello in un serbatoio"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": "h, H",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema impiantistico raffigurante un serbatoio D-01 con alimentazione Q e scarico Q'",
+      "Presenza di indicatore di livello (LI) e valvola di regolazione"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "D-01",
+      "LI",
+      "LIC",
+      "Q",
+      "Q'",
+      "H",
+      "h=0"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:22.993Z"
+}

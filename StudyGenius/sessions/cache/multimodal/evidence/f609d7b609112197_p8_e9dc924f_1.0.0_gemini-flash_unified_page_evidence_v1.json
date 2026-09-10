@@ -1,0 +1,88 @@
+{
+  "0": {
+    "figureId": "f609d7b6_p8-v1",
+    "source": {
+      "page": 8,
+      "bbox": [
+        0.08,
+        0.12,
+        0.28,
+        0.88
+      ]
+    },
+    "classification": {
+      "type": "quantitative_plot",
+      "subtype": "alpha_distribution_diagram",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Figura 2: Diagramma di distribuzione qualitativo per un sistema diprotico con pKa1 = 4 e pKa2 = 8."
+    },
+    "axes": {
+      "x": {
+        "label": "pH",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.99
+      },
+      "y": {
+        "label": "Frazione alfa",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.99
+      }
+    },
+    "series": [
+      {
+        "name": "alpha_0",
+        "representation": "line",
+        "confidence": 0.98
+      },
+      {
+        "name": "alpha_1",
+        "representation": "line",
+        "confidence": 0.98
+      },
+      {
+        "name": "alpha_2",
+        "representation": "line",
+        "confidence": 0.98
+      }
+    ],
+    "qualitativeObservations": [
+      "alpha_0 parte da 1 a pH 0 e decresce sigmoidalmente.",
+      "alpha_1 forma una campana centrata attorno a pH 6, con massimo pari a 1.",
+      "alpha_2 cresce sigmoidalmente raggiungendo 1 a pH elevati.",
+      "Le intersezioni tra alpha_0 e alpha_1 avvengono a pH = pKa1 = 4; tra alpha_1 e alpha_2 a pH = pKa2 = 8."
+    ],
+    "explicitValues": [
+      {
+        "x": 4,
+        "y": 0.5,
+        "series": "alpha_0 / alpha_1 intersection"
+      },
+      {
+        "x": 8,
+        "y": 0.5,
+        "series": "alpha_1 / alpha_2 intersection"
+      }
+    ],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "alpha_0",
+      "alpha_1",
+      "alpha_2",
+      "pH",
+      "Frazione alpha",
+      "pK_a1",
+      "pK_a2"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:37:22.533Z"
+}

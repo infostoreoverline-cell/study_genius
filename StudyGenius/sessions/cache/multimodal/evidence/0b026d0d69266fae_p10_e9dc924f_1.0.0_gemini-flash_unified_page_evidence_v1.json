@@ -1,0 +1,65 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p10-v1",
+    "source": {
+      "page": 10,
+      "bbox": [
+        0.2,
+        0.5,
+        0.85,
+        0.88
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "block_flow_diagram",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Schema a blocchi (BFD) di un impianto con sezioni di Assorbimento, Stripping e Separazione"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema a blocchi verticale composto da tre unità principali: Assorbimento, Stripping e Separazione.",
+      "Flussi in ingresso: Aria + benzene (nell'assorbitore), Vapore (nello stripper).",
+      "Flussi in uscita: Aria, Olio, Acqua, Benzene.",
+      "Ricircolo dell'olio dall'uscita dello stripper verso l'assorbitore."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Aria",
+      "Olio",
+      "Aria + benzene",
+      "Assorbimento",
+      "Olio + benzene",
+      "Vapore",
+      "Stripping",
+      "Acqua + benzene",
+      "Separazione",
+      "Acqua",
+      "Benzene"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:00.883Z"
+}

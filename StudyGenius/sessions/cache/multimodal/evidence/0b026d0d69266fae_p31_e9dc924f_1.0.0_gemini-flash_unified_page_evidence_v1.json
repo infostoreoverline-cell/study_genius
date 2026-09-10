@@ -1,0 +1,51 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p31-v1",
+    "source": {
+      "page": 31,
+      "bbox": [
+        0.15,
+        0.05,
+        0.85,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram_symbols",
+      "subtype": "symbol_legend",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Caratteristiche del processo"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Tabella riassuntiva dei simboli per le caratteristiche di processo e grandezze operative: Prodotto in ingresso, Prodotto in uscita, Fluido di servizio, Pressione, Temperatura, Portata massica/volumetrica, Contenuto termico, Potenza, Vuoto."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Caratteristiche del processo",
+      "Prodotto in ingresso",
+      "Prodotto in uscita",
+      "Fluido di servizio",
+      "Pressione (kg/cm²)",
+      "Temperatura (°C)",
+      "Portata (kg/h)",
+      "Portata (Nm³/h)",
+      "Portata (kmol/h)",
+      "Portata (m³/h)",
+      "Contenuto termico (kcal/h·10⁶)",
+      "Potenza (kW)",
+      "Vuoto (mmHg)"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:01.272Z"
+}

@@ -1,0 +1,46 @@
+{
+  "0": {
+    "figureId": "471f8b83_p14-v1",
+    "source": {
+      "page": 14,
+      "bbox": [
+        0.17,
+        0.1,
+        0.92,
+        0.92
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_impianto_evaporatore_kestner",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Fascio tubiero verticale a film ascendente (Kestner), climbing film"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema d'impianto dettagliato con separatore e tubazioni di ricircolo.",
+      "Indicatori numerici e letterali (1, 2, 3, A, B, C, D) per la componentistica e i flussi."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "1",
+      "2",
+      "3",
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:21.830Z"
+}

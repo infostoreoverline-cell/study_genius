@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-09-07T12:47:04.716Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico - Chimica Fisica II",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Corso di Laurea in Chimica Industriale - Università degli Studi di Padova",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap3",
+      "title": "A.A. 2024-2025 | Docente: Marco Ruzzi",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap4",
+      "title": "Shard 1: Note Introduttive e Logica Classica",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap5",
+      "title": "1. Titolo del Capitolo e Mappa Concettuale",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap6",
+      "title": "Capitolo 1: Fondamenti Epistemologici della Meccanica Quantistica",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    }
+  ],
+  "totalRequired": 0,
+  "totalCovered": 0,
+  "overallCoverage": 1,
+  "passed": true
+}

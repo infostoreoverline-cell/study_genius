@@ -1,0 +1,429 @@
+{
+  "timestamp": "2026-09-09T19:25:58.465Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 0b026d0d_p5-v1 (\"Schemi\"):",
+      "items": [
+        {
+          "nodeId": "concept-a57896-1",
+          "label": "DIRETTIVA PER 0b026d0d_p5-v1 (\"Schemi\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-2",
+          "label": "DIRETTIVA PER 0b026d0d_p5-v2 (\"Specifiche\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-3",
+          "label": "DIRETTIVA PER 0b026d0d_p5-v3 (\"Disegni esecutivi\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-4",
+          "label": "DIRETTIVA PER 0b026d0d_p8-v1 (\"Schema a blocchi o schema di principio\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-5",
+          "label": "DIRETTIVA PER 0b026d0d_p8-v2 (\"Schema di processo\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-a57896-1",
+          "label": "DIRETTIVA PER 0b026d0d_p5-v1 (\"Schemi\"):"
+        },
+        {
+          "nodeId": "concept-a57896-2",
+          "label": "DIRETTIVA PER 0b026d0d_p5-v2 (\"Specifiche\"):"
+        },
+        {
+          "nodeId": "concept-a57896-3",
+          "label": "DIRETTIVA PER 0b026d0d_p5-v3 (\"Disegni esecutivi\"):"
+        },
+        {
+          "nodeId": "concept-a57896-4",
+          "label": "DIRETTIVA PER 0b026d0d_p8-v1 (\"Schema a blocchi o schema di principio\"):"
+        },
+        {
+          "nodeId": "concept-a57896-5",
+          "label": "DIRETTIVA PER 0b026d0d_p8-v2 (\"Schema di processo\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 0b026d0d_p8-v3 (\"Schema di marcia (P&ID)\"):",
+      "items": [
+        {
+          "nodeId": "concept-a57896-6",
+          "label": "DIRETTIVA PER 0b026d0d_p8-v3 (\"Schema di marcia (P&ID)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-7",
+          "label": "DIRETTIVA PER 0b026d0d_p10-v1 (\"Schema a blocchi (BFD) di un impianto con sezioni di Assorbimento, Stripping e Separazione\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-8",
+          "label": "DIRETTIVA PER 0b026d0d_p13-v1 (\"II. Schema di processo semplificato\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-9",
+          "label": "DIRETTIVA PER 0b026d0d_p15-v1 (\"II. Schema di processo quantificato\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-10",
+          "label": "DIRETTIVA PER 0b026d0d_p17-v1 (\"II. Schemi di processo strumentato\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-a57896-6",
+          "label": "DIRETTIVA PER 0b026d0d_p8-v3 (\"Schema di marcia (P&ID)\"):"
+        },
+        {
+          "nodeId": "concept-a57896-7",
+          "label": "DIRETTIVA PER 0b026d0d_p10-v1 (\"Schema a blocchi (BFD) di un impianto con sezioni di Assorbimento, Stripping e Separazione\"):"
+        },
+        {
+          "nodeId": "concept-a57896-8",
+          "label": "DIRETTIVA PER 0b026d0d_p13-v1 (\"II. Schema di processo semplificato\"):"
+        },
+        {
+          "nodeId": "concept-a57896-9",
+          "label": "DIRETTIVA PER 0b026d0d_p15-v1 (\"II. Schema di processo quantificato\"):"
+        },
+        {
+          "nodeId": "concept-a57896-10",
+          "label": "DIRETTIVA PER 0b026d0d_p17-v1 (\"II. Schemi di processo strumentato\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 0b026d0d_p19-v1 (\"III. Schemi di marcia P&I\"):",
+      "items": [
+        {
+          "nodeId": "concept-a57896-11",
+          "label": "DIRETTIVA PER 0b026d0d_p19-v1 (\"III. Schemi di marcia P&I\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-12",
+          "label": "DIRETTIVA PER 0b026d0d_p20-v1 (\"Simbologia e normazione\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-13",
+          "label": "DIRETTIVA PER 0b026d0d_p23-v1 (\"Stesura degli schemi - Schema di processo con apparecchiature (D-01, E-01, C-01, E-02, C-02, D-02, G-01, G-02, G-03)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-14",
+          "label": "DIRETTIVA PER 0b026d0d_p24-v1 (\"Simbologia e sigle delle apparecchiature (UNICHIM-Tab. 1)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-15",
+          "label": "DIRETTIVA PER 0b026d0d_p25-v1 (\"Serbatoi (D)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-a57896-11",
+          "label": "DIRETTIVA PER 0b026d0d_p19-v1 (\"III. Schemi di marcia P&I\"):"
+        },
+        {
+          "nodeId": "concept-a57896-12",
+          "label": "DIRETTIVA PER 0b026d0d_p20-v1 (\"Simbologia e normazione\"):"
+        },
+        {
+          "nodeId": "concept-a57896-13",
+          "label": "DIRETTIVA PER 0b026d0d_p23-v1 (\"Stesura degli schemi - Schema di processo con apparecchiature (D-01, E-01, C-01, E-02, C-02, D-02, G-01, G-02, G-03)\"):"
+        },
+        {
+          "nodeId": "concept-a57896-14",
+          "label": "DIRETTIVA PER 0b026d0d_p24-v1 (\"Simbologia e sigle delle apparecchiature (UNICHIM-Tab. 1)\"):"
+        },
+        {
+          "nodeId": "concept-a57896-15",
+          "label": "DIRETTIVA PER 0b026d0d_p25-v1 (\"Serbatoi (D)\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER 0b026d0d_p26-v1 (\"Pompe (G), Compressori (P), Eiettori (PJ)\"):",
+      "items": [
+        {
+          "nodeId": "concept-a57896-16",
+          "label": "DIRETTIVA PER 0b026d0d_p26-v1 (\"Pompe (G), Compressori (P), Eiettori (PJ)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-17",
+          "label": "DIRETTIVA PER 0b026d0d_p27-v1 (\"Colonne (C), Vagli (PV)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-18",
+          "label": "DIRETTIVA PER 0b026d0d_p28-v1 (\"Mulini (PM), Filtri (PF), Centrifughe (PC)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-19",
+          "label": "DIRETTIVA PER 0b026d0d_p29-v1 (\"Simbologia simboli grafici: Trasportatori (T) e Dosatori (PD)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-20",
+          "label": "DIRETTIVA PER 0b026d0d_p30-v1 (\"Simbologia simboli grafici: Scambiatori (E) e Forni (B)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-a57896-16",
+          "label": "DIRETTIVA PER 0b026d0d_p26-v1 (\"Pompe (G), Compressori (P), Eiettori (PJ)\"):"
+        },
+        {
+          "nodeId": "concept-a57896-17",
+          "label": "DIRETTIVA PER 0b026d0d_p27-v1 (\"Colonne (C), Vagli (PV)\"):"
+        },
+        {
+          "nodeId": "concept-a57896-18",
+          "label": "DIRETTIVA PER 0b026d0d_p28-v1 (\"Mulini (PM), Filtri (PF), Centrifughe (PC)\"):"
+        },
+        {
+          "nodeId": "concept-a57896-19",
+          "label": "DIRETTIVA PER 0b026d0d_p29-v1 (\"Simbologia simboli grafici: Trasportatori (T) e Dosatori (PD)\"):"
+        },
+        {
+          "nodeId": "concept-a57896-20",
+          "label": "DIRETTIVA PER 0b026d0d_p30-v1 (\"Simbologia simboli grafici: Scambiatori (E) e Forni (B)\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap5",
+      "title": "DIRETTIVA PER 0b026d0d_p31-v1 (\"Caratteristiche del processo\"):",
+      "items": [
+        {
+          "nodeId": "concept-a57896-21",
+          "label": "DIRETTIVA PER 0b026d0d_p31-v1 (\"Caratteristiche del processo\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-22",
+          "label": "DIRETTIVA PER 0b026d0d_p32-v1 (\"Sigle per l'identificazione delle linee dei fluidi di servizio e di processo\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-23",
+          "label": "DIRETTIVA PER 0b026d0d_p33-v1 (\"Simbologia regolatori e valvole: Tipi di valvole e loro collegamento, Linee di collegamento, Posizione dei regolatori\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-24",
+          "label": "DIRETTIVA PER 0b026d0d_p34-v1 (\"Simbologia: variabili controllate, tipi di misura e funzioni\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-25",
+          "label": "DIRETTIVA PER 0b026d0d_p35-v1 (\"Esempio: schema P&ID complesso con colonne di assorbimento/distillazione (C-01, C-02), scambiatori di calore (E-01, E-02, E-03), serbatoi (D-01, D-02) e pompe (G-01, G-02, G-03, G-04)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-a57896-21",
+          "label": "DIRETTIVA PER 0b026d0d_p31-v1 (\"Caratteristiche del processo\"):"
+        },
+        {
+          "nodeId": "concept-a57896-22",
+          "label": "DIRETTIVA PER 0b026d0d_p32-v1 (\"Sigle per l'identificazione delle linee dei fluidi di servizio e di processo\"):"
+        },
+        {
+          "nodeId": "concept-a57896-23",
+          "label": "DIRETTIVA PER 0b026d0d_p33-v1 (\"Simbologia regolatori e valvole: Tipi di valvole e loro collegamento, Linee di collegamento, Posizione dei regolatori\"):"
+        },
+        {
+          "nodeId": "concept-a57896-24",
+          "label": "DIRETTIVA PER 0b026d0d_p34-v1 (\"Simbologia: variabili controllate, tipi di misura e funzioni\"):"
+        },
+        {
+          "nodeId": "concept-a57896-25",
+          "label": "DIRETTIVA PER 0b026d0d_p35-v1 (\"Esempio: schema P&ID complesso con colonne di assorbimento/distillazione (C-01, C-02), scambiatori di calore (E-01, E-02, E-03), serbatoi (D-01, D-02) e pompe (G-01, G-02, G-03, G-04)\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap6",
+      "title": "DIRETTIVA PER 0b026d0d_p36-v1 (\"Esempio: controllo del livello in un serbatoio (D-01), confronto tra sistema ad anello aperto/indicazione locale (LI) e anello chiuso con controllo di livello (LIC)\"):",
+      "items": [
+        {
+          "nodeId": "concept-a57896-26",
+          "label": "DIRETTIVA PER 0b026d0d_p36-v1 (\"Esempio: controllo del livello in un serbatoio (D-01), confronto tra sistema ad anello aperto/indicazione locale (LI) e anello chiuso con controllo di livello (LIC)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-27",
+          "label": "DIRETTIVA PER 0b026d0d_p37-v1 (\"Esempio: controllo del livello in un serbatoio\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-28",
+          "label": "DIRETTIVA PER 0b026d0d_p38-v1 (\"Anello (loop) di controllo\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-29",
+          "label": "DIRETTIVA PER 0b026d0d_p42-v1 (\"IMPIANTO PRODUZIONE BENZINE - SEPARAZIONE PROPANO: A PIATTI FORATI\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a57896-30",
+          "label": "DIRETTIVA PER 0b026d0d_p43-v1 (\"Foglio di specifica per scambiatore di calore\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-a57896-26",
+          "label": "DIRETTIVA PER 0b026d0d_p36-v1 (\"Esempio: controllo del livello in un serbatoio (D-01), confronto tra sistema ad anello aperto/indicazione locale (LI) e anello chiuso con controllo di livello (LIC)\"):"
+        },
+        {
+          "nodeId": "concept-a57896-27",
+          "label": "DIRETTIVA PER 0b026d0d_p37-v1 (\"Esempio: controllo del livello in un serbatoio\"):"
+        },
+        {
+          "nodeId": "concept-a57896-28",
+          "label": "DIRETTIVA PER 0b026d0d_p38-v1 (\"Anello (loop) di controllo\"):"
+        },
+        {
+          "nodeId": "concept-a57896-29",
+          "label": "DIRETTIVA PER 0b026d0d_p42-v1 (\"IMPIANTO PRODUZIONE BENZINE - SEPARAZIONE PROPANO: A PIATTI FORATI\"):"
+        },
+        {
+          "nodeId": "concept-a57896-30",
+          "label": "DIRETTIVA PER 0b026d0d_p43-v1 (\"Foglio di specifica per scambiatore di calore\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 30,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

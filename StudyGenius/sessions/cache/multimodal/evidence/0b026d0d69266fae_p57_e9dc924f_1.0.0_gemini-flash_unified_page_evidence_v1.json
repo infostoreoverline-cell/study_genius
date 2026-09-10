@@ -1,0 +1,52 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p57-v1",
+    "source": {
+      "page": 57,
+      "bbox": [
+        0.12,
+        0.04,
+        0.73,
+        0.96
+      ]
+    },
+    "classification": {
+      "type": "plant_overview",
+      "subtype": "industrial_plant_photo",
+      "confidence": 0.95
+    },
+    "caption": {
+      "text": "Esempi"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": "etichetta asse Y",
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Immagine di sfondo decorativa raffigurante un impianto chimico industriale con colonne di distillazione e tubazioni."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Esempi"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "OMIT_OR_PLACEHOLDER",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T20:19:19.086Z"
+}

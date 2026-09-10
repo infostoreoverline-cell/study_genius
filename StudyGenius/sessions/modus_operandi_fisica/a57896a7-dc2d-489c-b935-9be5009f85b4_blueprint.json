@@ -1,0 +1,327 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "a57896a7-dc2d-489c-b935-9be5009f85b4",
+  "subject": "modus_operandi_fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 0b026d0d_p5-v1 (\"Schemi\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p5-v1 (\"Schemi\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p5-v1 (\"Schemi\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-a57896-1",
+        "concept-a57896-2",
+        "concept-a57896-3",
+        "concept-a57896-4",
+        "concept-a57896-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-a57896-1",
+        "concept-a57896-2",
+        "concept-a57896-3",
+        "concept-a57896-4",
+        "concept-a57896-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 0b026d0d_p8-v3 (\"Schema di marcia (P&ID)\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p8-v3 (\"Schema di marcia (P&ID)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p8-v3 (\"Schema di marcia (P&ID)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-a57896-6",
+        "concept-a57896-7",
+        "concept-a57896-8",
+        "concept-a57896-9",
+        "concept-a57896-10"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-a57896-6",
+        "concept-a57896-7",
+        "concept-a57896-8",
+        "concept-a57896-9",
+        "concept-a57896-10"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 0b026d0d_p19-v1 (\"III. Schemi di marcia P&I\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p19-v1 (\"III. Schemi di marcia P&I\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p19-v1 (\"III. Schemi di marcia P&I\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-a57896-11",
+        "concept-a57896-12",
+        "concept-a57896-13",
+        "concept-a57896-14",
+        "concept-a57896-15"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-a57896-11",
+        "concept-a57896-12",
+        "concept-a57896-13",
+        "concept-a57896-14",
+        "concept-a57896-15"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER 0b026d0d_p26-v1 (\"Pompe (G), Compressori (P), Eiettori (PJ)\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p26-v1 (\"Pompe (G), Compressori (P), Eiettori (PJ)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p26-v1 (\"Pompe (G), Compressori (P), Eiettori (PJ)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-a57896-16",
+        "concept-a57896-17",
+        "concept-a57896-18",
+        "concept-a57896-19",
+        "concept-a57896-20"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-a57896-16",
+        "concept-a57896-17",
+        "concept-a57896-18",
+        "concept-a57896-19",
+        "concept-a57896-20"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap5",
+      "title": "DIRETTIVA PER 0b026d0d_p31-v1 (\"Caratteristiche del processo\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p31-v1 (\"Caratteristiche del processo\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p31-v1 (\"Caratteristiche del processo\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-a57896-21",
+        "concept-a57896-22",
+        "concept-a57896-23",
+        "concept-a57896-24",
+        "concept-a57896-25"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-a57896-21",
+        "concept-a57896-22",
+        "concept-a57896-23",
+        "concept-a57896-24",
+        "concept-a57896-25"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap6",
+      "title": "DIRETTIVA PER 0b026d0d_p36-v1 (\"Esempio: controllo del livello in un serbatoio (D-01), confronto tra sistema ad anello aperto/indicazione locale (LI) e anello chiuso con controllo di livello (LIC)\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p36-v1 (\"Esempio: controllo del livello in un serbatoio (D-01), confronto tra sistema ad anello aperto/indicazione locale (LI) e anello chiuso con controllo di livello (LIC)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p36-v1 (\"Esempio: controllo del livello in un serbatoio (D-01), confronto tra sistema ad anello aperto/indicazione locale (LI) e anello chiuso con controllo di livello (LIC)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-a57896-26",
+        "concept-a57896-27",
+        "concept-a57896-28",
+        "concept-a57896-29",
+        "concept-a57896-30"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-a57896-26",
+        "concept-a57896-27",
+        "concept-a57896-28",
+        "concept-a57896-29",
+        "concept-a57896-30"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T19:25:31.074Z",
+  "visualCoverageMatrix": []
+}

@@ -1,0 +1,63 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p40-v1",
+    "source": {
+      "page": 40,
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "elenco_schemi_impianti",
+      "confidence": 0.9
+    },
+    "caption": {
+      "text": "Schemi, Specifiche, Disegni esecutivi"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Slide didattica contenente elenchi puntati relativi alla documentazione grafica di impianti chimici: Schemi (a blocchi, di processo, di marcia), Specifiche, Disegni esecutivi."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "UNIVERSITÀ DEGLI STUDI DI PADOVA",
+      "Documenti grafici",
+      "Schemi",
+      "Realizzazione pratica del processo, le apparecchiature necessarie, i collegamenti, il controllo",
+      "1. a blocchi",
+      "2. di processo",
+      "3. di marcia",
+      "Specifiche",
+      "Descrizione caratteristica apparecchiatura (materiale, tenuta, norme di collaudo)",
+      "Disegni esecutivi",
+      "Sviluppati per ultimi, indicazioni dettagliate per la costruzione di un impianto (es. planimetrie, disegni elettrici, delle opere civili, montaggio tubazioni etc.)",
+      "Fondamenti di Impianti Chimici - Corso di Laurea in Chimica Industriale - ©2024 prof. A.C. Santomaso - 40/63"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "TEXT_ONLY",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T20:36:22.204Z"
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-09-09T21:05:14.670Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER eb102306_p1-v1 (\"Figura 1: Schema dei punti in cui si verifica la cavitazione classica\"):",
+      "items": [
+        {
+          "nodeId": "concept-36a8f9-1",
+          "label": "DIRETTIVA PER eb102306_p1-v1 (\"Figura 1: Schema dei punti in cui si verifica la cavitazione classica\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-36a8f9-2",
+          "label": "DIRETTIVA PER eb102306_p2-v1 (\"Figura 2: Formazione e collasso di una bolla di vapore.\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-36a8f9-1",
+          "label": "DIRETTIVA PER eb102306_p1-v1 (\"Figura 1: Schema dei punti in cui si verifica la cavitazione classica\"):"
+        },
+        {
+          "nodeId": "concept-36a8f9-2",
+          "label": "DIRETTIVA PER eb102306_p2-v1 (\"Figura 2: Formazione e collasso di una bolla di vapore.\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 2,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

@@ -1,0 +1,89 @@
+{
+  "0": {
+    "figureId": "f609d7b6_p6-v1",
+    "source": {
+      "page": 6,
+      "bbox": [
+        0.08,
+        0.12,
+        0.28,
+        0.88
+      ]
+    },
+    "classification": {
+      "type": "quantitative_plot",
+      "subtype": "logarithmic_concentration_diagram",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Figura 1: Rappresentazione logaritmica delle concentrazioni di H3O+ e OH- in funzione del pH."
+    },
+    "axes": {
+      "x": {
+        "label": "pH",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.99
+      },
+      "y": {
+        "label": "log c",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.99
+      }
+    },
+    "series": [
+      {
+        "name": "log[H3O+] = -pH",
+        "representation": "line",
+        "confidence": 0.98
+      },
+      {
+        "name": "log[OH-] = pH - 14",
+        "representation": "line",
+        "confidence": 0.98
+      }
+    ],
+    "qualitativeObservations": [
+      "La retta di log[H3O+] decresce linearmente da 0 a -14 nel range di pH da 0 a 14.",
+      "La retta di log[OH-] cresce linearmente da -14 a 0 nel range di pH da 0 a 14.",
+      "Le due rette si intersecano a pH = 7, dove log[H3O+] = log[OH-] = -7."
+    ],
+    "explicitValues": [
+      {
+        "x": 0,
+        "y": 0,
+        "series": "log[H3O+] = -pH"
+      },
+      {
+        "x": 14,
+        "y": -14,
+        "series": "log[H3O+] = -pH"
+      },
+      {
+        "x": 0,
+        "y": -14,
+        "series": "log[OH-] = pH - 14"
+      },
+      {
+        "x": 14,
+        "y": 0,
+        "series": "log[OH-] = pH - 14"
+      }
+    ],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "log c",
+      "pH",
+      "log[H3O+] = -pH",
+      "log[OH-] = pH - 14"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:37:22.532Z"
+}

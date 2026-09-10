@@ -1,0 +1,327 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "39c1bf48-204f-4076-b714-6bc9e7e90fef",
+  "subject": "Chimica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 15e6b75d_p2-v1 (\"Profilo di energia potenziale in funzione della coordinata di reazione con e senza catalizzatore\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 15e6b75d_p2-v1 (\"Profilo di energia potenziale in funzione della coordinata di reazione con e senza catalizzatore\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 15e6b75d_p2-v1 (\"Profilo di energia potenziale in funzione della coordinata di reazione con e senza catalizzatore\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-39c1bf-1",
+        "concept-39c1bf-2",
+        "concept-39c1bf-3",
+        "concept-39c1bf-4",
+        "concept-39c1bf-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-39c1bf-1",
+        "concept-39c1bf-2",
+        "concept-39c1bf-3",
+        "concept-39c1bf-4",
+        "concept-39c1bf-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 15e6b75d_p15-v1 (\"Biocatalizzatori (enzimi): struttura proteica con ingrandimenti dei siti attivi per diverse classi di enzimi (lipases, glycosidases, aldolases, enoate reductases, alcohol dehydrogenases, multicopper oxidases, monooxygenases).\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 15e6b75d_p15-v1 (\"Biocatalizzatori (enzimi): struttura proteica con ingrandimenti dei siti attivi per diverse classi di enzimi (lipases, glycosidases, aldolases, enoate reductases, alcohol dehydrogenases, multicopper oxidases, monooxygenases).\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 15e6b75d_p15-v1 (\"Biocatalizzatori (enzimi): struttura proteica con ingrandimenti dei siti attivi per diverse classi di enzimi (lipases, glycosidases, aldolases, enoate reductases, alcohol dehydrogenases, multicopper oxidases, monooxygenases).\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-39c1bf-6",
+        "concept-39c1bf-7",
+        "concept-39c1bf-8",
+        "concept-39c1bf-9",
+        "concept-39c1bf-10"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-39c1bf-6",
+        "concept-39c1bf-7",
+        "concept-39c1bf-8",
+        "concept-39c1bf-9",
+        "concept-39c1bf-10"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 15e6b75d_p20-v1 (\"Isomeria cis e trans in complessi planari ML2X2 e ottaedrici ML4X2\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 15e6b75d_p20-v1 (\"Isomeria cis e trans in complessi planari ML2X2 e ottaedrici ML4X2\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 15e6b75d_p20-v1 (\"Isomeria cis e trans in complessi planari ML2X2 e ottaedrici ML4X2\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-39c1bf-11",
+        "concept-39c1bf-12",
+        "concept-39c1bf-13",
+        "concept-39c1bf-14",
+        "concept-39c1bf-15"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-39c1bf-11",
+        "concept-39c1bf-12",
+        "concept-39c1bf-13",
+        "concept-39c1bf-14",
+        "concept-39c1bf-15"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER df240040_p7-v1 (\"Schemi meccanistici dettagliati per L pi-accettore (PF3) e L pi-donatore (Me3P) legati a un metallo M e interazione con C=O\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER df240040_p7-v1 (\"Schemi meccanistici dettagliati per L pi-accettore (PF3) e L pi-donatore (Me3P) legati a un metallo M e interazione con C=O\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER df240040_p7-v1 (\"Schemi meccanistici dettagliati per L pi-accettore (PF3) e L pi-donatore (Me3P) legati a un metallo M e interazione con C=O\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-39c1bf-16",
+        "concept-39c1bf-17",
+        "concept-39c1bf-18",
+        "concept-39c1bf-19",
+        "concept-39c1bf-20"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-39c1bf-16",
+        "concept-39c1bf-17",
+        "concept-39c1bf-18",
+        "concept-39c1bf-19",
+        "concept-39c1bf-20"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap5",
+      "title": "DIRETTIVA PER df240040_p12-v1 (\"Equilibrio di addizione ossidativa ed eliminazione riduttiva su centro metallico\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER df240040_p12-v1 (\"Equilibrio di addizione ossidativa ed eliminazione riduttiva su centro metallico\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER df240040_p12-v1 (\"Equilibrio di addizione ossidativa ed eliminazione riduttiva su centro metallico\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-39c1bf-21",
+        "concept-39c1bf-22",
+        "concept-39c1bf-23",
+        "concept-39c1bf-24",
+        "concept-39c1bf-25"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-39c1bf-21",
+        "concept-39c1bf-22",
+        "concept-39c1bf-23",
+        "concept-39c1bf-24",
+        "concept-39c1bf-25"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap6",
+      "title": "DIRETTIVA PER df240040_p20-v1 (\"Reazioni di inserzione 1,2 e esempio di inserzione di un'olefina in un legame Pt-H\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER df240040_p20-v1 (\"Reazioni di inserzione 1,2 e esempio di inserzione di un'olefina in un legame Pt-H\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER df240040_p20-v1 (\"Reazioni di inserzione 1,2 e esempio di inserzione di un'olefina in un legame Pt-H\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-39c1bf-26",
+        "concept-39c1bf-27",
+        "concept-39c1bf-28",
+        "concept-39c1bf-29",
+        "concept-39c1bf-30"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-39c1bf-26",
+        "concept-39c1bf-27",
+        "concept-39c1bf-28",
+        "concept-39c1bf-29",
+        "concept-39c1bf-30"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T12:25:32.601Z",
+  "visualCoverageMatrix": []
+}

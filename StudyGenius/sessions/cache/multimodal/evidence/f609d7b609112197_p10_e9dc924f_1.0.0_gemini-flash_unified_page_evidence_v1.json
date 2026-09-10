@@ -1,0 +1,67 @@
+{
+  "0": {
+    "figureId": "f609d7b6_p10-v1",
+    "source": {
+      "page": 10,
+      "bbox": [
+        0.31,
+        0.12,
+        0.49,
+        0.88
+      ]
+    },
+    "classification": {
+      "type": "quantitative_plot",
+      "subtype": "buffer_capacity_curve",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Figura 3: Andamento schematico della capacita' di un tampone: il massimo e' vicino a pKa."
+    },
+    "axes": {
+      "x": {
+        "label": "pH",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.99
+      },
+      "y": {
+        "label": "beta/beta_max",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.99
+      }
+    },
+    "series": [
+      {
+        "name": "beta/beta_max",
+        "representation": "line",
+        "confidence": 0.98
+      }
+    ],
+    "qualitativeObservations": [
+      "La curva ha forma campanulare simmetrica.",
+      "Il valore massimo (beta/beta_max = 1) si osserva esattamente a pH = 7 nel grafico schematico.",
+      "La capacità tamponante si azzera ai margini estremi di pH."
+    ],
+    "explicitValues": [
+      {
+        "x": 7,
+        "y": 1,
+        "series": "beta/beta_max"
+      }
+    ],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "beta/beta_max",
+      "pH"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:37:22.534Z"
+}

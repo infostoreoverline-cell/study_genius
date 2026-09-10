@@ -1,0 +1,429 @@
+{
+  "timestamp": "2026-09-09T13:54:01.130Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+      "items": [
+        {
+          "nodeId": "concept-03a8d6-1",
+          "label": "DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-2",
+          "label": "DIRETTIVA PER 0b026d0d_p20-v1 (\"Simbologia e normazione\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-3",
+          "label": "DIRETTIVA PER 0b026d0d_p43-v1 (\"Foglio di specifica per scambiatore di calore\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-4",
+          "label": "DIRETTIVA PER 0b026d0d_p57-v1 (\"Esempi\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-5",
+          "label": "DIRETTIVA PER 0b026d0d_p63-v1 (\"Contatti - Università degli Studi di Padova\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-03a8d6-1",
+          "label": "DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-2",
+          "label": "DIRETTIVA PER 0b026d0d_p20-v1 (\"Simbologia e normazione\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-3",
+          "label": "DIRETTIVA PER 0b026d0d_p43-v1 (\"Foglio di specifica per scambiatore di calore\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-4",
+          "label": "DIRETTIVA PER 0b026d0d_p57-v1 (\"Esempi\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-5",
+          "label": "DIRETTIVA PER 0b026d0d_p63-v1 (\"Contatti - Università degli Studi di Padova\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+      "items": [
+        {
+          "nodeId": "concept-03a8d6-6",
+          "label": "DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-7",
+          "label": "DIRETTIVA PER 5bc4505a_p6-v1 (\"Processo BATCH - Rappresentazione iconografica del recipiente chiuso\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-8",
+          "label": "DIRETTIVA PER 5bc4505a_p7-v1 (\"Processo CONTINUO - Rappresentazione con flussi continui in ingresso e uscita\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-9",
+          "label": "DIRETTIVA PER 5bc4505a_p7-v2 (\"Processo SEMIBATCH - Ingresso senza uscita\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-10",
+          "label": "DIRETTIVA PER 5bc4505a_p7-v3 (\"Processo SEMIBATCH - Uscita senza ingresso\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-03a8d6-6",
+          "label": "DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-7",
+          "label": "DIRETTIVA PER 5bc4505a_p6-v1 (\"Processo BATCH - Rappresentazione iconografica del recipiente chiuso\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-8",
+          "label": "DIRETTIVA PER 5bc4505a_p7-v1 (\"Processo CONTINUO - Rappresentazione con flussi continui in ingresso e uscita\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-9",
+          "label": "DIRETTIVA PER 5bc4505a_p7-v2 (\"Processo SEMIBATCH - Ingresso senza uscita\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-10",
+          "label": "DIRETTIVA PER 5bc4505a_p7-v3 (\"Processo SEMIBATCH - Uscita senza ingresso\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 5bc4505a_p8-v1 (\"Palloncino riempito con aria a velocità costante\"):",
+      "items": [
+        {
+          "nodeId": "concept-03a8d6-11",
+          "label": "DIRETTIVA PER 5bc4505a_p8-v1 (\"Palloncino riempito con aria a velocità costante\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-12",
+          "label": "DIRETTIVA PER 5bc4505a_p8-v2 (\"Bottiglia di latte presa dal frigorifero\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-13",
+          "label": "DIRETTIVA PER 5bc4505a_p8-v3 (\"Acqua che viene fatta bollire in una beuta aperta\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-14",
+          "label": "DIRETTIVA PER 5bc4505a_p11-v1 (\"Schema di un'unità di processo continuo con correnti di ingresso e uscita di metano\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-15",
+          "label": "DIRETTIVA PER 5bc4505a_p15-v1 (\"INGRESSO + GENERAZIONE = USCITA + CONSUMO\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-03a8d6-11",
+          "label": "DIRETTIVA PER 5bc4505a_p8-v1 (\"Palloncino riempito con aria a velocità costante\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-12",
+          "label": "DIRETTIVA PER 5bc4505a_p8-v2 (\"Bottiglia di latte presa dal frigorifero\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-13",
+          "label": "DIRETTIVA PER 5bc4505a_p8-v3 (\"Acqua che viene fatta bollire in una beuta aperta\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-14",
+          "label": "DIRETTIVA PER 5bc4505a_p11-v1 (\"Schema di un'unità di processo continuo con correnti di ingresso e uscita di metano\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-15",
+          "label": "DIRETTIVA PER 5bc4505a_p15-v1 (\"INGRESSO + GENERAZIONE = USCITA + CONSUMO\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER 5bc4505a_p15-v2 (\"INGRESSO = USCITA\"):",
+      "items": [
+        {
+          "nodeId": "concept-03a8d6-16",
+          "label": "DIRETTIVA PER 5bc4505a_p15-v2 (\"INGRESSO = USCITA\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-17",
+          "label": "DIRETTIVA PER 5bc4505a_p17-v1 (\"Il processo si può schematizzare così: schema a blocchi di un'unità di distillazione con flussi di alimentazione e uscita.\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-18",
+          "label": "DIRETTIVA PER 5bc4505a_p24-v1 (\"Schema di un processo di miscelazione batch con flussi in ingresso e in uscita\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-19",
+          "label": "DIRETTIVA PER 5bc4505a_p25-v1 (\"Schema a blocchi del processo batch con flussi in ingresso e in uscita\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-20",
+          "label": "DIRETTIVA PER 5bc4505a_p29-v1 (\"Schema di un processo semi-batch con alimentazione di aria e corrente gassosa in uscita\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-03a8d6-16",
+          "label": "DIRETTIVA PER 5bc4505a_p15-v2 (\"INGRESSO = USCITA\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-17",
+          "label": "DIRETTIVA PER 5bc4505a_p17-v1 (\"Il processo si può schematizzare così: schema a blocchi di un'unità di distillazione con flussi di alimentazione e uscita.\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-18",
+          "label": "DIRETTIVA PER 5bc4505a_p24-v1 (\"Schema di un processo di miscelazione batch con flussi in ingresso e in uscita\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-19",
+          "label": "DIRETTIVA PER 5bc4505a_p25-v1 (\"Schema a blocchi del processo batch con flussi in ingresso e in uscita\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-20",
+          "label": "DIRETTIVA PER 5bc4505a_p29-v1 (\"Schema di un processo semi-batch con alimentazione di aria e corrente gassosa in uscita\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap5",
+      "title": "DIRETTIVA PER 5bc4505a_p35-v1 (\"Il diagramma di flusso di questo processo a due unità potrebbe apparire come:\"):",
+      "items": [
+        {
+          "nodeId": "concept-03a8d6-21",
+          "label": "DIRETTIVA PER 5bc4505a_p35-v1 (\"Il diagramma di flusso di questo processo a due unità potrebbe apparire come:\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-22",
+          "label": "DIRETTIVA PER 5bc4505a_p36-v1 (\"Diagramma di flusso (ripetuto per continuità didattica)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-23",
+          "label": "DIRETTIVA PER 5bc4505a_p40-v1 (\"Soluzione - Diagramma di flusso della camera di evaporazione\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-24",
+          "label": "DIRETTIVA PER 5bc4505a_p41-v1 (\"Diagramma di flusso della camera di evaporazione con flussi di ingresso e uscita\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-25",
+          "label": "DIRETTIVA PER 5bc4505a_p42-v1 (\"Diagramma di flusso della camera di evaporazione\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-03a8d6-21",
+          "label": "DIRETTIVA PER 5bc4505a_p35-v1 (\"Il diagramma di flusso di questo processo a due unità potrebbe apparire come:\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-22",
+          "label": "DIRETTIVA PER 5bc4505a_p36-v1 (\"Diagramma di flusso (ripetuto per continuità didattica)\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-23",
+          "label": "DIRETTIVA PER 5bc4505a_p40-v1 (\"Soluzione - Diagramma di flusso della camera di evaporazione\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-24",
+          "label": "DIRETTIVA PER 5bc4505a_p41-v1 (\"Diagramma di flusso della camera di evaporazione con flussi di ingresso e uscita\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-25",
+          "label": "DIRETTIVA PER 5bc4505a_p42-v1 (\"Diagramma di flusso della camera di evaporazione\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap6",
+      "title": "DIRETTIVA PER 5bc4505a_p43-v1 (\"Diagramma di flusso con evidenziazione dei flussi per il bilancio molare sull'acqua\"):",
+      "items": [
+        {
+          "nodeId": "concept-03a8d6-26",
+          "label": "DIRETTIVA PER 5bc4505a_p43-v1 (\"Diagramma di flusso con evidenziazione dei flussi per il bilancio molare sull'acqua\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-27",
+          "label": "DIRETTIVA PER 5bc4505a_p44-v1 (\"Diagramma di flusso con evidenziazione di tutti i flussi in ingresso e uscita per il bilancio totale\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-28",
+          "label": "DIRETTIVA PER 5bc4505a_p45-v1 (\"CAMERA DI EVAPORAZIONE - Bilancio molare totale e calcolo di n1\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-29",
+          "label": "DIRETTIVA PER 5bc4505a_p46-v1 (\"CAMERA DI EVAPORAZIONE - Bilancio molare su N2 e calcolo di y\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-03a8d6-30",
+          "label": "DIRETTIVA PER 4211e166_p4-v1 (\"classificazione riportata nello schema\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-03a8d6-26",
+          "label": "DIRETTIVA PER 5bc4505a_p43-v1 (\"Diagramma di flusso con evidenziazione dei flussi per il bilancio molare sull'acqua\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-27",
+          "label": "DIRETTIVA PER 5bc4505a_p44-v1 (\"Diagramma di flusso con evidenziazione di tutti i flussi in ingresso e uscita per il bilancio totale\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-28",
+          "label": "DIRETTIVA PER 5bc4505a_p45-v1 (\"CAMERA DI EVAPORAZIONE - Bilancio molare totale e calcolo di n1\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-29",
+          "label": "DIRETTIVA PER 5bc4505a_p46-v1 (\"CAMERA DI EVAPORAZIONE - Bilancio molare su N2 e calcolo di y\"):"
+        },
+        {
+          "nodeId": "concept-03a8d6-30",
+          "label": "DIRETTIVA PER 4211e166_p4-v1 (\"classificazione riportata nello schema\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 30,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

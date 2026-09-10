@@ -1,0 +1,277 @@
+{
+  "timestamp": "2026-09-09T19:20:27.289Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 471f8b83_p5-v1 (\"Sezione di scambio termico con calandria\"):",
+      "items": [
+        {
+          "nodeId": "concept-bee61d-1",
+          "label": "DIRETTIVA PER 471f8b83_p5-v1 (\"Sezione di scambio termico con calandria\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-2",
+          "label": "DIRETTIVA PER 471f8b83_p6-v1 (\"Dispositivi arresta-liquido sullo scarico del vapore (a, b, c)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-3",
+          "label": "DIRETTIVA PER 471f8b83_p8-v1 (\"Tipologie di evaporatori a riscaldamento indiretto in base alla circolazione\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-4",
+          "label": "DIRETTIVA PER 471f8b83_p10-v1 (\"Fascio tubiero orizzontale - Evaporatore a circolazione naturale\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-5",
+          "label": "DIRETTIVA PER 471f8b83_p11-v1 (\"Fascio tubiero verticale evaporatore Robert (standard)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-bee61d-1",
+          "label": "DIRETTIVA PER 471f8b83_p5-v1 (\"Sezione di scambio termico con calandria\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-2",
+          "label": "DIRETTIVA PER 471f8b83_p6-v1 (\"Dispositivi arresta-liquido sullo scarico del vapore (a, b, c)\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-3",
+          "label": "DIRETTIVA PER 471f8b83_p8-v1 (\"Tipologie di evaporatori a riscaldamento indiretto in base alla circolazione\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-4",
+          "label": "DIRETTIVA PER 471f8b83_p10-v1 (\"Fascio tubiero orizzontale - Evaporatore a circolazione naturale\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-5",
+          "label": "DIRETTIVA PER 471f8b83_p11-v1 (\"Fascio tubiero verticale evaporatore Robert (standard)\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 471f8b83_p12-v1 (\"Fascio tubiero verticale evaporatore a fascio tubiero sospeso (basket)\"):",
+      "items": [
+        {
+          "nodeId": "concept-bee61d-6",
+          "label": "DIRETTIVA PER 471f8b83_p12-v1 (\"Fascio tubiero verticale evaporatore a fascio tubiero sospeso (basket)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-7",
+          "label": "DIRETTIVA PER 471f8b83_p13-v1 (\"Fascio tubiero verticale a film ascendente (Kestner), climbing film\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-8",
+          "label": "DIRETTIVA PER 471f8b83_p14-v1 (\"Fascio tubiero verticale a film ascendente (Kestner), climbing film\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-9",
+          "label": "DIRETTIVA PER 471f8b83_p16-v1 (\"Evaporatore a circolazione forzata\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-10",
+          "label": "DIRETTIVA PER 471f8b83_p17-v1 (\"Evaporatore a circolazione forzata\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-bee61d-6",
+          "label": "DIRETTIVA PER 471f8b83_p12-v1 (\"Fascio tubiero verticale evaporatore a fascio tubiero sospeso (basket)\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-7",
+          "label": "DIRETTIVA PER 471f8b83_p13-v1 (\"Fascio tubiero verticale a film ascendente (Kestner), climbing film\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-8",
+          "label": "DIRETTIVA PER 471f8b83_p14-v1 (\"Fascio tubiero verticale a film ascendente (Kestner), climbing film\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-9",
+          "label": "DIRETTIVA PER 471f8b83_p16-v1 (\"Evaporatore a circolazione forzata\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-10",
+          "label": "DIRETTIVA PER 471f8b83_p17-v1 (\"Evaporatore a circolazione forzata\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 471f8b83_p19-v1 (\"Evaporatore a film cadente\"):",
+      "items": [
+        {
+          "nodeId": "concept-bee61d-11",
+          "label": "DIRETTIVA PER 471f8b83_p19-v1 (\"Evaporatore a film cadente\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-12",
+          "label": "DIRETTIVA PER 471f8b83_p20-v1 (\"Evaporatore a film cadente\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-13",
+          "label": "DIRETTIVA PER 471f8b83_p21-v1 (\"Evaporatore a film cadente\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-14",
+          "label": "DIRETTIVA PER 471f8b83_p22-v1 (\"Evaporatore a film agitato “Luwa” (agitated film, thin film)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-15",
+          "label": "DIRETTIVA PER 471f8b83_p23-v1 (\"Evaporatori a film cadente e a film agitato\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-bee61d-11",
+          "label": "DIRETTIVA PER 471f8b83_p19-v1 (\"Evaporatore a film cadente\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-12",
+          "label": "DIRETTIVA PER 471f8b83_p20-v1 (\"Evaporatore a film cadente\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-13",
+          "label": "DIRETTIVA PER 471f8b83_p21-v1 (\"Evaporatore a film cadente\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-14",
+          "label": "DIRETTIVA PER 471f8b83_p22-v1 (\"Evaporatore a film agitato “Luwa” (agitated film, thin film)\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-15",
+          "label": "DIRETTIVA PER 471f8b83_p23-v1 (\"Evaporatori a film cadente e a film agitato\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER 471f8b83_p24-v1 (\"Evaporatori a piastre\"):",
+      "items": [
+        {
+          "nodeId": "concept-bee61d-16",
+          "label": "DIRETTIVA PER 471f8b83_p24-v1 (\"Evaporatori a piastre\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-17",
+          "label": "DIRETTIVA PER 471f8b83_p25-v1 (\"Evaporatore a piastre\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-18",
+          "label": "DIRETTIVA PER 471f8b83_p26-v1 (\"Evaporatore a piastre\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-bee61d-19",
+          "label": "DIRETTIVA PER 471f8b83_p27-v1 (\"Evaporatore a piastre\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-bee61d-16",
+          "label": "DIRETTIVA PER 471f8b83_p24-v1 (\"Evaporatori a piastre\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-17",
+          "label": "DIRETTIVA PER 471f8b83_p25-v1 (\"Evaporatore a piastre\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-18",
+          "label": "DIRETTIVA PER 471f8b83_p26-v1 (\"Evaporatore a piastre\"):"
+        },
+        {
+          "nodeId": "concept-bee61d-19",
+          "label": "DIRETTIVA PER 471f8b83_p27-v1 (\"Evaporatore a piastre\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 19,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

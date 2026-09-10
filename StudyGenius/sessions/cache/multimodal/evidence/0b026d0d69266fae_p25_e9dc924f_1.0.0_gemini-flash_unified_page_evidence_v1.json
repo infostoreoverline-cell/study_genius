@@ -1,0 +1,59 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p25-v1",
+    "source": {
+      "page": 25,
+      "bbox": [
+        0.15,
+        0.08,
+        0.9,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "engineering_symbols_tanks",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Serbatoi (D)"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Tabella riassuntiva di simbologia grafica per serbatoi in impianti chimici"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "A pressione atm a tetto fisso",
+      "A pressione atm a tetto galleggiante",
+      "Vari aperti o con coperchi flangiati",
+      "A pressione sferico",
+      "A pressione; verticale o orizzontale a fondi bombati o semisferici",
+      "A campana",
+      "A secco",
+      "Tramogge"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:51.270Z"
+}

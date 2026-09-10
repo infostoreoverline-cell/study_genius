@@ -1,0 +1,42 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p8-v3",
+    "source": {
+      "page": 8,
+      "bbox": [
+        0.7,
+        0.08,
+        0.94,
+        0.31
+      ]
+    },
+    "classification": {
+      "type": "schematic",
+      "subtype": "schema_di_marcia",
+      "confidence": 0.95
+    },
+    "caption": {
+      "text": "Schema di marcia (P&ID)"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema di marcia completo di strumentazione e linee di controllo"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "PC-1",
+      "PC-2",
+      "PC-3",
+      "PC-4"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:22:54.079Z"
+}

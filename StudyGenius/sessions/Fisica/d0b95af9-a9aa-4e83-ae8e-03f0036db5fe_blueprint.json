@@ -1,0 +1,186 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "d0b95af9-a9aa-4e83-ae8e-03f0036db5fe",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico — Chimica Fisica II",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Master Plan Accademico — Chimica Fisica II"
+      ],
+      "prerequisites": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Corso di Laurea in Chimica Industriale — Università degli Studi di Padova",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Corso di Laurea in Chimica Industriale — Università degli Studi di Padova"
+      ],
+      "prerequisites": [
+        "cap1"
+      ],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "Modalità: Sintesi ad Alta Densità per Riassunto d'Esame",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Modalità: Sintesi ad Alta Densità per Riassunto d'Esame"
+      ],
+      "prerequisites": [
+        "cap2"
+      ],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "SHARD 1 — Crisi della Fisica Classica e Introduzione alla Meccanica Quantistica",
+      "objectives": [
+        "Padronanza teorica e applicativa di: SHARD 1 — Crisi della Fisica Classica e Introduzione alla Meccanica Quantistica"
+      ],
+      "prerequisites": [
+        "cap3"
+      ],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap5",
+      "title": "1. Titolo del Capitolo e Mappa Concettuale",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 1. Titolo del Capitolo e Mappa Concettuale"
+      ],
+      "prerequisites": [
+        "cap4"
+      ],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap6",
+      "title": "2. Formula Lineage",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 2. Formula Lineage"
+      ],
+      "prerequisites": [
+        "cap5"
+      ],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-07T09:35:00.158Z"
+}

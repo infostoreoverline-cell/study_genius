@@ -1,0 +1,60 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p62-v1",
+    "source": {
+      "page": 62,
+      "bbox": [
+        0.27,
+        0.51,
+        0.86,
+        0.85
+      ]
+    },
+    "classification": {
+      "type": "schema_impianto",
+      "subtype": "schema_P&ID",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "SCH-05: Schema di processo strumentato con reattore agitatore (CSTR/batch R-01) con camicia di scambio termico, misurazione di composizione/analisi (AR), controllo di livello (LC) e controllo di temperatura (TC)."
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "qualitative",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "qualitative",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema di un reattore agitato (R-01) munito di camicia.",
+      "Linee di alimentazione multiple dotate di pompe, analizzatori (rF, AR) e valvole di controllo flusso (FC).",
+      "Anello di controllo di livello (LC) associato allo scarico di fondo e anello di temperatura (TC) con analizzatore (AR)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "SCH-05",
+      "R-01",
+      "FC",
+      "LC",
+      "TC",
+      "AR",
+      "rF"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:25:30.738Z"
+}

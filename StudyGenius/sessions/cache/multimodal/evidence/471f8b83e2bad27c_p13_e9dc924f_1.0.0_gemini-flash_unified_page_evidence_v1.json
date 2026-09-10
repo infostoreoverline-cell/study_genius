@@ -1,0 +1,45 @@
+{
+  "0": {
+    "figureId": "471f8b83_p13-v1",
+    "source": {
+      "page": 13,
+      "bbox": [
+        0.2,
+        0.12,
+        0.9,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_impianto_evaporatore",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Fascio tubiero verticale a film ascendente (Kestner), climbing film"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema tecnico di un evaporatore a fascio tubiero verticale a film ascendente (Kestner).",
+      "Presenza di ingressi per il vapore di rete e la soluzione da concentrare, e uscite per vapore, incondensabili, condensato e soluzione concentrata."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Uscita vapore",
+      "Uscita incondensabili",
+      "Uscita soluzione concentrata",
+      "Ingresso vapore di rete",
+      "Uscita condensato",
+      "Ingresso soluzione da concentrare"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:21.829Z"
+}

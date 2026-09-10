@@ -1,0 +1,246 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "1bf5754d-fe4d-4ab2-94fa-bcfc67d803e2",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico - Chimica Fisica II",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Master Plan Accademico - Chimica Fisica II"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Master Plan Accademico - Chimica Fisica II"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Eserciziario Magistrale - A.A. 2024/2025",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Eserciziario Magistrale - A.A. 2024/2025"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Eserciziario Magistrale - A.A. 2024/2025"
+      ],
+      "prerequisites": [
+        "cap1"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "Shard 1: Radiazione del Corpo Nero e Ipotesi di Planck",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Shard 1: Radiazione del Corpo Nero e Ipotesi di Planck"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Shard 1: Radiazione del Corpo Nero e Ipotesi di Planck"
+      ],
+      "prerequisites": [
+        "cap2"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "1. Titolo del Capitolo e Mappa Concettuale",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 1. Titolo del Capitolo e Mappa Concettuale"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: 1. Titolo del Capitolo e Mappa Concettuale"
+      ],
+      "prerequisites": [
+        "cap3"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap5",
+      "title": "Capitolo 1: La Crisi della Fisica Classica: Radiazione Termica",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Capitolo 1: La Crisi della Fisica Classica: Radiazione Termica"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Capitolo 1: La Crisi della Fisica Classica: Radiazione Termica"
+      ],
+      "prerequisites": [
+        "cap4"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap6",
+      "title": "2. Formula Lineage",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 2. Formula Lineage"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: 2. Formula Lineage"
+      ],
+      "prerequisites": [
+        "cap5"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-07T18:25:09.352Z"
+}

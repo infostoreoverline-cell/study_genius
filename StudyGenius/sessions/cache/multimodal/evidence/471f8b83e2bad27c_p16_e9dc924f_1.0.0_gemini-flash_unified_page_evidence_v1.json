@@ -1,0 +1,55 @@
+{
+  "0": {
+    "figureId": "471f8b83_p16-v1",
+    "source": {
+      "page": 16,
+      "bbox": [
+        0.12,
+        0.5,
+        0.93,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_evaporatore_circolazione_forzata",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatore a circolazione forzata"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema costruttivo e funzionale di un evaporatore a circolazione forzata con scambiatore orizzontale, pompa di circolazione, calandria e separatore verticale.",
+      "Evidenziati i flussi di liquore diluito, concentrato, vapore, condensa e vapore di riscaldamento (Steam)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Separator",
+      "Vapour",
+      "Liquor head to prevent boiling at heating surface",
+      "Low temperature rise across Calandria",
+      "Steam",
+      "Condensate",
+      "Concentrated liquor",
+      "Dilute liquor",
+      "Circulating pump",
+      "1",
+      "2",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:21.831Z"
+}

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-09-07T18:25:58.418Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico - Chimica Fisica II",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Eserciziario Magistrale - A.A. 2024/2025",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap3",
+      "title": "Shard 1: Radiazione del Corpo Nero e Ipotesi di Planck",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap4",
+      "title": "1. Titolo del Capitolo e Mappa Concettuale",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap5",
+      "title": "Capitolo 1: La Crisi della Fisica Classica: Radiazione Termica",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap6",
+      "title": "2. Formula Lineage",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    }
+  ],
+  "totalRequired": 0,
+  "totalCovered": 0,
+  "overallCoverage": 1,
+  "passed": true
+}

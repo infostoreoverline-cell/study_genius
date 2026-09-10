@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-09T09:36:37.138Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Chimica Industriale - Processo Cloro-Soda",
+      "items": [
+        {
+          "nodeId": "concept-1f7197-1",
+          "label": "Chimica Industriale - Processo Cloro-Soda",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-1f7197-1",
+          "label": "Chimica Industriale - Processo Cloro-Soda"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 1,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

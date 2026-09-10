@@ -1,0 +1,56 @@
+{
+  "0": {
+    "figureId": "eb102306_p1-v1",
+    "source": {
+      "page": 1,
+      "bbox": [
+        0.56,
+        0.46,
+        0.68,
+        0.86
+      ]
+    },
+    "classification": {
+      "type": "diagram",
+      "subtype": "schema_pompa",
+      "confidence": 0.95
+    },
+    "caption": {
+      "text": "Figura 1: Schema dei punti in cui si verifica la cavitazione classica"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": "null",
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema illustrativo di una girante di pompa con indicazione delle zone ad alta pressione, bassa pressione, danno da cavitazione da ricircolo in aspirazione e in mandata."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "High Pressure Side of impeller vane",
+      "Low Pressure Side of impeller vane",
+      "Cavitation Damage Suction Recirculation",
+      "Cavitation Damage Discharge Recirculation",
+      "'Classic Cavitation' Damage due to NPSH issue on low pressure side of the vane"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T21:03:06.041Z"
+}

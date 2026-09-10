@@ -1,0 +1,62 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p54-v1",
+    "source": {
+      "page": 54,
+      "bbox": [
+        0.59,
+        0.62,
+        0.93,
+        0.92
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "schema_scambiatori_calore",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Operazioni che determinano il trasferimento di grandi quantità di calore tra 2 fluidi a temperature differenti"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schemi impiantistici per scambiatori di calore tra fluido di processo e di servizio, tra fluidi di processo, e colonna di scambio termico."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Fluido processo",
+      "Fluido servizio",
+      "TC",
+      "Fluido di processo",
+      "VA",
+      "VB",
+      "V",
+      "AR",
+      "C",
+      "F",
+      "S"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:25:09.381Z"
+}

@@ -1,0 +1,39 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p18-v1",
+    "source": {
+      "page": 18,
+      "bbox": [
+        0.01,
+        0.01,
+        0.15,
+        0.25
+      ]
+    },
+    "classification": {
+      "type": "logo",
+      "subtype": "universita_degli_studi_di_padova",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Logo Università degli Studi di Padova"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Sigillo ufficiale dell'Università degli Studi di Padova con testo circolare e stemma"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "UNIVERSITÀ DEGLI STUDI DI PADOVA"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "EXCLUDE_OR_ICON",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T20:18:41.633Z"
+}

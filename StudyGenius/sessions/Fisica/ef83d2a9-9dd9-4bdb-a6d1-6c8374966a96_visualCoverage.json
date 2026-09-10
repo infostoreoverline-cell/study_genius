@@ -1,0 +1,57 @@
+{
+  "matrix": [
+    {
+      "id": "vcm-1",
+      "conceptId": "0b026d0d_p40-v1",
+      "sourceId": "0b026d0d_p40-v1",
+      "label": "Schemi, Specifiche, Disegni esecutivi",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    }
+  ],
+  "audit": {
+    "timestamp": "2026-09-09T20:37:06.278Z",
+    "totalPlannedVisuals": 1,
+    "satisfiedVisuals": 0,
+    "convertedJustified": 0,
+    "omittedWithoutJustification": 1,
+    "textOnlyDecisions": 0,
+    "items": [
+      {
+        "id": "vcm-1",
+        "conceptId": "0b026d0d_p40-v1",
+        "sourceId": "0b026d0d_p40-v1",
+        "label": "Schemi, Specifiche, Disegni esecutivi",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      }
+    ],
+    "hardFails": [
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-1",
+        "conceptId": "0b026d0d_p40-v1",
+        "label": "Schemi, Specifiche, Disegni esecutivi",
+        "message": "L'esigenza visuale pianificata \"Schemi, Specifiche, Disegni esecutivi\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      }
+    ],
+    "warnings": [],
+    "passed": false
+  },
+  "deficiencies": [],
+  "visualScore": 100
+}

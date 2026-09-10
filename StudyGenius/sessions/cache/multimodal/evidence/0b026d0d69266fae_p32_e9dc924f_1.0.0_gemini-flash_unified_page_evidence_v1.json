@@ -1,0 +1,43 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p32-v1",
+    "source": {
+      "page": 32,
+      "bbox": [
+        0.14,
+        0.05,
+        0.94,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "table",
+      "subtype": "piping_fluid_codes_table",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Sigle per l'identificazione delle linee dei fluidi di servizio e di processo"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Tabelle normate contenenti le sigle alfabetiche (da A a VX, CA a P...) per l'identificazione dei fluidi di servizio e dei fluidi di processo nelle tubazioni degli impianti chimici."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Sigla",
+      "Fluido di servizio",
+      "Fluido di processo",
+      "Sigle per l'identificazione delle linee dei fluidi di servizio e di processo",
+      "Esempio"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:01.273Z"
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-09-09T09:09:39.391Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 47200c4e_p2-v1 (\"ELETTROSINTESI: IL FUTURO DEI PROCESSI INDUSTRIALI?\"):",
+      "items": [
+        {
+          "nodeId": "concept-fd4a99-1",
+          "label": "DIRETTIVA PER 47200c4e_p2-v1 (\"ELETTROSINTESI: IL FUTURO DEI PROCESSI INDUSTRIALI?\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-fd4a99-2",
+          "label": "DIRETTIVA PER 47200c4e_p6-v1 (\"PROCESSO CLORO-ALCALI: Equazione di Nernst\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-fd4a99-3",
+          "label": "DIRETTIVA PER 47200c4e_p9-v1 (\"PROCESSO CLORO-ALCALI\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-fd4a99-1",
+          "label": "DIRETTIVA PER 47200c4e_p2-v1 (\"ELETTROSINTESI: IL FUTURO DEI PROCESSI INDUSTRIALI?\"):"
+        },
+        {
+          "nodeId": "concept-fd4a99-2",
+          "label": "DIRETTIVA PER 47200c4e_p6-v1 (\"PROCESSO CLORO-ALCALI: Equazione di Nernst\"):"
+        },
+        {
+          "nodeId": "concept-fd4a99-3",
+          "label": "DIRETTIVA PER 47200c4e_p9-v1 (\"PROCESSO CLORO-ALCALI\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 3,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

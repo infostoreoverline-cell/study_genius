@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-09T20:37:06.277Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 0b026d0d_p40-v1 (\"Schemi, Specifiche, Disegni esecutivi\"):",
+      "items": [
+        {
+          "nodeId": "concept-ef83d2-1",
+          "label": "DIRETTIVA PER 0b026d0d_p40-v1 (\"Schemi, Specifiche, Disegni esecutivi\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-ef83d2-1",
+          "label": "DIRETTIVA PER 0b026d0d_p40-v1 (\"Schemi, Specifiche, Disegni esecutivi\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 1,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

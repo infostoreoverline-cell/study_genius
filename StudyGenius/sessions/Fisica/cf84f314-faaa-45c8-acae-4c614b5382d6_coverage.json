@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-09-07T10:12:23.670Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico - Chimica Fisica II (A.A. 2024-2025)",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Corso di Laurea in Chimica Industriale - Università degli Studi di Padova",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap3",
+      "title": "Parte I: Architettura Generale del Corso",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap4",
+      "title": "Mappa Concettuale Globale e Progressione Logica",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap5",
+      "title": "Parte II: Piano Dettagliato per Shard",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap6",
+      "title": "SHARD 1: Note Introduttive e Contesto Epistemologico",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    }
+  ],
+  "totalRequired": 0,
+  "totalCovered": 0,
+  "overallCoverage": 1,
+  "passed": true
+}

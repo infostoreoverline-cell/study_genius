@@ -1,0 +1,58 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p61-v1",
+    "source": {
+      "page": 61,
+      "bbox": [
+        0.26,
+        0.49,
+        0.81,
+        0.82
+      ]
+    },
+    "classification": {
+      "type": "schema_impianto",
+      "subtype": "schema_P&ID",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "SCH-04: Schema di processo strumentato con reattore a letto impaccato R-01, valvole di controllo (FC, PC) e pompe di alimentazione."
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "qualitative",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "qualitative",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema di marcia di un reattore chimico a letto impaccato (R-01).",
+      "Presenza di due linee di alimentazione con pompe e valvole di controllo di flusso (FC).",
+      "Anello di controllo di pressione (PC) sull'uscita/sommità della colonna."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "SCH-04",
+      "R-01",
+      "FC",
+      "PC",
+      "rF"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:25:30.737Z"
+}

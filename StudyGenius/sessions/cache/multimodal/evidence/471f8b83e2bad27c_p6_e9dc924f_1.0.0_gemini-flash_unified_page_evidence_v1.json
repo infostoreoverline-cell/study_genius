@@ -1,0 +1,54 @@
+{
+  "0": {
+    "figureId": "471f8b83_p6-v1",
+    "source": {
+      "page": 6,
+      "bbox": [
+        0.57,
+        1.15,
+        0.87,
+        0.86
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "dispositivi_separazione",
+      "confidence": 0.95
+    },
+    "caption": {
+      "text": "Dispositivi arresta-liquido sullo scarico del vapore (a, b, c)"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "schemi costruttivi di separatori di gocce e deflettori (a, b, c)"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "(a)",
+      "(b)",
+      "(c)"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:18:51.854Z"
+}

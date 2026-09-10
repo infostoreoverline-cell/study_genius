@@ -1,0 +1,219 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "bee61dc0-40bb-43bd-b8b5-4fa31c2c8759",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 471f8b83_p5-v1 (\"Sezione di scambio termico con calandria\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 471f8b83_p5-v1 (\"Sezione di scambio termico con calandria\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 471f8b83_p5-v1 (\"Sezione di scambio termico con calandria\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-bee61d-1",
+        "concept-bee61d-2",
+        "concept-bee61d-3",
+        "concept-bee61d-4",
+        "concept-bee61d-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-bee61d-1",
+        "concept-bee61d-2",
+        "concept-bee61d-3",
+        "concept-bee61d-4",
+        "concept-bee61d-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 471f8b83_p12-v1 (\"Fascio tubiero verticale evaporatore a fascio tubiero sospeso (basket)\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 471f8b83_p12-v1 (\"Fascio tubiero verticale evaporatore a fascio tubiero sospeso (basket)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 471f8b83_p12-v1 (\"Fascio tubiero verticale evaporatore a fascio tubiero sospeso (basket)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-bee61d-6",
+        "concept-bee61d-7",
+        "concept-bee61d-8",
+        "concept-bee61d-9",
+        "concept-bee61d-10"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-bee61d-6",
+        "concept-bee61d-7",
+        "concept-bee61d-8",
+        "concept-bee61d-9",
+        "concept-bee61d-10"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 471f8b83_p19-v1 (\"Evaporatore a film cadente\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 471f8b83_p19-v1 (\"Evaporatore a film cadente\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 471f8b83_p19-v1 (\"Evaporatore a film cadente\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-bee61d-11",
+        "concept-bee61d-12",
+        "concept-bee61d-13",
+        "concept-bee61d-14",
+        "concept-bee61d-15"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-bee61d-11",
+        "concept-bee61d-12",
+        "concept-bee61d-13",
+        "concept-bee61d-14",
+        "concept-bee61d-15"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER 471f8b83_p24-v1 (\"Evaporatori a piastre\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 471f8b83_p24-v1 (\"Evaporatori a piastre\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 471f8b83_p24-v1 (\"Evaporatori a piastre\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-bee61d-16",
+        "concept-bee61d-17",
+        "concept-bee61d-18",
+        "concept-bee61d-19"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-bee61d-16",
+        "concept-bee61d-17",
+        "concept-bee61d-18",
+        "concept-bee61d-19"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T19:20:01.290Z",
+  "visualCoverageMatrix": []
+}

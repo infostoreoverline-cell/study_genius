@@ -1,0 +1,57 @@
+{
+  "matrix": [
+    {
+      "id": "vcm-1",
+      "conceptId": "concept-03a8d6-6",
+      "sourceId": null,
+      "label": "Macrostruttura e orientamento: DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+      "detectedStructure": "HIERARCHY",
+      "cognitiveNeed": "ORIENTATION",
+      "strategicDecision": "VISUALIZE",
+      "candidateRepresentations": [
+        "roadmap_stepper",
+        "typographic_table",
+        "feature_tree"
+      ],
+      "chosenRepresentation": "roadmap_stepper",
+      "pedagogicalWhy": "Roadmap concettuale a tappe per costruire il modello mentale dello studente",
+      "provenanceIntent": "MODEL_SYNTHESIZED",
+      "status": "PLANNED",
+      "chapterId": "cap2"
+    }
+  ],
+  "audit": {
+    "timestamp": "2026-09-09T13:54:01.133Z",
+    "totalPlannedVisuals": 1,
+    "satisfiedVisuals": 0,
+    "convertedJustified": 0,
+    "omittedWithoutJustification": 1,
+    "textOnlyDecisions": 0,
+    "items": [
+      {
+        "id": "vcm-1",
+        "conceptId": "concept-03a8d6-6",
+        "sourceId": null,
+        "label": "Macrostruttura e orientamento: DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+        "strategicDecision": "VISUALIZE",
+        "chosenRepresentation": "roadmap_stepper",
+        "provenanceIntent": "MODEL_SYNTHESIZED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      }
+    ],
+    "hardFails": [
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-1",
+        "conceptId": "concept-03a8d6-6",
+        "label": "Macrostruttura e orientamento: DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):",
+        "message": "L'esigenza visuale pianificata \"Macrostruttura e orientamento: DIRETTIVA PER 5bc4505a_p5-v1 (\"Introduzione un esempio - Schema a blocchi e tabella delle correnti di impianto\"):\" (roadmap_stepper) è assente nel testo finale senza motivazione formale!"
+      }
+    ],
+    "warnings": [],
+    "passed": false
+  },
+  "deficiencies": [],
+  "visualScore": 100
+}

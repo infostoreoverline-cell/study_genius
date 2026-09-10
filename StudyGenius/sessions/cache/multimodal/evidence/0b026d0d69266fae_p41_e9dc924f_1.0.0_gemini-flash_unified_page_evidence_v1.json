@@ -1,0 +1,62 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p41-v1",
+    "source": {
+      "page": 41,
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "text_list_schema",
+      "confidence": 0.85
+    },
+    "caption": {
+      "text": "Documenti grafici - Schemi, Specifiche, Disegni esecutivi"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "La pagina elenca tre categorie principali di documenti grafici: Schemi, Specifiche e Disegni esecutivi, con relative descrizioni testuali."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "UNIVERSITÀ DEGLI STUDI DI PADOVA",
+      "Documenti grafici",
+      "Schemi",
+      "Realizzazione pratica del processo, le apparecchiature necessarie, i collegamenti, il controllo",
+      "1. a blocchi",
+      "2. di processo",
+      "3. di marcia",
+      "Specifiche",
+      "Descrizione caratteristica apparecchiatura (materiale, tenuta, norme di collaudo)",
+      "Disegni esecutivi",
+      "Sviluppati per ultimi, indicazioni dettagliate per la costruzione di un impianto (es. planimetrie, disegni elettrici, delle opere civili, montaggio tubazioni etc.)"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "RELY_ON_OCR",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T20:18:57.661Z"
+}

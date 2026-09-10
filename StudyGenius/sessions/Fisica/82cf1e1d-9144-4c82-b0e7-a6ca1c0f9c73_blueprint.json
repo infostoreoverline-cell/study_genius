@@ -1,0 +1,166 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "82cf1e1d-9144-4c82-b0e7-a6ca1c0f9c73",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 27df7bd6_p1-v1 (\"Scambiatori di calore - Fondamenti di Impianti Chimici\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 27df7bd6_p1-v1 (\"Scambiatori di calore - Fondamenti di Impianti Chimici\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 27df7bd6_p1-v1 (\"Scambiatori di calore - Fondamenti di Impianti Chimici\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-82cf1e-1",
+        "concept-82cf1e-2",
+        "concept-82cf1e-3",
+        "concept-82cf1e-4",
+        "concept-82cf1e-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-82cf1e-1",
+        "concept-82cf1e-2",
+        "concept-82cf1e-3",
+        "concept-82cf1e-4",
+        "concept-82cf1e-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 27df7bd6_p18-v1 (\"Scambiatori a fascio tubiero\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 27df7bd6_p18-v1 (\"Scambiatori a fascio tubiero\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 27df7bd6_p18-v1 (\"Scambiatori a fascio tubiero\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-82cf1e-6",
+        "concept-82cf1e-7",
+        "concept-82cf1e-8",
+        "concept-82cf1e-9",
+        "concept-82cf1e-10"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-82cf1e-6",
+        "concept-82cf1e-7",
+        "concept-82cf1e-8",
+        "concept-82cf1e-9",
+        "concept-82cf1e-10"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 27df7bd6_p46-v3 (\"A tubi alettati - alettatura longitudinale\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 27df7bd6_p46-v3 (\"A tubi alettati - alettatura longitudinale\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 27df7bd6_p46-v3 (\"A tubi alettati - alettatura longitudinale\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-82cf1e-11",
+        "concept-82cf1e-12",
+        "concept-82cf1e-13",
+        "concept-82cf1e-14"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-82cf1e-11",
+        "concept-82cf1e-12",
+        "concept-82cf1e-13",
+        "concept-82cf1e-14"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T19:16:10.914Z",
+  "visualCoverageMatrix": []
+}

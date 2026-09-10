@@ -1,0 +1,59 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p35-v1",
+    "source": {
+      "page": 35,
+      "bbox": [
+        0.2,
+        0.05,
+        0.85,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "schema_impianto_chimico_pid",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Esempio: schema P&ID complesso con colonne di assorbimento/distillazione (C-01, C-02), scambiatori di calore (E-01, E-02, E-03), serbatoi (D-01, D-02) e pompe (G-01, G-02, G-03, G-04)"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema impiantistico completo contenente ricicli, valvole di regolazione pneumatiche, strumenti di controllo in cascata/feedback (CC, PC, TC, LC, AR, HLC, LLC), serbatoi di accumulo, apparecchiature di scambio termico e torri di contatto/frazionamento."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Olio",
+      "Aria",
+      "C-01",
+      "C-02",
+      "D-01",
+      "D-02",
+      "E-01",
+      "E-02",
+      "E-03",
+      "G-01",
+      "G-02",
+      "G-03",
+      "G-04",
+      "CC",
+      "PC",
+      "TC",
+      "LC",
+      "AR",
+      "HLC",
+      "LLC",
+      "Benzene"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:12.688Z"
+}

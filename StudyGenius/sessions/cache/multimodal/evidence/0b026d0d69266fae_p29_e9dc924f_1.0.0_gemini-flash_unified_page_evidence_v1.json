@@ -1,0 +1,48 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p29-v1",
+    "source": {
+      "page": 29,
+      "bbox": [
+        0.18,
+        0.05,
+        0.82,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram_symbols",
+      "subtype": "symbol_legend",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Simbologia simboli grafici: Trasportatori (T) e Dosatori (PD)"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Tabella di simboli grafici impiantistici per trasportatori (A nastro, A coclea, A tazze, A catena, A scosse, A letto fluido) e dosatori (Stellare, A cassetto)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Trasportatori (T)",
+      "Dosatori (PD)",
+      "A nastro",
+      "A coclea",
+      "A tazze",
+      "A catena",
+      "A scosse",
+      "A letto fluido",
+      "Stellare",
+      "A cassetto"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:01.265Z"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "2.0.0",
+  "graphVersion": 1,
+  "sessionId": "1f719720-ce34-4cbd-8739-168b294e6c2b",
+  "subject": "Chimica",
+  "nodes": [
+    {
+      "id": "concept-1f7197-1",
+      "type": "CONCEPT",
+      "label": "Chimica Industriale - Processo Cloro-Soda",
+      "content": "",
+      "chapterId": "cap1",
+      "canonicalExplanationId": "canonical-chimica-chimica-industriale-processo-c",
+      "isCanonical": true,
+      "canonicalRef": "Capitolo 1",
+      "firstUse": null,
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false,
+        "canonicalExplanationId": "canonical-chimica-chimica-industriale-processo-c",
+        "isCanonical": true,
+        "canonicalRef": "Capitolo 1",
+        "isReview": false,
+        "isFormallyDerived": true
+      },
+      "version": 1
+    }
+  ],
+  "edges": []
+}

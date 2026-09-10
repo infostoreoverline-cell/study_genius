@@ -1,0 +1,158 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "ec6bfee9-dcfe-469c-9b7c-4f7a14ae1101",
+  "subject": "Chimica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 47200c4e_p3-v1 (\"Phil. Trans. R. Soc. Lond. A 302, 247-252 (1981) - ELECTROSYNTHESIS Speculations on industrial electrochemistry By P. H. Gamlen and H. L. Roberts\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 47200c4e_p3-v1 (\"Phil. Trans. R. Soc. Lond. A 302, 247-252 (1981) - ELECTROSYNTHESIS Speculations on industrial electrochemistry By P. H. Gamlen and H. L. Roberts\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 47200c4e_p3-v1 (\"Phil. Trans. R. Soc. Lond. A 302, 247-252 (1981) - ELECTROSYNTHESIS Speculations on industrial electrochemistry By P. H. Gamlen and H. L. Roberts\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-ec6bfe-1",
+        "concept-ec6bfe-2",
+        "concept-ec6bfe-3",
+        "concept-ec6bfe-4",
+        "concept-ec6bfe-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-ec6bfe-1",
+        "concept-ec6bfe-2",
+        "concept-ec6bfe-3",
+        "concept-ec6bfe-4",
+        "concept-ec6bfe-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 47200c4e_p5-v1 (\"Schema di cella elettrolitica (a sinistra) e cella galvanica o pila (a destra).\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 47200c4e_p5-v1 (\"Schema di cella elettrolitica (a sinistra) e cella galvanica o pila (a destra).\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 47200c4e_p5-v1 (\"Schema di cella elettrolitica (a sinistra) e cella galvanica o pila (a destra).\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-ec6bfe-6",
+        "concept-ec6bfe-7",
+        "concept-ec6bfe-8",
+        "concept-ec6bfe-9",
+        "concept-ec6bfe-10"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-ec6bfe-6",
+        "concept-ec6bfe-7",
+        "concept-ec6bfe-8",
+        "concept-ec6bfe-9",
+        "concept-ec6bfe-10"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 47200c4e_p12-v1 (\"Schema di cella elettrolitica a membrana polimerica per il processo cloro-alcali\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 47200c4e_p12-v1 (\"Schema di cella elettrolitica a membrana polimerica per il processo cloro-alcali\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 47200c4e_p12-v1 (\"Schema di cella elettrolitica a membrana polimerica per il processo cloro-alcali\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-ec6bfe-11",
+        "concept-ec6bfe-12"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-ec6bfe-11",
+        "concept-ec6bfe-12"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T09:05:18.757Z"
+}

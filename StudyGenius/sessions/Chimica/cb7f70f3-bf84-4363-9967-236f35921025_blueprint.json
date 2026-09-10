@@ -1,0 +1,106 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "cb7f70f3-bf84-4363-9967-236f35921025",
+  "subject": "Chimica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "1. Introduzione e Reazione Globale del Processo Cloro-Soda",
+      "objectives": [
+        "Comprendere a fondo l'argomento 1. Introduzione e Reazione Globale del Processo Cloro-Soda",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento 1. Introduzione e Reazione Globale del Processo Cloro-Soda",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-cb7f70-1",
+        "concept-cb7f70-2",
+        "concept-cb7f70-3",
+        "concept-cb7f70-4",
+        "concept-cb7f70-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-cb7f70-1",
+        "concept-cb7f70-2",
+        "concept-cb7f70-3",
+        "concept-cb7f70-4",
+        "concept-cb7f70-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "2.3 Cella ad Amalgama di Mercurio (Mercury Cell / Castner-Kellner)",
+      "objectives": [
+        "Comprendere a fondo l'argomento 2.3 Cella ad Amalgama di Mercurio (Mercury Cell / Castner-Kellner)",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento 2.3 Cella ad Amalgama di Mercurio (Mercury Cell / Castner-Kellner)",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-cb7f70-6",
+        "concept-cb7f70-7"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-cb7f70-6",
+        "concept-cb7f70-7"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T08:56:27.426Z"
+}

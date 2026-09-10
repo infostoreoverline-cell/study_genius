@@ -1,0 +1,60 @@
+{
+  "0": {
+    "figureId": "471f8b83_p27-v1",
+    "source": {
+      "page": 27,
+      "bbox": [
+        0.3,
+        0.5,
+        0.95,
+        0.85
+      ]
+    },
+    "classification": {
+      "type": "equipment_diagram",
+      "subtype": "spaccato_3d_evaporatore_piastre",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatore a piastre"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "linear",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "linear",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Modello 3D in spaccato di un evaporatore a piastre (identico alla pagina 26)",
+      "Componenti numerati da 1 a 3 e ingressi/uscite etichettati con lettere da A a E"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "1",
+      "2",
+      "3",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:20:01.262Z"
+}

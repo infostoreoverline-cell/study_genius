@@ -1,0 +1,64 @@
+{
+  "0": {
+    "figureId": "471f8b83_p8-v1",
+    "source": {
+      "page": 8,
+      "bbox": [
+        0.28,
+        0.18,
+        0.74,
+        0.74
+      ]
+    },
+    "classification": {
+      "type": "table",
+      "subtype": "tabella_classificazione",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Tipologie di evaporatori a riscaldamento indiretto in base alla circolazione"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "tabella riassuntiva che collega il tipo di circolazione (Naturale, Forzata, A film) alle relative tipologie costruttive"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Circolazione",
+      "Tipologia",
+      "Naturale",
+      "A tubi orizzontali",
+      "A tubi verticali (Roberts)",
+      "Forzata",
+      "A fascio tubiero interno",
+      "A fascio tubiero esterno",
+      "A piastre",
+      "A film",
+      "Kestner (film ascendente)",
+      "A caduta di liquido",
+      "A strato sottile"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:18:51.860Z"
+}

@@ -1,0 +1,56 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p43-v1",
+    "source": {
+      "page": 43,
+      "bbox": [
+        0.14,
+        0.34,
+        0.94,
+        0.94
+      ]
+    },
+    "classification": {
+      "type": "schematic",
+      "subtype": "foglio_specifiche_scambiatore_calore",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Foglio di specifica per scambiatore di calore"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Modulo compilato di specifica tecnica per uno scambiatore di calore a fascio tubiero orizzontale (condensatore di vapori di testa)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "HEAT EXCHANGER",
+      "Item Condenser",
+      "Item No. H-5",
+      "Cooling water",
+      "Methanol vapor"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:34.390Z"
+}

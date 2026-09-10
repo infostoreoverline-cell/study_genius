@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-09-09T08:56:25.066Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "1. Introduzione e Reazione Globale del Processo Cloro-Soda",
+      "items": [
+        {
+          "nodeId": "concept-1bac36-1",
+          "label": "1. Introduzione e Reazione Globale del Processo Cloro-Soda",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-1bac36-2",
+          "label": "Potenziale di Elettrodo e Termodinamica del Sistema",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-1bac36-3",
+          "label": "2. Tecnologie di Elettrolisi Industriale",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-1bac36-4",
+          "label": "2.1 Cella a Membrana Scambiatrice Ionica (Ion-Exchange Membrane)",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-1bac36-5",
+          "label": "2.2 Cella a Diaframma Poroso (Diaphragm Cell)",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-1bac36-1",
+          "label": "1. Introduzione e Reazione Globale del Processo Cloro-Soda"
+        },
+        {
+          "nodeId": "concept-1bac36-2",
+          "label": "Potenziale di Elettrodo e Termodinamica del Sistema"
+        },
+        {
+          "nodeId": "concept-1bac36-3",
+          "label": "2. Tecnologie di Elettrolisi Industriale"
+        },
+        {
+          "nodeId": "concept-1bac36-4",
+          "label": "2.1 Cella a Membrana Scambiatrice Ionica (Ion-Exchange Membrane)"
+        },
+        {
+          "nodeId": "concept-1bac36-5",
+          "label": "2.2 Cella a Diaframma Poroso (Diaphragm Cell)"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap2",
+      "title": "2.3 Cella ad Amalgama di Mercurio (Mercury Cell / Castner-Kellner)",
+      "items": [
+        {
+          "nodeId": "concept-1bac36-6",
+          "label": "2.3 Cella ad Amalgama di Mercurio (Mercury Cell / Castner-Kellner)",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-1bac36-7",
+          "label": "3. Bilancio Energetico e Tensione di Cella",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-1bac36-6",
+          "label": "2.3 Cella ad Amalgama di Mercurio (Mercury Cell / Castner-Kellner)"
+        },
+        {
+          "nodeId": "concept-1bac36-7",
+          "label": "3. Bilancio Energetico e Tensione di Cella"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 7,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

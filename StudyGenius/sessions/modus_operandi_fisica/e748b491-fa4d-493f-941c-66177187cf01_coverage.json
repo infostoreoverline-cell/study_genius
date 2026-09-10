@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-09-07T19:08:54.478Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico - Chimica Fisica II (Modus Operandi: Exercises)",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Shard 1: Radiazione e Corpo Nero",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap3",
+      "title": "1. Titoli dei Capitoli e Mappa Concettuale",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap4",
+      "title": "2. Formula Lineage",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap5",
+      "title": "3. Eserciziario d'Esame",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    },
+    {
+      "chapterId": "cap6",
+      "title": "4. Trappole d'Esame",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    }
+  ],
+  "totalRequired": 0,
+  "totalCovered": 0,
+  "overallCoverage": 1,
+  "passed": true
+}

@@ -1,0 +1,56 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p33-v1",
+    "source": {
+      "page": 33,
+      "bbox": [
+        0.15,
+        0.1,
+        0.9,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "simbologia_valvole_e_strumentazione",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Simbologia regolatori e valvole: Tipi di valvole e loro collegamento, Linee di collegamento, Posizione dei regolatori"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema riassuntivo dei simboli P&ID per valvole (pneumatiche, elettriche, oleodinamiche, tre vie, sicurezza, autoregolatrici, manuali), linee di collegamento (oleodinamiche, pneumatiche, elettriche, capillari) e posizioni di montaggio dei regolatori/apparecchi."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "VALVOLA A COMANDO PNEUMATICO",
+      "VALVOLA A COMANDO ELETTRICO",
+      "VALVOLA A COMANDO OLEODINAMICO",
+      "VALVOLA A TRE VIE",
+      "VALVOLA DI SICUREZZA",
+      "VALVOLA AUTOREGOLATRICE",
+      "VALVOLA A COMANDO MANUALE",
+      "COLLEGAMENTO (PNEUMATICO) FRA TRASMETTITORE ED APPARECCHIO MONTATO SU PANNELLO",
+      "COLLEGAMENTO (PNEUMATICO) FRA REGOLATORE E VALVOLA",
+      "LINEE PER COMANDI OLEODINAMICI",
+      "LINEE PNEUMATICHE",
+      "LINEE ELETTRICHE",
+      "CAPILLARI",
+      "MONTATO LOCALMENTE",
+      "MONTATO SU PANNELLO",
+      "APPARECCHIO GENERICO",
+      "APPARECCHIO CON FUNZIONE COMBINATA",
+      "TRASMETTITORE"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:12.686Z"
+}

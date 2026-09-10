@@ -1,0 +1,56 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "fd4a99ef-fd35-4101-8b90-015eb1eb2627",
+  "subject": "Chimica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 47200c4e_p2-v1 (\"ELETTROSINTESI: IL FUTURO DEI PROCESSI INDUSTRIALI?\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 47200c4e_p2-v1 (\"ELETTROSINTESI: IL FUTURO DEI PROCESSI INDUSTRIALI?\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 47200c4e_p2-v1 (\"ELETTROSINTESI: IL FUTURO DEI PROCESSI INDUSTRIALI?\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-fd4a99-1",
+        "concept-fd4a99-2",
+        "concept-fd4a99-3"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-fd4a99-1",
+        "concept-fd4a99-2",
+        "concept-fd4a99-3"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T09:08:44.569Z"
+}

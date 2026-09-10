@@ -1,0 +1,28 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "af3f35d3-1bcf-432c-8c21-8af2f4c92049",
+  "subject": "Economia",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "=== DOCUMENTO DIGITALE: Finanza MIO.pdf (19 pagine) ===",
+      "objectives": [
+        "Comprendere a fondo l'argomento === DOCUMENTO DIGITALE: Finanza MIO.pdf (19 pagine) ===",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "requiredNodes": [
+        "concept-af3f35-1"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-05T15:05:54.692Z"
+}

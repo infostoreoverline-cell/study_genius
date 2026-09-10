@@ -1,0 +1,58 @@
+{
+  "0": {
+    "figureId": "471f8b83_p5-v1",
+    "source": {
+      "page": 5,
+      "bbox": [
+        0.24,
+        0.65,
+        0.86,
+        0.86
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_evaporatore",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Sezione di scambio termico con calandria"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "schema impiantistico di un evaporatore con calandria interna",
+      "flussi indicati: Vapore del solvente, Alimentazione, Vapore di rete, Condensa, Soluzione concentrata"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Vapore del solvente",
+      "Alimentazione",
+      "Vapore di rete",
+      "calandria",
+      "Condensa",
+      "Soluzione concentrata"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:18:51.853Z"
+}

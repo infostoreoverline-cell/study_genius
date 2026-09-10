@@ -1,0 +1,60 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p34-v1",
+    "source": {
+      "page": 34,
+      "bbox": [
+        0.15,
+        0.08,
+        0.92,
+        0.88
+      ]
+    },
+    "classification": {
+      "type": "table",
+      "subtype": "tabella_sigle_strumentazione",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Simbologia: variabili controllate, tipi di misura e funzioni"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Tabelle di codifica standard per la strumentazione di impianto chimico: Variabili (C, D, F, K, L, n, P, pH, S, T, U, V, W), Tipi di misura (H, L, r, Delta) e Funzioni (A, C, E, I, R)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Composizione: C",
+      "Densita': D",
+      "Portata: F",
+      "Conduttivita': K",
+      "Livello: L",
+      "Numero di giri: n",
+      "Pressione: P",
+      "pH: pH",
+      "Velocita' di rotazione: S",
+      "Temperatura: T",
+      "Umidita': U",
+      "Viscosita': V",
+      "Peso: W",
+      "Massimo: H",
+      "Minimo: L",
+      "Rapporto: r",
+      "Differenziale: Delta",
+      "Allarme: A",
+      "Controllo: C",
+      "Elemento sensibile: E",
+      "Indicatore: I",
+      "Registratore: R"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:12.687Z"
+}

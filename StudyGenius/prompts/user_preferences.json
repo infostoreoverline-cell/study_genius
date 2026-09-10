@@ -1,0 +1,8 @@
+{
+  "globalPreferences": "Adotta sempre il Modus Operandi accademico: teoria parlata, nessun passaggio matematico saltato, schema mentale prima di ogni esercizio, controlli di coerenza obbligatori (dimensionali, segni, limiti asintotici), box dedicati per errori tipici/trabocchetti d'esame e formulario ragionato finale.",
+  "subjectPreferences": {
+    "Chimica": "Includi sempre bilanciamenti ionico-elettronici redox completi, tabelle I.C.E. per equilibri, verifica della regola del 5% e unità SI esplicite.",
+    "Fisica": "Definisci sempre sistema di riferimento, coordinate e versori; mostra la scelta motivata delle superfici gaussiane/amperiane ed esplicita ogni integrale; verifica i limiti per r->0 e r->inf.",
+    "Matematica": "Distingui rigorosamente Ipotesi e Tesi per ogni teorema, fornisci dimostrazioni complete ed evidenzia controesempi se cade un'ipotesi."
+  }
+}

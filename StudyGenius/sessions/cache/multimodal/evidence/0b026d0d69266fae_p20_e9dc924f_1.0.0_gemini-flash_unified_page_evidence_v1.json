@@ -1,0 +1,50 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p20-v1",
+    "source": {
+      "page": 20,
+      "bbox": [
+        0.12,
+        0.02,
+        0.75,
+        0.98
+      ]
+    },
+    "classification": {
+      "type": "image",
+      "subtype": "plant_photo_illustration",
+      "confidence": 0.95
+    },
+    "caption": {
+      "text": "Simbologia e normazione"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Immagine di sfondo raffigurante uno stabilimento chimico industriale con colonne, tubazioni e camini."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:21.892Z"
+}

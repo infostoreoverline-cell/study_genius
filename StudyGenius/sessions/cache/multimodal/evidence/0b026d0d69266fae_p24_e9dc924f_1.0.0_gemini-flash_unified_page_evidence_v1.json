@@ -1,0 +1,112 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p24-v1",
+    "source": {
+      "page": 24,
+      "bbox": [
+        0.14,
+        0.36,
+        0.94,
+        0.92
+      ]
+    },
+    "classification": {
+      "type": "table",
+      "subtype": "tabella_sigle_apparecchiature",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Simbologia e sigle delle apparecchiature (UNICHIM-Tab. 1)"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Tabella suddivisa in tre colonne: Sigla, Apparecchiatura, Esempi",
+      "Elenca le lettere convenzionali UNICHIM da B a T per la classificazione delle apparecchiature chimiche"
+    ],
+    "explicitValues": [
+      {
+        "sigla": "B",
+        "apparecchiatura": "Apparecchi a fuoco",
+        "esempi": "Forni, essiccatoi, caldaie, reattori a fuoco diretto, fiaccole o torce, camini"
+      },
+      {
+        "sigla": "C",
+        "apparecchiatura": "Colonne",
+        "esempi": "Colonne o torri di ogni tipo (distillazione, assorbimento, ecc.)"
+      },
+      {
+        "sigla": "D",
+        "apparecchiatura": "Serbatoi di processo e stoccaggio Separatori",
+        "esempi": "Serbatoi, silos, gasometri, tramogge, contenitori, miscelatori, separatori a ciclone, elettrostatici"
+      },
+      {
+        "sigla": "E",
+        "apparecchiatura": "Scambiatori di calore",
+        "esempi": "A fascio tubiero, a piastre, ribollitori, condensatori, evaporatori, refrigeratori"
+      },
+      {
+        "sigla": "F",
+        "apparecchiatura": "Filtri",
+        "esempi": "A cestello, a piatti, a maniche, a pressa, rotativi"
+      },
+      {
+        "sigla": "G",
+        "apparecchiatura": "Pompe",
+        "esempi": "Centrifughe, volumetriche, di ogni tipo"
+      },
+      {
+        "sigla": "H",
+        "apparecchiatura": "Tubazioni",
+        "esempi": "Tubazioni, dilatatori, tubi flessibili, scaricatori di condensa"
+      },
+      {
+        "sigla": "J",
+        "apparecchiatura": "Organi motore",
+        "esempi": "Turbine a vapore e a gas, motori a combustione interna, eiettori"
+      },
+      {
+        "sigla": "K",
+        "apparecchiatura": "Strumentazione",
+        "esempi": "Strumenti di controllo e misura, bilance, valvole"
+      },
+      {
+        "sigla": "P",
+        "apparecchiatura": "Macchinari",
+        "esempi": "Tutte le macchine operatrici (escluse quelle già contemplate in F, G, J, T)"
+      },
+      {
+        "sigla": "R",
+        "apparecchiatura": "Rettori",
+        "esempi": "Di ogni tipo, autoclavi, celle elettrolitiche (no reattori a fuoco diretto, vedi B)"
+      },
+      {
+        "sigla": "T",
+        "apparecchiatura": "Macchinari di sollevamento, trasporto e movimentazione",
+        "esempi": "Gru, paranchi, montacarichi, trasportatori a nastro, a catena, a tazze, a coclea, ecc."
+      }
+    ],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:41.655Z"
+}

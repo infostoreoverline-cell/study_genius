@@ -1,0 +1,337 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "a40622a7-1b7b-4e0f-bba7-314f07a63b34",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-a40622-1",
+        "concept-a40622-2",
+        "concept-a40622-3",
+        "concept-a40622-4",
+        "concept-a40622-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [
+        {
+          "id": "vcm-1",
+          "conceptId": "0b026d0d_p6-v1",
+          "sourceId": "0b026d0d_p6-v1",
+          "label": "Schemi di impianto",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        },
+        {
+          "id": "vcm-2",
+          "conceptId": "0b026d0d_p18-v1",
+          "sourceId": "0b026d0d_p18-v1",
+          "label": "Logo Università degli Studi di Padova",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        },
+        {
+          "id": "vcm-3",
+          "conceptId": "0b026d0d_p39-v1",
+          "sourceId": "0b026d0d_p39-v1",
+          "label": "Altri documenti di impianto",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        },
+        {
+          "id": "vcm-4",
+          "conceptId": "0b026d0d_p41-v1",
+          "sourceId": "0b026d0d_p41-v1",
+          "label": "Documenti grafici - Schemi, Specifiche, Disegni esecutivi",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        },
+        {
+          "id": "vcm-5",
+          "conceptId": "0b026d0d_p57-v1",
+          "sourceId": "0b026d0d_p57-v1",
+          "label": "Esempi",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        },
+        {
+          "id": "vcm-6",
+          "conceptId": "0b026d0d_p63-v1",
+          "sourceId": "0b026d0d_p63-v1",
+          "label": "Contatti - Andrea Santomaso, DII, Università degli Studi di Padova",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        }
+      ],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-a40622-1",
+        "concept-a40622-2",
+        "concept-a40622-3",
+        "concept-a40622-4",
+        "concept-a40622-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 0b026d0d_p63-v1 (\"Contatti - Andrea Santomaso, DII, Università degli Studi di Padova\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p63-v1 (\"Contatti - Andrea Santomaso, DII, Università degli Studi di Padova\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 0b026d0d_p63-v1 (\"Contatti - Andrea Santomaso, DII, Università degli Studi di Padova\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-a40622-6"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-a40622-6"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T20:19:28.647Z",
+  "visualCoverageMatrix": [
+    {
+      "id": "vcm-1",
+      "conceptId": "0b026d0d_p6-v1",
+      "sourceId": "0b026d0d_p6-v1",
+      "label": "Schemi di impianto",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-2",
+      "conceptId": "0b026d0d_p18-v1",
+      "sourceId": "0b026d0d_p18-v1",
+      "label": "Logo Università degli Studi di Padova",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-3",
+      "conceptId": "0b026d0d_p39-v1",
+      "sourceId": "0b026d0d_p39-v1",
+      "label": "Altri documenti di impianto",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-4",
+      "conceptId": "0b026d0d_p41-v1",
+      "sourceId": "0b026d0d_p41-v1",
+      "label": "Documenti grafici - Schemi, Specifiche, Disegni esecutivi",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-5",
+      "conceptId": "0b026d0d_p57-v1",
+      "sourceId": "0b026d0d_p57-v1",
+      "label": "Esempi",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-6",
+      "conceptId": "0b026d0d_p63-v1",
+      "sourceId": "0b026d0d_p63-v1",
+      "label": "Contatti - Andrea Santomaso, DII, Università degli Studi di Padova",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    }
+  ]
+}

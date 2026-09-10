@@ -1,0 +1,68 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p56-v1",
+    "source": {
+      "page": 56,
+      "bbox": [
+        0.14,
+        0.52,
+        0.92,
+        0.92
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "schema_movimentazione_fluidi_solidi",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Apparecchiature di processo: movimentazione"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schemi di movimentazione per gas, liquidi e solidi: ventilatore, compressore centrifugo, compressore volumetrico, pompa da vuoto, eiettore, pompa centrifuga, pompa volumetrica, pompa alternativa, coclea, nastro trasportatore, tramoggia."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "FC",
+      "Ventilatore",
+      "Compressore centrifugo",
+      "Compressore volumetrico",
+      "Inerte",
+      "dal processo",
+      "Vapore",
+      "Pompa da vuoto",
+      "Eiettore",
+      "Pompa centrifuga",
+      "Pompa volumetrica",
+      "Pompa alternativa",
+      "Coclea",
+      "nC",
+      "Nastro trasportatore",
+      "WC",
+      "Tramoggia"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:25:09.384Z"
+}

@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-09-06T13:37:53.745Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "stan-",
+      "items": [
+        {
+          "nodeId": "concept-594556-1",
+          "label": "stan-",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-594556-2",
+          "label": "Calcolo Funzione",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-594556-3",
+          "label": "Volume titolato",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-594556-4",
+          "label": "Reazio ne Cost  ante di  equil ibrio",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-594556-5",
+          "label": "Reazione",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": true,
+          "verified": true
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-594556-1",
+          "label": "stan-"
+        },
+        {
+          "nodeId": "concept-594556-2",
+          "label": "Calcolo Funzione"
+        },
+        {
+          "nodeId": "concept-594556-3",
+          "label": "Volume titolato"
+        },
+        {
+          "nodeId": "concept-594556-4",
+          "label": "Reazio ne Cost  ante di  equil ibrio"
+        }
+      ],
+      "coverageRatio": 0.2,
+      "passed": false
+    }
+  ],
+  "totalRequired": 5,
+  "totalCovered": 1,
+  "overallCoverage": 0.2,
+  "passed": false
+}

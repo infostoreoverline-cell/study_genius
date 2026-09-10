@@ -1,0 +1,64 @@
+{
+  "0": {
+    "figureId": "f609d7b6_p20-v1",
+    "source": {
+      "page": 20,
+      "bbox": [
+        0.422,
+        0.38,
+        0.612,
+        0.638
+      ]
+    },
+    "classification": {
+      "type": "conceptual_diagram",
+      "subtype": "mind_map",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Mappa concettuale per l'esame"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema ad albero gerarchico che parte dal nodo centrale superiore 'Equilibrio in soluzione'.",
+      "Si ramifica in tre rami principali: 'Acido-base', 'Complessazione' e 'Solubilita' / precipitazione'.",
+      "Ciascun ramo principale scende a nodi intermedi con parametri specifici (es. pH, K_a, alpha; beta, alpha_M; K_sp, Q).",
+      "I rami terminali specificano applicazioni pratiche: 'Titolazioni e tamponi', 'Ligando in eccesso', 'Precipitazione selettiva'."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Equilibrio in soluzione",
+      "Acido-base",
+      "Complessazione",
+      "Solubilita / precipitazione",
+      "pH, K_a, alpha",
+      "beta, alpha_M",
+      "K_sp, Q",
+      "Titolazioni e tamponi",
+      "Ligando in eccesso",
+      "Precipitazione selettiva"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:37:37.793Z"
+}

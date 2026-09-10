@@ -1,0 +1,70 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p23-v1",
+    "source": {
+      "page": 23,
+      "bbox": [
+        0.18,
+        0.19,
+        0.58,
+        0.85
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "schema_impianto_chimico",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Stesura degli schemi - Schema di processo con apparecchiature (D-01, E-01, C-01, E-02, C-02, D-02, G-01, G-02, G-03)"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema P&ID semplificato che mostra una sequenza di apparecchiature di separazione, scambio termico e pompaggio",
+      "Presenza di una linea di riferimento inferiore tratteggiata in rosso (linea di terra ipotetica)",
+      "Flussi materiali orientati prevalentemente da sinistra a destra e dall'alto verso il basso"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "E-01",
+      "E-02",
+      "E-03",
+      "C-01",
+      "C-02",
+      "D-01",
+      "D-02",
+      "G-01",
+      "G-02",
+      "G-03",
+      "AR",
+      "A",
+      "VB",
+      "Olio",
+      "Aria + Benzene",
+      "Aria depurata",
+      "Benzene"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:41.655Z"
+}

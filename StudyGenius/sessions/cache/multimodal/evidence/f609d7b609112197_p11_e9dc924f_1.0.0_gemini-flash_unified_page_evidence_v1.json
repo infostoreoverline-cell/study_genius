@@ -1,0 +1,74 @@
+{
+  "0": {
+    "figureId": "f609d7b6_p11-v1",
+    "source": {
+      "page": 11,
+      "bbox": [
+        0.44,
+        0.14,
+        0.64,
+        0.86
+      ]
+    },
+    "classification": {
+      "type": "quantitative_plot",
+      "subtype": "titration_curve",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Figura 4: Curva schematica di una titolazione acido forte-base forte."
+    },
+    "axes": {
+      "x": {
+        "label": "\\phi = V/V_E",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      },
+      "y": {
+        "label": "pH",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      }
+    },
+    "series": [
+      {
+        "name": "Curva di titolazione",
+        "representation": "line",
+        "confidence": 0.95
+      }
+    ],
+    "qualitativeObservations": [
+      "Andamento tipico di titolazione acido forte con base forte",
+      "forte flesso in corrispondenza di \\phi = 1 (punto equivalente)",
+      "asintoto orizzontale a pH alcalini elevati"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "0",
+      "0.2",
+      "0.4",
+      "0.6",
+      "0.8",
+      "1",
+      "1.2",
+      "1.4",
+      "1.6",
+      "1.8",
+      "2",
+      "5",
+      "10",
+      "\\phi = V/V_E",
+      "pH"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:37:31.766Z"
+}

@@ -1,0 +1,73 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p55-v1",
+    "source": {
+      "page": 55,
+      "bbox": [
+        0.19,
+        0.43,
+        0.92,
+        0.93
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "schema_stoccaggio_solidi_liquidi",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Apparecchiature di processo: stoccaggio"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schemi di stoccaggio per solidi (silos, elevatore, coclea, filtro funda, turbodissolutore, deposito), liquidi e gas (serbatoi sferici, in pressione, di stoccaggio iniziale, finale, intermedio, di reintegro, vaso di espansione)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Silos",
+      "Coclea",
+      "Elevatore a nastro",
+      "Bilancia",
+      "Filtro funda",
+      "Deposito S1",
+      "Turbodissolutore",
+      "HLA",
+      "LLA",
+      "FC",
+      "al processo",
+      "dal processo",
+      "Serbatoio di stoccaggio iniziale",
+      "Serbatoio di stoccaggio finale",
+      "Rimbocco",
+      "HLC",
+      "LLC",
+      "Serbatoio di stoccaggio intermedio",
+      "Serbatoio di reintegro",
+      "Vaso di espansione",
+      "refrigerante",
+      "TC"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:25:09.383Z"
+}

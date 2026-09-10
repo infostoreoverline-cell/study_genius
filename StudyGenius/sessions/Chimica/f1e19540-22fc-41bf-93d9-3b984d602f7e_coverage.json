@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-09-09T09:31:31.355Z",
+  "chapters": [
+    {
+      "chapterId": "cap1-trattazione-integrale",
+      "title": "Chimica — Trattazione Magistrale",
+      "items": [],
+      "missingNodes": [],
+      "coverageRatio": 1,
+      "passed": true
+    }
+  ],
+  "totalRequired": 0,
+  "totalCovered": 0,
+  "overallCoverage": 1,
+  "passed": true
+}

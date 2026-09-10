@@ -1,0 +1,89 @@
+{
+  "0": {
+    "figureId": "f609d7b6_p14-v1",
+    "source": {
+      "page": 14,
+      "bbox": [
+        0.05,
+        0.08,
+        0.31,
+        0.91
+      ]
+    },
+    "classification": {
+      "type": "quantitative_plot",
+      "subtype": "speciation_diagram",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Figura 5: Schema di distribuzione delle forme di un metallo in funzione della concentrazione del ligando."
+    },
+    "axes": {
+      "x": {
+        "label": "\\log[L]",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      },
+      "y": {
+        "label": "frazione",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      }
+    },
+    "series": [
+      {
+        "name": "M",
+        "representation": "line",
+        "confidence": 0.95
+      },
+      {
+        "name": "ML",
+        "representation": "line",
+        "confidence": 0.95
+      },
+      {
+        "name": "ML_2",
+        "representation": "line",
+        "confidence": 0.95
+      }
+    ],
+    "qualitativeObservations": [
+      "Diagramma di frazione molare in funzione di log[L]",
+      "la specie libera M domina a basse concentrazioni di ligando (log[L] < -5)",
+      "la specie ML passa per un massimo intermedio",
+      "la specie ML_2 domina ad alte concentrazioni di ligando (log[L] > -2)"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "-8",
+      "-7",
+      "-6",
+      "-5",
+      "-4",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "0.2",
+      "0.4",
+      "0.6",
+      "0.8",
+      "1",
+      "M",
+      "ML",
+      "ML_2",
+      "frazione",
+      "log[L]"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:37:31.767Z"
+}

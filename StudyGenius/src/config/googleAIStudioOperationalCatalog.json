@@ -1,0 +1,938 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "catalog_version": "2026-09-09",
+  "source": "https://ai.google.dev/gemini-api/docs/models",
+  "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "deprecations_source": "https://ai.google.dev/gemini-api/docs/deprecations",
+  "recipient": "Google Antigravity for Study Genius",
+  "notes": "Limiti, modalità, capacità, stato e fonti del catalogo pubblico verificati al 9 settembre 2026. Non include modelli accessibili solo tramite servizi Cloud differenti o programmi riservati. Null indica dato da verificare.",
+  "models": {
+    "gemini-3.8-flash": {
+      "id": "gemini-3.8-flash",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Revisione selettiva di passaggi o grafici complessi",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["low", "medium", "high"],
+        "default_level": "medium",
+        "supports_minimal": false
+      },
+      "constraints": {
+        "media_resolution_support": true,
+        "max_pdf_mb": 50,
+        "max_pdf_pages": 1000
+      }
+    },
+    "gemini-3.7-flash": {
+      "id": "gemini-3.7-flash",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Alternativa Flash da valutare sugli stessi documenti di prova",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["low", "medium", "high"],
+        "default_level": "medium",
+        "supports_minimal": false
+      },
+      "constraints": {
+        "media_resolution_support": true,
+        "max_pdf_mb": 50,
+        "max_pdf_pages": 1000
+      }
+    },
+    "gemini-3.6-flash": {
+      "id": "gemini-3.6-flash",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Alternativa Flash per comprensione multimodale e ragionamento",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["minimal", "low", "medium", "high"],
+        "default_level": "medium",
+        "supports_minimal": true
+      },
+      "constraints": {
+        "media_resolution_support": true,
+        "max_pdf_mb": 50,
+        "max_pdf_pages": 1000
+      }
+    },
+    "gemini-3.5-flash": {
+      "id": "gemini-3.5-flash",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Alternativa Flash precedente; riusare solo se utile e disponibile",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["minimal", "low", "medium", "high"],
+        "default_level": "medium",
+        "supports_minimal": true
+      },
+      "constraints": {
+        "media_resolution_support": true,
+        "max_pdf_mb": 50,
+        "max_pdf_pages": 1000
+      }
+    },
+    "gemini-3.5-flash-lite": {
+      "id": "gemini-3.5-flash-lite",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Prima scelta proposta per estrazione visiva ordinaria in blocchi",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["minimal", "low", "medium", "high"],
+        "default_level": "minimal",
+        "supports_minimal": true
+      },
+      "constraints": {
+        "media_resolution_support": true,
+        "max_pdf_mb": 50,
+        "max_pdf_pages": 1000
+      }
+    },
+    "gemini-3.1-flash-lite": {
+      "id": "gemini-3.1-flash-lite",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Alternativa per estrazione ordinaria, previa verifica di qualità",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["minimal", "low", "medium", "high"],
+        "default_level": "minimal",
+        "supports_minimal": true
+      },
+      "constraints": {
+        "media_resolution_support": true,
+        "first_retirement_date_published": "2027-05-07",
+        "max_pdf_mb": 50,
+        "max_pdf_pages": 1000
+      }
+    },
+    "gemini-3.1-pro-preview": {
+      "id": "gemini-3.1-pro-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Revisione complessa opzionale; escluso dalla modalità solo gratuita",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "StudioOnly",
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["low", "medium", "high"],
+        "default_level": "high",
+        "supports_minimal": false
+      },
+      "constraints": {
+        "file_search_studio_only": true,
+        "paid_tier_only": true
+      }
+    },
+    "gemini-3-flash-preview": {
+      "id": "gemini-3-flash-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Compatibilità con sessioni precedenti; preferire un modello stabile verificato",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["minimal", "low", "medium", "high"],
+        "default_level": "high",
+        "supports_minimal": true
+      }
+    },
+    "gemini-2.5-flash": {
+      "id": "gemini-2.5-flash",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Alternativa multimodale precedente, se il progetto la abilita",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      }
+    },
+    "gemini-2.5-flash-lite": {
+      "id": "gemini-2.5-flash-lite",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Estrazione semplice; valutare qualità e quota prima di selezionarlo",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      }
+    },
+    "gemini-2.5-pro": {
+      "id": "gemini-2.5-pro",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Revisione opzionale solo se la quota gratuita del progetto è positiva",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "supported",
+        "live": false,
+        "batch": true
+      }
+    },
+    "gemini-3.1-pro-preview-customtools": {
+      "id": "gemini-3.1-pro-preview-customtools",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Variante API per priorità agli strumenti personalizzati; non necessaria alla lettura delle dispense",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": true,
+        "functions": true,
+        "code": true,
+        "thinking": true,
+        "cache": true,
+        "search": true,
+        "file_search": "StudioOnly",
+        "live": false,
+        "batch": true
+      }
+    },
+    "gemma-4-31b-it": {
+      "id": "gemma-4-31b-it",
+      "doc_url": "https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api",
+      "accepts": ["text", "image"],
+      "produces": ["text"],
+      "input_max_tokens": null,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Alternativa da collaudare per testo e immagini; non inserire nel percorso principale senza limiti API e fedeltà misurati",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": null,
+        "functions": true,
+        "code": null,
+        "thinking": true,
+        "cache": true,
+        "search": false,
+        "file_search": null,
+        "live": null,
+        "batch": null
+      },
+      "thinking": {
+        "supported_levels": ["minimal", "high"],
+        "default_level": null
+      },
+      "constraints": {
+        "no_native_pdf_assumed": true
+      }
+    },
+    "gemma-4-26b-a4b-it": {
+      "id": "gemma-4-26b-a4b-it",
+      "doc_url": "https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api",
+      "accepts": ["text", "image"],
+      "produces": ["text"],
+      "input_max_tokens": null,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Alternativa da collaudare per testo e immagini; non inserire nel percorso principale senza limiti API e fedeltà misurati",
+      "api_adapter": "generateContent",
+      "capabilities": {
+        "json": null,
+        "functions": true,
+        "code": null,
+        "thinking": true,
+        "cache": true,
+        "search": false,
+        "file_search": null,
+        "live": null,
+        "batch": null
+      },
+      "thinking": {
+        "supported_levels": ["minimal", "high"],
+        "default_level": null
+      },
+      "constraints": {
+        "no_native_pdf_assumed": true
+      }
+    },
+    "gemini-3.1-flash-image": {
+      "id": "gemini-3.1-flash-image",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+      "accepts": ["text", "image", "video", "pdf"],
+      "produces": ["image", "text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": 32768,
+      "free_tier_publicly_exposed": false,
+      "status": "stable",
+      "proposed_role": "Illustrazioni ed editing opzionali, con budget a pagamento esplicito",
+      "api_adapter": "mediaGenerate",
+      "capabilities": {
+        "json": false,
+        "functions": false,
+        "code": false,
+        "thinking": true,
+        "cache": false,
+        "search": true,
+        "file_search": false,
+        "live": false,
+        "batch": true
+      },
+      "constraints": {
+        "resolutions": ["0.5K", "1K", "2K", "4K"]
+      }
+    },
+    "gemini-3.1-flash-lite-image": {
+      "id": "gemini-3.1-flash-lite-image",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
+      "accepts": ["text", "image", "video", "pdf"],
+      "produces": ["image", "text"],
+      "input_max_tokens": 65536,
+      "output_max_tokens": 4096,
+      "free_tier_publicly_exposed": false,
+      "status": "stable",
+      "proposed_role": "Illustrazioni rapide a 1K; nessun uso per ricostruzioni scientifiche esatte",
+      "api_adapter": "mediaGenerate",
+      "capabilities": {
+        "json": false,
+        "functions": false,
+        "code": false,
+        "thinking": true,
+        "cache": false,
+        "search": false,
+        "file_search": false,
+        "live": false,
+        "batch": true
+      },
+      "thinking": {
+        "supported_levels": ["minimal", "high"],
+        "default_level": "minimal"
+      },
+      "constraints": {
+        "resolutions": ["1K"],
+        "aspect_ratios_validate": true
+      }
+    },
+    "gemini-3-pro-image": {
+      "id": "gemini-3-pro-image",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
+      "accepts": ["text", "image"],
+      "produces": ["image", "text"],
+      "input_max_tokens": 65536,
+      "output_max_tokens": 32768,
+      "free_tier_publicly_exposed": false,
+      "status": "stable",
+      "proposed_role": "Illustrazioni complesse e impaginazioni visive opzionali",
+      "api_adapter": "mediaGenerate",
+      "capabilities": {
+        "json": false,
+        "functions": false,
+        "code": false,
+        "thinking": true,
+        "cache": false,
+        "search": true,
+        "file_search": false,
+        "live": false,
+        "batch": true
+      },
+      "constraints": {
+        "resolutions": ["1K", "2K", "4K"],
+        "max_input_images": 14
+      }
+    },
+    "gemini-2.5-flash-image": {
+      "id": "gemini-2.5-flash-image",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
+      "accepts": ["text", "image"],
+      "produces": ["image", "text"],
+      "input_max_tokens": 65536,
+      "output_max_tokens": 32768,
+      "free_tier_publicly_exposed": false,
+      "status": "retirement_announced",
+      "proposed_role": "Compatibilità precedente; pianificare la migrazione verso gemini-3.1-flash-image",
+      "api_adapter": "mediaGenerate",
+      "constraints": {
+        "retirement_date": "2026-10-02"
+      }
+    },
+    "gemini-3.1-flash-tts-preview": {
+      "id": "gemini-3.1-flash-tts-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
+      "accepts": ["text"],
+      "produces": ["audio"],
+      "input_max_tokens": 8192,
+      "output_max_tokens": 16384,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Lettura vocale della dispensa già verificata, con controllo espressivo",
+      "api_adapter": "tts",
+      "capabilities": {
+        "json": false,
+        "functions": false,
+        "code": false,
+        "thinking": false,
+        "cache": false,
+        "search": false,
+        "file_search": false,
+        "live": false,
+        "batch": true
+      }
+    },
+    "gemini-2.5-flash-preview-tts": {
+      "id": "gemini-2.5-flash-preview-tts",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+      "accepts": ["text"],
+      "produces": ["audio"],
+      "input_max_tokens": 8192,
+      "output_max_tokens": 16384,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Lettura vocale opzionale con versione precedente",
+      "api_adapter": "tts"
+    },
+    "gemini-2.5-pro-preview-tts": {
+      "id": "gemini-2.5-pro-preview-tts",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
+      "accepts": ["text"],
+      "produces": ["audio"],
+      "input_max_tokens": 8192,
+      "output_max_tokens": 16384,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Narrazione opzionale a pagamento",
+      "api_adapter": "tts"
+    },
+    "gemini-3.1-flash-live-preview": {
+      "id": "gemini-3.1-flash-live-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
+      "accepts": ["text", "image", "audio", "video"],
+      "produces": ["audio", "text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Tutor vocale in tempo reale; sessione distinta dalla generazione della dispensa",
+      "api_adapter": "liveStream",
+      "thinking": {
+        "supported_levels": ["minimal", "low", "medium", "high"],
+        "default_level": "minimal"
+      }
+    },
+    "gemini-2.5-flash-native-audio-preview-12-2025": {
+      "id": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
+      "accepts": ["text", "audio", "video"],
+      "produces": ["audio", "text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": 8192,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Compatibilità con il tutor vocale precedente",
+      "api_adapter": "liveStream"
+    },
+    "gemini-3.5-live-translate-preview": {
+      "id": "gemini-3.5-live-translate-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
+      "accepts": ["audio"],
+      "produces": ["audio", "text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Traduzione vocale in tempo reale, se richiesta",
+      "api_adapter": "liveStream"
+    },
+    "gemini-3.5-transcribe": {
+      "id": "gemini-3.5-transcribe",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+      "accepts": ["audio"],
+      "produces": ["text", "word_annotations"],
+      "input_max_tokens": null,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Trascrizione delle registrazioni di lezioni",
+      "api_adapter": "audioTranscribe",
+      "constraints": {
+        "max_audio_seconds": 3600,
+        "max_diarization_seconds": 1800,
+        "max_speakers": 8,
+        "languages": "85+",
+        "italian_included": true
+      }
+    },
+    "gemini-3.5-transcribe-live": {
+      "id": "gemini-3.5-transcribe-live",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+      "accepts": ["audio"],
+      "produces": ["text"],
+      "input_max_tokens": null,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Sottotitoli e trascrizione in diretta; non sostituisce la lettura di grafici",
+      "api_adapter": "audioTranscribeLive",
+      "constraints": {
+        "max_session_seconds": 600,
+        "diarization": false,
+        "timestamps": false
+      }
+    },
+    "gemini-omni-1.1-flash": {
+      "id": "gemini-omni-1.1-flash",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
+      "accepts": ["text", "image", "video", "audio"],
+      "produces": ["video"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": false,
+      "status": "stable",
+      "proposed_role": "Video illustrativi opzionali a pagamento",
+      "api_adapter": "videoGenerate",
+      "constraints": {
+        "duration_seconds": [3, 10],
+        "fps": 24,
+        "resolutions": ["360p", "720p", "1080p", "4K"]
+      }
+    },
+    "gemini-omni-flash-preview": {
+      "id": "gemini-omni-flash-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
+      "accepts": ["text", "image", "video", "audio"],
+      "produces": ["video"],
+      "input_max_tokens": null,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": false,
+      "status": "retirement_announced",
+      "proposed_role": "Solo migrazione; non avviare nuove integrazioni",
+      "api_adapter": "videoGenerate",
+      "constraints": {
+        "retirement_date": "2026-09-30"
+      }
+    },
+    "veo-3.1-generate-preview": {
+      "id": "veo-3.1-generate-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
+      "accepts": ["text", "image"],
+      "produces": ["video", "audio"],
+      "input_max_tokens": 1024,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Video illustrativi opzionali; escluso dalla pipeline gratuita",
+      "api_adapter": "videoGenerate"
+    },
+    "veo-3.1-fast-generate-preview": {
+      "id": "veo-3.1-fast-generate-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
+      "accepts": ["text", "image"],
+      "produces": ["video", "audio"],
+      "input_max_tokens": 1024,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Video illustrativi opzionali; escluso dalla pipeline gratuita",
+      "api_adapter": "videoGenerate"
+    },
+    "veo-3.1-lite-generate-preview": {
+      "id": "veo-3.1-lite-generate-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
+      "accepts": ["text", "image"],
+      "produces": ["video", "audio"],
+      "input_max_tokens": 1024,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Video illustrativi opzionali; escluso dalla pipeline gratuita",
+      "api_adapter": "videoGenerate"
+    },
+    "lyria-3.5": {
+      "id": "lyria-3.5",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
+      "accepts": ["text", "image"],
+      "produces": ["audio", "text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Musica opzionale; non pertinente all'estrazione di dispense",
+      "api_adapter": "audioGenerate"
+    },
+    "lyria-3-clip-preview": {
+      "id": "lyria-3-clip-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
+      "accepts": ["text", "image"],
+      "produces": ["audio", "text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Clip musicali da 30 secondi; opzionale",
+      "api_adapter": "audioGenerate"
+    },
+    "lyria-3-pro-preview": {
+      "id": "lyria-3-pro-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
+      "accepts": ["text", "image"],
+      "produces": ["audio", "text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Versione musicale precedente per brani più lunghi; opzionale",
+      "api_adapter": "audioGenerate"
+    },
+    "lyria-realtime-exp": {
+      "id": "lyria-realtime-exp",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
+      "accepts": ["text"],
+      "produces": ["audio"],
+      "input_max_tokens": null,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": null,
+      "status": "experimental",
+      "proposed_role": "Musica strumentale in streaming; sperimentale e fuori dalla pipeline didattica",
+      "api_adapter": "audioGenerate"
+    },
+    "gemini-embedding-2": {
+      "id": "gemini-embedding-2",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+      "accepts": ["text", "image", "video", "audio", "pdf"],
+      "produces": ["embeddings"],
+      "input_max_tokens": 8192,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Ricerca nel materiale già acquisito; non genera spiegazioni o riassunti",
+      "api_adapter": "embeddings",
+      "constraints": {
+        "max_images_per_request": 6,
+        "max_audio_seconds": 180,
+        "max_video_seconds": 120,
+        "max_pdf_pages": 6,
+        "max_pdf_files": 1,
+        "vector_dimensions": [128, 3072]
+      }
+    },
+    "gemini-embedding-001": {
+      "id": "gemini-embedding-001",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
+      "accepts": ["text"],
+      "produces": ["embeddings"],
+      "input_max_tokens": 2048,
+      "output_max_tokens": null,
+      "free_tier_publicly_exposed": true,
+      "status": "stable",
+      "proposed_role": "Ricerca nel materiale già acquisito; non genera spiegazioni o riassunti",
+      "api_adapter": "embeddings"
+    },
+    "deep-research-preview-04-2026": {
+      "id": "deep-research-preview-04-2026",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
+      "accepts": ["text", "image", "pdf", "audio", "video"],
+      "produces": ["text", "image"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": null,
+      "status": "preview",
+      "proposed_role": "Ricerca autonoma con tariffazione per modelli e strumenti; non abilitare nel flusso gratuito senza riscontro",
+      "api_adapter": "agent"
+    },
+    "deep-research-max-preview-04-2026": {
+      "id": "deep-research-max-preview-04-2026",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
+      "accepts": ["text", "image", "pdf", "audio", "video"],
+      "produces": ["text", "image"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": null,
+      "status": "preview",
+      "proposed_role": "Ricerca autonoma più approfondita; gratuità non verificata per l'endpoint",
+      "api_adapter": "agent"
+    },
+    "antigravity-preview-05-2026": {
+      "id": "antigravity-preview-05-2026",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
+      "accepts": ["text", "image"],
+      "produces": ["text"],
+      "input_max_tokens": 1048576,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Agente gestito con sandbox e strumenti; distinto dall'IDE Antigravity",
+      "api_adapter": "agent",
+      "constraints": {
+        "compaction_around_tokens": 135000
+      }
+    },
+    "gemini-2.5-computer-use-preview-10-2025": {
+      "id": "gemini-2.5-computer-use-preview-10-2025",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
+      "accepts": ["text", "image"],
+      "produces": ["text"],
+      "input_max_tokens": 128000,
+      "output_max_tokens": 64000,
+      "free_tier_publicly_exposed": false,
+      "status": "preview",
+      "proposed_role": "Controllo di interfacce e browser; non necessario per estrarre i PDF",
+      "api_adapter": "computerUse"
+    },
+    "gemini-robotics-er-2-preview": {
+      "id": "gemini-robotics-er-2-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
+      "accepts": ["text", "image", "video", "audio"],
+      "produces": ["text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Ragionamento spaziale e robotica; fuori dal percorso ordinario delle dispense",
+      "api_adapter": "generateContent"
+    },
+    "gemini-robotics-er-2-streaming-preview": {
+      "id": "gemini-robotics-er-2-streaming-preview",
+      "doc_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-streaming-preview",
+      "accepts": ["text", "image", "video", "audio"],
+      "produces": ["text"],
+      "input_max_tokens": 131072,
+      "output_max_tokens": 65536,
+      "free_tier_publicly_exposed": true,
+      "status": "preview",
+      "proposed_role": "Robotica in tempo reale con uscita testuale; non TTS",
+      "api_adapter": "liveStream"
+    }
+  },
+  "historical_project_quota_observations": {
+    "observed_date": "2026-09-09",
+    "observed_period_days": 28,
+    "quotas": {
+      "gemini-3.5-flash-lite": { "rpm": 15, "tpm_input": 250000, "rpd": 500, "category": "HIGH_VOLUME_EXTRACTION" },
+      "gemini-3.1-flash-lite": { "rpm": 15, "tpm_input": 250000, "rpd": 500, "category": "HIGH_VOLUME_EXTRACTION" },
+      "gemini-3.8-flash": { "rpm": 5, "tpm_input": 250000, "rpd": 20, "category": "SELECTIVE_REVIEW" },
+      "gemini-3.7-flash": { "rpm": 5, "tpm_input": 250000, "rpd": 20, "category": "SELECTIVE_REVIEW" },
+      "gemini-3.6-flash": { "rpm": 5, "tpm_input": 250000, "rpd": 20, "category": "SELECTIVE_REVIEW" },
+      "gemini-3.5-flash": { "rpm": 5, "tpm_input": 250000, "rpd": 20, "category": "SELECTIVE_REVIEW" },
+      "antigravity-preview-05-2026": { "rpm": 60, "tpm_input": 100000, "rpd": 100, "category": "AGENT_SANDBOX" }
+    }
+  },
+  "excluded_retirements": {
+    "gemini-2.0-flash": { "retired_date": "2026-06-01", "replacement": "gemini-3.5-flash / gemini-3.6-flash" },
+    "gemini-2.0-flash-001": { "retired_date": "2026-06-01", "replacement": "gemini-3.5-flash" },
+    "gemini-2.0-flash-lite": { "retired_date": "2026-06-01", "replacement": "gemini-3.5-flash-lite" },
+    "gemini-2.0-flash-lite-001": { "retired_date": "2026-06-01", "replacement": "gemini-3.5-flash-lite" },
+    "gemini-3-pro-preview": { "retired_date": "2026-03-09", "replacement": "gemini-3.1-pro-preview (paid only)" },
+    "gemini-3.1-flash-lite-preview": { "retired_date": "2026-05-25", "replacement": "gemini-3.1-flash-lite / gemini-3.5-flash-lite" },
+    "gemini-3.1-flash-image-preview": { "retired_date": "2026-06-25", "replacement": "gemini-3.1-flash-image" },
+    "gemini-3-pro-image-preview": { "retired_date": "2026-06-25", "replacement": "gemini-3-pro-image" },
+    "gemini-2.5-flash-lite-preview-09-2025": { "retired_date": "2026-03-31", "replacement": "gemini-3.1-flash-lite / gemini-3.5-flash-lite" },
+    "imagen-4.0-generate-001": { "retired_date": "2026-08-17", "replacement": "gemini-3.1-flash-image" },
+    "imagen-4.0-ultra-generate-001": { "retired_date": "2026-08-17", "replacement": "gemini-3.1-flash-image" },
+    "imagen-4.0-fast-generate-001": { "retired_date": "2026-08-17", "replacement": "gemini-3.1-flash-image" },
+    "veo-3.0-generate-001": { "retired_date": "2026-06-30", "replacement": "veo-3.1-generate-preview" },
+    "veo-3.0-fast-generate-001": { "retired_date": "2026-06-30", "replacement": "veo-3.1-fast-generate-preview" },
+    "veo-2.0-generate-001": { "retired_date": "2026-06-30", "replacement": "veo-3.1-generate-preview" },
+    "gemini-robotics-er-1.6-preview": { "retired_date": "2026-08-31", "replacement": "gemini-robotics-er-2-preview" },
+    "gemini-embedding-2-preview": { "retired_date": "2026-08-10", "replacement": "gemini-embedding-2" },
+    "text-embedding-004": { "retired_date": "2026-01-14", "replacement": "gemini-embedding-2" },
+    "gemini-1.5-flash": { "retired_date": "obsolete", "replacement": "gemini-3.5-flash-lite" },
+    "gemini-1.5-pro": { "retired_date": "obsolete", "replacement": "gemini-3.8-flash" }
+  },
+  "documentation_inconsistencies": {
+    "embedding_2_preview_vs_stable": "L'indice generale elenca ancora preview, ma la scheda specifica e il listino confermano gemini-embedding-2 stabile.",
+    "imagen_4_and_robotics_1_6_lingering": "Le date di dismissione sono passate nel 2026: esclusi categoricamente.",
+    "gemini_2_5_flash_image_replacement_alias": "La riga del calendario cita un alias preview dismesso; usare gemini-3.1-flash-image stabile.",
+    "lyria_3_pro_model_code_cell": "La cella riporta 'Clip' per errore di battitura della documentazione; ID reale lyria-3-pro-preview.",
+    "gemma_context_vs_api": "256k e' l'architettura dei pesi, ma i limiti dell'endpoint API vanno interrogati da models.get.",
+    "files_api_size_discrepancy": "La guida generale riporta 100 MB per richieste inline mentre le guide immagini/audio riportano 20 MB: sopra 20 MB passare prudenzialmente a Files API.",
+    "gemini_3_media_resolution_tokens": "I token per immagine non sono fissi a 258: sono ~280 (low), ~560 (medium), ~1120 (high). Ultra_high non e' applicabile a PDF."
+  },
+  "media_constraints": {
+    "pdf_max_size_mb": 50,
+    "pdf_max_pages": 1000,
+    "inline_media_max_mb": 20,
+    "files_api_retention_hours": 48,
+    "files_api_max_file_size_gb": 2,
+    "gemini_3_resolution_tokens": {
+      "low": 280,
+      "medium": 560,
+      "high": 1120
+    },
+    "embedding_2_limits": {
+      "max_tokens": 8192,
+      "max_images": 6,
+      "max_pdf_pages": 6,
+      "max_audio_seconds": 180,
+      "max_video_seconds": 120
+    }
+  },
+  "operational_rules": {
+    "minute_quota_utilization_ceiling": 0.80,
+    "daily_quota_repair_reserve": 0.20,
+    "allow_paid_gemini": false,
+    "primary_extraction_model": "gemini-3.5-flash-lite",
+    "primary_review_model": "gemini-3.8-flash",
+    "never_rotate_blindly_on_error": true
+  }
+}

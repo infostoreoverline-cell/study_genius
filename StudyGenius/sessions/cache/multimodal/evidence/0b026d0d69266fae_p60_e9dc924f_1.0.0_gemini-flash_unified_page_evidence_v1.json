@@ -1,0 +1,61 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p60-v1",
+    "source": {
+      "page": 60,
+      "bbox": [
+        0.3,
+        0.49,
+        0.77,
+        0.77
+      ]
+    },
+    "classification": {
+      "type": "process_diagram",
+      "subtype": "schema_p_id_strumentato",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Si descrivano le caratteristiche salienti del processo chimico che avviene nell'impianto rappresentato qui a fianco, deducendole dallo schema di processo strumentato."
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": "none",
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Reattore verticale etichettato come R-01.",
+      "Alimentazione di liquido (Liq.) controllata da un sistema di controllo di flusso (FC) con valvola di regolazione.",
+      "Alimentazione di gas (Gas) distribuita sul fondo del reattore attraverso un distributore.",
+      "Controllo di pressione in testa al reattore tramite anello PC collegato alla linea di alimentazione del liquido o dello sfiato.",
+      "Controllo di livello (LC) sul fondo del reattore che agisce sulla valvola di scarico del liquido sul fondo."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "R-01",
+      "FC",
+      "PC",
+      "LC",
+      "Liq.",
+      "Gas"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:25:19.259Z"
+}

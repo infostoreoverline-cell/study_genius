@@ -1,0 +1,63 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p46-v1",
+    "source": {
+      "page": 46,
+      "bbox": [
+        0.2,
+        0.05,
+        0.85,
+        0.85
+      ]
+    },
+    "classification": {
+      "type": "schematic",
+      "subtype": "impianto_planimetria",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Planimetria generale di una raffineria"
+    },
+    "axes": {
+      "x": {
+        "label": "X",
+        "unit": "m",
+        "scale": "linear",
+        "confidence": 0.8
+      },
+      "y": {
+        "label": "Y",
+        "unit": "m",
+        "scale": "linear",
+        "confidence": 0.8
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Disposizione planimetrica dei vari reparti di una raffineria tra cui stoccaggio grezzo, unità di processo, magazzini, uffici, stoccaggio intermedi, solventi, prodotti, blending benzine e area di carico."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "CANALE NAVIGABILE",
+      "STOCCAGGIO GREZZO",
+      "UNITÀ DI PROCESSO",
+      "MAGAZZINI E SERVIZI",
+      "UFFICI",
+      "STOCCAGGIO INTERMEDI",
+      "STOCCAGGIO SOLVENTI",
+      "STOCCAGGIO PRODOTTI",
+      "AMPLIAMENTO",
+      "BLENDING BENZINE",
+      "AREA DI CARICO",
+      "CONVENZ. GEOGR."
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:45.447Z"
+}

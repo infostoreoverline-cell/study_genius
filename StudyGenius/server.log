@@ -1,0 +1,49 @@
+
+🚀 Study Genius avviato!
+📖 Apri il browser su: http://localhost:3000
+🔑 Gemini API: ✅ Configurata
+🤖 DeepSeek API: ✅ Configurata
+
+Premi Ctrl+C per fermare il server.
+
+
+📚 Inizio estrazione di 21 PDF con Smart Merging...
+🧩 File suddivisi in 14 cluster logici (max 5 file e 14 MB ciascuno)
+⚡ Chiamate API necessarie a Google: 14 (invece di 21!)
+
+🔄 Elaborazione gruppo 1/14: 2 PDF uniti (chimica_analitica_dispensa.pdf ... Lezione 1 _250926_112229.pdf) (2.7 MB)
+  🤖 Tento estrazione con il modello: gemini-2.5-flash
+    ⚠️ Errore su gemini-2.5-flash: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.. Passo al prossimo modello...
+  🤖 Tento estrazione con il modello: gemini-2.0-flash-exp
+    ⚠️ Errore su gemini-2.0-flash-exp: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [404 Not Found] models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.. Passo al prossimo modello...
+  🤖 Tento estrazione con il modello: gemini-1.5-flash
+    ⚠️ Errore su gemini-1.5-flash: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.. Passo al prossimo modello...
+  ❌ Errore durante l'elaborazione del gruppo: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+  ⏳ Pausa 2s prima del prossimo gruppo...
+
+🔄 Elaborazione gruppo 2/14: 2 PDF uniti (Lezione 2 _250929_131820.pdf ... Lezione 3 _250929_215715.pdf) (4.6 MB)
+  🤖 Tento estrazione con il modello: gemini-2.5-flash
+    ⚠️ Errore su gemini-2.5-flash: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.. Passo al prossimo modello...
+  🤖 Tento estrazione con il modello: gemini-2.0-flash-exp
+    ⚠️ Errore su gemini-2.0-flash-exp: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [404 Not Found] models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.. Passo al prossimo modello...
+  🤖 Tento estrazione con il modello: gemini-1.5-flash
+    ⚠️ Errore su gemini-1.5-flash: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.. Passo al prossimo modello...
+  ❌ Errore durante l'elaborazione del gruppo: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+  ⏳ Pausa 2s prima del prossimo gruppo...
+
+🔄 Elaborazione gruppo 3/14: Lezione 4 _251001_231155.pdf (7.4 MB)
+  🤖 Tento estrazione con il modello: gemini-2.5-flash
+    ⚠️ Errore su gemini-2.5-flash: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.. Passo al prossimo modello...
+  🤖 Tento estrazione con il modello: gemini-2.0-flash-exp
+    ⚠️ Errore su gemini-2.0-flash-exp: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [404 Not Found] models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.. Passo al prossimo modello...
+  🤖 Tento estrazione con il modello: gemini-1.5-flash
+    ⚠️ Errore su gemini-1.5-flash: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.. Passo al prossimo modello...
+  ❌ Errore durante l'elaborazione del gruppo: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+  ⏳ Pausa 2s prima del prossimo gruppo...
+
+🔄 Elaborazione gruppo 4/14: Lezione 5 _251008_142428.pdf (8.9 MB)
+  🤖 Tento estrazione con il modello: gemini-2.5-flash
+    ⚠️ Errore su gemini-2.5-flash: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.. Passo al prossimo modello...
+  🤖 Tento estrazione con il modello: gemini-2.0-flash-exp
+    ⚠️ Errore su gemini-2.0-flash-exp: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [404 Not Found] models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.. Passo al prossimo modello...
+  🤖 Tento estrazione con il modello: gemini-1.5-flash

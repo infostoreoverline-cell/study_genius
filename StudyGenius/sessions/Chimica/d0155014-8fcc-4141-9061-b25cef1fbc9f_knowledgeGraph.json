@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "graphVersion": 1,
+  "sessionId": "d0155014-8fcc-4141-9061-b25cef1fbc9f",
+  "subject": "Chimica",
+  "nodes": [
+    {
+      "id": "concept-d01550-1",
+      "type": "CONCEPT",
+      "label": "stan-",
+      "content": "",
+      "chapterId": "cap1",
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false
+      },
+      "version": 1
+    },
+    {
+      "id": "concept-d01550-2",
+      "type": "CONCEPT",
+      "label": "Calcolo Funzione",
+      "content": "",
+      "chapterId": "cap1",
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false
+      },
+      "version": 1
+    },
+    {
+      "id": "concept-d01550-3",
+      "type": "CONCEPT",
+      "label": "Volume titolato",
+      "content": "",
+      "chapterId": "cap1",
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false
+      },
+      "version": 1
+    },
+    {
+      "id": "concept-d01550-4",
+      "type": "CONCEPT",
+      "label": "Reazio ne Cost  ante di  equil ibrio",
+      "content": "",
+      "chapterId": "cap1",
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false
+      },
+      "version": 1
+    },
+    {
+      "id": "concept-d01550-5",
+      "type": "CONCEPT",
+      "label": "Reazione",
+      "content": "",
+      "chapterId": "cap1",
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false
+      },
+      "version": 1
+    }
+  ],
+  "edges": []
+}

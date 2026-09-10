@@ -1,0 +1,94 @@
+{
+  "matrix": [
+    {
+      "id": "vcm-1",
+      "conceptId": "eb102306_p1-v1",
+      "sourceId": "eb102306_p1-v1",
+      "label": "Figura 1: Schema dei punti in cui si verifica la cavitazione classica",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-2",
+      "conceptId": "eb102306_p2-v1",
+      "sourceId": "eb102306_p2-v1",
+      "label": "Figura 2: Formazione e collasso di una bolla di vapore.",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    }
+  ],
+  "audit": {
+    "timestamp": "2026-09-09T21:05:14.672Z",
+    "totalPlannedVisuals": 2,
+    "satisfiedVisuals": 0,
+    "convertedJustified": 0,
+    "omittedWithoutJustification": 2,
+    "textOnlyDecisions": 0,
+    "items": [
+      {
+        "id": "vcm-1",
+        "conceptId": "eb102306_p1-v1",
+        "sourceId": "eb102306_p1-v1",
+        "label": "Figura 1: Schema dei punti in cui si verifica la cavitazione classica",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      },
+      {
+        "id": "vcm-2",
+        "conceptId": "eb102306_p2-v1",
+        "sourceId": "eb102306_p2-v1",
+        "label": "Figura 2: Formazione e collasso di una bolla di vapore.",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      }
+    ],
+    "hardFails": [
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-1",
+        "conceptId": "eb102306_p1-v1",
+        "label": "Figura 1: Schema dei punti in cui si verifica la cavitazione classica",
+        "message": "L'esigenza visuale pianificata \"Figura 1: Schema dei punti in cui si verifica la cavitazione classica\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      },
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-2",
+        "conceptId": "eb102306_p2-v1",
+        "label": "Figura 2: Formazione e collasso di una bolla di vapore.",
+        "message": "L'esigenza visuale pianificata \"Figura 2: Formazione e collasso di una bolla di vapore.\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      }
+    ],
+    "warnings": [],
+    "passed": false
+  },
+  "deficiencies": [],
+  "visualScore": 100
+}

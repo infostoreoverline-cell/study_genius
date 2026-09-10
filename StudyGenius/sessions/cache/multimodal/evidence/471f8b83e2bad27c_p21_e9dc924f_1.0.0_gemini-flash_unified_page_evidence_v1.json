@@ -1,0 +1,62 @@
+{
+  "0": {
+    "figureId": "471f8b83_p21-v1",
+    "source": {
+      "page": 21,
+      "bbox": [
+        0.2,
+        0.67,
+        0.85,
+        0.85
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_impianto",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatore a film cadente"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema tridimensionale di un evaporatore a film cadente con indicazione delle correnti (A, B, C, D, E) e dei componenti principali numerati da 1 a 5."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "Filmato"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:47.378Z"
+}

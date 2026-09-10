@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Genius — Riassunti Universitari AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- MathJax for LaTeX rendering -->
+  <script>
+    window.MathJax = {
+      loader: { load: ['[tex]/mhchem'] },
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true,
+        packages: { '[+]': ['ams', 'boldsymbol', 'textcomp', 'mhchem'] }
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+      },
+      startup: { ready() { MathJax.startup.defaultReady(); } }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
+  <!-- marked.js for Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+</head>
+
+<body>
+  <div id="app">
+
+    <!-- ===== SIDEBAR ===== -->
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <a class="logo" href="#">
+          <div class="logo-icon">🎓</div>
+          <span class="logo-text">Study Genius</span>
+          <span class="logo-version">v1.0</span>
+        </a>
+        <button class="btn-new-session" id="btn-new-session" onclick="createNewSession()">
+          <span>✦</span> Nuova Sessione
+        </button>
+      </div>
+
+      <div class="sidebar-sessions" id="sidebar-sessions">
+        <!-- Sessions loaded dynamically -->
+        <div class="empty-state" id="sessions-empty" style="padding: 40px 16px; height: auto;">
+          <div class="empty-state-icon" style="font-size: 32px; animation: none;">📂</div>
+          <p style="font-size: 12px; color: var(--text-muted);">Nessuna sessione ancora. Inizia caricando dei PDF!</p>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <button class="sidebar-nav-btn" id="nav-upload" onclick="createNewSession()">
+          <span>📤</span> Nuova sessione
+        </button>
+        <button class="sidebar-nav-btn" id="nav-settings" onclick="showSettingsPanel()">
+          <span>⚙️</span> Impostazioni
+        </button>
+        <div class="api-status" style="padding: 8px 12px; margin-top: 4px;">
+          <div class="api-status-dot" id="gemini-dot"></div>
+          <span>Gemini</span>
+          <span style="margin: 0 6px; color: var(--border);">·</span>
+          <div class="api-status-dot" id="deepseek-dot"></div>
+          <span>DeepSeek</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ===== MAIN ===== -->
+    <main id="main">
+
+      <!-- TOPBAR -->
+      <header id="topbar">
+        <div class="topbar-title">
+          <input 
+            type="text" 
+            id="session-title-input" 
+            placeholder="Titolo sessione..." 
+            value="Nuova Sessione"
+          />
+          <div class="subject-badge" id="current-subject-badge" onclick="openSubjectModal()">
+            <span id="current-subject-icon">📚</span>
+            <span id="current-subject-name">Materia</span>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <div class="word-count-badge" id="word-count"></div>
+          <button class="btn btn-danger btn-sm" id="btn-stop-generation" onclick="stopGeneration()" style="display:none" title="Interrompi la generazione">
+            <span>⏹</span> Interrompi
+          </button>
+          <button class="btn btn-ghost" id="btn-copy-md" onclick="copyMarkdown()" style="display:none" title="Copia il testo formattato negli appunti">
+            <span>📋</span> Copia
+          </button>
+          <button class="btn btn-ghost" id="btn-fullscreen" onclick="toggleFullscreenMode()" title="Visualizza a schermo intero (Esc per uscire)">
+            <span id="btn-fullscreen-icon">⤢</span> Schermo Intero
+          </button>
+          <button class="btn btn-primary" id="btn-continue-session" onclick="continueCurrentSession()" style="display:none">
+            <span>⏩</span> Continua Dispensa
+          </button>
+          <button class="btn btn-ghost" id="btn-toggle-view" onclick="toggleView()" style="display:none">
+            <span id="toggle-view-icon">👁️</span> Anteprima
+          </button>
+          <button class="btn btn-ghost" id="btn-export-md" onclick="exportMarkdown()" style="display:none">
+            <span>⬇️</span> .md
+          </button>
+          <button class="btn btn-success" id="btn-download-pdf" onclick="downloadPDFDirectly()" style="display:none" title="Scarica il file PDF direttamente sul tuo PC">
+            <span>📥</span> Scarica PDF
+          </button>
+          <button class="btn btn-ghost" id="btn-print-pdf" onclick="exportPDF()" style="display:none" title="Apri finestra di stampa o anteprima del browser">
+            <span>🖨️</span> Stampa
+          </button>
+        </div>
+      </header>
+
+      <!-- CONTENT AREA -->
+      <div id="content-area">
+
+        <!-- PANEL: UPLOAD / HOME -->
+        <div class="panel active" id="panel-upload">
+          <div class="upload-hero">
+            <h1>Crea la tua Dispensa Universitaria</h1>
+            <p>Carica PDF di appunti, <strong>libri interi</strong>, dispense o <strong>PowerPoint (.pptx)</strong> — Gemini & OfficeParser estraggono i dati, DeepSeek elabora la dispensa magistrale a teoria parlata ed esercizi d'esame.</p>
+          </div>
+
+          <!-- Drop Zone -->
+          <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-input').click()">
+            <span class="drop-zone-icon">📑</span>
+            <h3>Trascina PDF o PowerPoint qui</h3>
+            <p>Supporta <strong>libri interi</strong>, PDF digitali, slide <strong>PowerPoint (.pptx)</strong> e <strong>appunti a mano</strong></p>
+            <div class="drop-zone-or"><span>oppure</span></div>
+            <button class="btn btn-ghost" onclick="event.stopPropagation(); document.getElementById('file-input').click()">
+              Scegli file dal computer
+            </button>
+            <input type="file" id="file-input" accept=".pdf,.pptx,.ppt" multiple hidden onchange="handleFileSelect(this.files)" />
+          </div>
+
+          <!-- Free Tier Privacy Notice -->
+          <div class="privacy-notice-badge" style="margin: 12px 0 16px 0; padding: 10px 14px; background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.25); border-radius: 8px; font-size: 11.5px; color: var(--text-muted); line-height: 1.5; display: flex; align-items: flex-start; gap: 8px;">
+            <span style="font-size: 14px;">🔒</span>
+            <span><strong>Informativa Free Tier Google Gemini:</strong> I contenuti inviati nel Free Tier Standard possono essere utilizzati da Google per il miglioramento dei modelli secondo i termini ufficiali. Prima di caricare dispense private, materiale riservato o dati personali, assicurati di compiere una scelta consapevole.</span>
+          </div>
+
+          <!-- File list -->
+          <div style="display:flex; align-items:center; gap:10px; flex-shrink:0;" id="file-list-header" style="display:none">
+            <span style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted);">File caricati</span>
+            <span id="file-counter" style="display:none; align-items:center; padding:2px 8px; background:rgba(124,58,237,0.15); border:1px solid rgba(124,58,237,0.3); border-radius:20px; font-size:11px; font-weight:700; color:var(--text-accent);"></span>
+            <button onclick="state.files=[]; renderFileList()" style="margin-left:auto; background:none; border:none; color:var(--text-muted); font-size:11px; cursor:pointer; padding:2px 8px; border-radius:4px; transition:var(--transition);" onmouseover="this.style.color='#f87171'" onmouseout="this.style.color='var(--text-muted)'">✕ Rimuovi tutti</button>
+          </div>
+          <div id="file-list"></div>
+
+          <!-- Config -->
+          <div class="config-grid">
+            <!-- Modalità di studio -->
+            <div class="config-card" style="grid-column: 1 / -1;">
+              <div class="config-label">🎯 Modalità di Studio & Focus Didattico</div>
+              <div class="study-mode-selector" id="study-mode-selector">
+                <button type="button" class="study-mode-btn active" id="mode-btn-summary" data-mode="summary" onclick="selectStudyMode('summary')">
+                  <span class="mode-icon">📑</span>
+                  <div class="mode-text">
+                    <div class="mode-title">Sintesi Accademica ad Alta Densità (Ideale per Libri)</div>
+                    <div class="mode-desc">Riassunto ad altissima densità concettuale. Spiega con rigore formule ed esami, zero aneddoti o prolissità</div>
+                  </div>
+                </button>
+                <button type="button" class="study-mode-btn" id="mode-btn-complete" data-mode="complete" onclick="selectStudyMode('complete')">
+                  <span class="mode-icon">🎓</span>
+                  <div class="mode-text">
+                    <div class="mode-title">Completa (Consigliata per Dispense)</div>
+                    <div class="mode-desc">Teoria parlata approfondita + Dimostrazioni + Eserciziario d'esame guidato</div>
+                  </div>
+                </button>
+                <button type="button" class="study-mode-btn" id="mode-btn-theory" data-mode="theory" onclick="selectStudyMode('theory')">
+                  <span class="mode-icon">📖</span>
+                  <div class="mode-text">
+                    <div class="mode-title">Focus Teoria & Dimostrazioni</div>
+                    <div class="mode-desc">Massima ampiezza concettuale, scomposizione formule, modelli e spiegazione microscopica</div>
+                  </div>
+                </button>
+                <button type="button" class="study-mode-btn" id="mode-btn-exercises" data-mode="exercises" onclick="selectStudyMode('exercises')">
+                  <span class="mode-icon">✍️</span>
+                  <div class="mode-text">
+                    <div class="mode-title">Focus Eserciziario Guidato</div>
+                    <div class="mode-desc">Risoluzione integrale con schemi mentali, tabelle ICE, calcoli espliciti e trabocchetti</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <!-- Scope Argomenti / Capitoli Target ("Sono Quelli") -->
+            <div class="config-card" style="grid-column: 1 / -1;">
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+                <div class="config-label" style="margin-bottom:0;">🎯 Argomenti o Capitoli da Trattare (Scope Mirato)</div>
+                <span style="font-size:11px; color:var(--text-accent); font-weight:600;">⚡ Filtra il libro ed elabora solo ciò che ti serve</span>
+              </div>
+              <input 
+                type="text" 
+                class="session-title-input" 
+                id="target-topics-input" 
+                style="width:100%; font-size:13px; padding:10px 14px; background:rgba(255,255,255,0.04); border:1px solid var(--border); border-radius:8px; color:var(--text); margin-bottom:8px;"
+                placeholder="Es: Capitoli 3 e 4 oppure Riclassificazione di Bilancio, Indici di Liquidità, ROI e WACC"
+              />
+              <div id="detected-topics-container" style="display:none; flex-wrap:wrap; gap:6px; margin-top:6px; margin-bottom:6px;">
+                <!-- Populated dynamically with chapter/topic chips -->
+              </div>
+              <div style="font-size:11px; color:var(--text-muted); line-height:1.4;">
+                💡 <em>Lascia vuoto per riassumere l'intero documento, oppure indica solo i capitoli/argomenti segnati per l'esame: il sistema isolerà ed elaborerà esclusivamente quelli ("Sono quelli"), senza trascrivere tutto il manuale.</em>
+              </div>
+            </div>
+
+            <div class="config-card">
+              <div class="config-label">📚 Materia</div>
+              <div class="subject-grid" id="subject-grid">
+                <!-- Populated by JS -->
+              </div>
+            </div>
+            <div class="config-card">
+              <div class="config-label">✏️ Istruzioni aggiuntive (opzionale)</div>
+              <textarea 
+                class="instructions-input" 
+                id="custom-instructions"
+                placeholder="Es: Concentrati sul capitolo di Chimica Analitica. Spiega le titolazioni nei dettagli. Aggiungi commenti specifici..."
+              ></textarea>
+            </div>
+          </div>
+
+          <!-- Generate Button -->
+          <div class="generate-area" style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
+            <button type="button" class="btn btn-ghost" id="btn-analyze-topics" onclick="extractBookTopicsOnly()" style="border:1px solid var(--border); padding:12px 20px; font-weight:600;" title="Estrai l'indice del libro per selezionare con un click solo i capitoli da studiare">
+              <span>🔍</span> Analizza Capitoli del Libro
+            </button>
+            <button type="button" class="btn btn-primary btn-generate" id="btn-generate" onclick="startGeneration()">
+              <span>✨</span> Genera Riassunto
+            </button>
+          </div>
+
+          <!-- STICKY ACTION BAR FOR FAST ACCESS -->
+          <div id="sticky-action-bar" class="sticky-action-bar">
+            <div class="sticky-info">
+              <span class="sticky-file-count" id="sticky-file-count">Trascina PDF o slide per iniziare</span>
+              <span class="sticky-divider">·</span>
+              <span class="sticky-subject-badge" id="sticky-subject-badge">Fisica</span>
+              <span class="sticky-divider">·</span>
+              <span class="sticky-mode-badge" id="sticky-mode-badge">Sintesi Alta Densità</span>
+            </div>
+            <div class="sticky-actions">
+              <button type="button" class="btn btn-ghost btn-sm" id="sticky-btn-analyze" onclick="extractBookTopicsOnly()" title="Estrai capitoli del libro">
+                <span>🔍</span> Analizza
+              </button>
+              <button type="button" class="btn btn-primary btn-generate-sticky" id="sticky-btn-generate" onclick="startGeneration()">
+                <span>✨</span> Genera Riassunto
+              </button>
+              <button type="button" class="btn btn-danger btn-sm" id="sticky-btn-stop" onclick="stopGeneration()" style="display:none;">
+                <span>⏹</span> Interrompi
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL: GENERATE / VIEW -->
+        <div class="panel" id="panel-generate">
+          <!-- FULLSCREEN FLOATING CONTROL DOCK -->
+          <div id="fullscreen-dock" class="fullscreen-dock">
+            <div class="fs-dock-left">
+              <div class="fs-subject-badge" id="fs-subject-badge">
+                <span id="fs-subject-icon">📚</span>
+                <span id="fs-subject-name">Materia</span>
+              </div>
+              <div class="fs-title" id="fs-title">Nuova Sessione</div>
+            </div>
+            <div class="fs-dock-center">
+              <div class="fs-status-pill">
+                <div class="status-dot" id="fs-status-dot"></div>
+                <span id="fs-status-label">Pronto</span>
+              </div>
+              <div class="fs-metric-pill" id="fs-word-pill">
+                <span>⚡</span>
+                <span id="fs-word-count">0 parole</span>
+              </div>
+              <div class="fs-metric-pill" id="fs-time-pill" title="Tempo stimato di lettura">
+                <span>⏱</span>
+                <span id="fs-reading-time">~0 min</span>
+              </div>
+            </div>
+            <div class="fs-dock-right">
+              <button class="btn btn-ghost btn-sm" id="fs-btn-copy" onclick="copyMarkdown()" title="Copia testo negli appunti">
+                <span>📋</span> Copia
+              </button>
+              <button class="btn btn-ghost btn-sm" id="fs-btn-toggle-view" onclick="toggleView()" title="Modifica Markdown o Anteprima">
+                <span id="fs-toggle-icon">👁️</span> Vista
+              </button>
+              <button class="btn btn-success btn-sm" id="fs-btn-download-pdf" onclick="downloadPDFDirectly()" title="Scarica PDF">
+                <span>📥</span> PDF
+              </button>
+              <button class="btn btn-primary btn-sm" id="fs-btn-exit" onclick="exitFullscreenMode()" title="Torna alla Sessione normale (tasto Esc)">
+                <span>↩</span> Torna alla Sessione
+              </button>
+            </div>
+          </div>
+
+          <!-- Left: Markdown Output -->
+          <div class="generate-left">
+            <div class="panel-section-title">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <div class="status-dot" id="status-dot"></div>
+                <span id="status-label">Riassunto</span>
+                <button class="btn btn-danger btn-sm" id="btn-stop-panel" onclick="stopGeneration()" style="display:none; padding:3px 8px; font-size:11px;" title="Interrompi generazione">
+                  <span>⏹</span> Interrompi
+                </button>
+              </div>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span class="word-count-badge" id="word-count-panel">0 parole</span>
+                <button class="btn btn-ghost btn-sm" id="btn-copy-panel" onclick="copyMarkdown()" title="Copia negli appunti">
+                  <span>📋</span> Copia
+                </button>
+                <button class="btn btn-ghost btn-sm" id="btn-new-summary-quick" onclick="createNewSession()" title="Inizia una nuova sessione">
+                  <span>➕</span> Nuova
+                </button>
+                <button class="btn btn-ghost btn-sm" id="btn-fullscreen-panel" onclick="toggleFullscreenMode()" title="Schermo Intero">
+                  <span>⤢</span> Schermo Intero
+                </button>
+              </div>
+            </div>
+
+            <div class="pagination-controls" id="pagination-top" style="display: none;">
+              <button class="btn btn-ghost" onclick="prevPage()">⬅️ Precedente</button>
+              <span class="page-indicator" id="page-indicator-top">Pagina 1 / 1</span>
+              <button class="btn btn-ghost" onclick="nextPage()">Successiva ➡️</button>
+            </div>
+
+            <div id="markdown-output">
+              <div class="empty-state">
+                <div class="empty-state-icon">✨</div>
+                <h3>Nessun contenuto ancora</h3>
+                <p>Carica dei PDF e avvia la generazione per vedere il riassunto apparire qui in tempo reale.</p>
+              </div>
+            </div>
+
+            <div class="pagination-controls" id="pagination-bottom" style="display: none;">
+              <button class="btn btn-ghost" onclick="prevPage()">⬅️ Precedente</button>
+              <span class="page-indicator" id="page-indicator-bottom">Pagina 1 / 1</span>
+              <button class="btn btn-ghost" onclick="nextPage()">Successiva ➡️</button>
+            </div>
+
+            <textarea id="raw-editor" placeholder="Modifica il Markdown direttamente qui..."></textarea>
+          </div>
+
+          <!-- Right: Info Panel -->
+          <div class="generate-right">
+            <div class="panel-tabs">
+              <div class="panel-tab active" onclick="switchTab('stats')">📊 Stats</div>
+              <div class="panel-tab" onclick="switchTab('source')">📄 Sorgente</div>
+            </div>
+
+            <div class="panel-tab-content active" id="tab-stats">
+              <div class="stats-grid" id="stats-grid">
+                <div class="stat-card">
+                  <div class="stat-value" id="stat-words">0</div>
+                  <div class="stat-label">Parole</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-value" id="stat-chars">0</div>
+                  <div class="stat-label">Caratteri</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-value" id="stat-sections">0</div>
+                  <div class="stat-label">Sezioni</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-value" id="stat-formulas">0</div>
+                  <div class="stat-label">Formule</div>
+                </div>
+              </div>
+
+              <div style="margin-top: 8px;">
+                <div class="config-label" style="margin-bottom: 8px;">⏱️ Progresso & Corsie Parallele</div>
+                <div class="progress-bar">
+                  <div class="progress-bar-fill" id="progress-bar" style="width: 0%"></div>
+                </div>
+                <p id="progress-label" style="font-size: 11px; color: var(--text-muted); margin-top: 6px;">In attesa...</p>
+                <div id="parallel-workers-container" class="parallel-workers-container" style="display: none;"></div>
+              </div>
+
+              <div style="margin-top: 16px;">
+                <div class="config-label" style="margin-bottom: 8px;">🤖 Modelli usati</div>
+                <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.8;">
+                  <div>📖 <strong>Lettura PDF:</strong> Gemini 3.6 Flash</div>
+                  <div>✍️ <strong>Riassunto:</strong> DeepSeek Chat</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-tab-content" id="tab-source">
+              <div class="config-label" style="margin-bottom: 8px;">📑 Contenuto estratto da Gemini</div>
+              <pre id="extracted-preview" style="font-size: 11px; color: var(--text-secondary); white-space: pre-wrap; word-break: break-word; line-height: 1.5;"></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL: SETTINGS -->
+        <div class="panel" id="panel-settings">
+          <div class="settings-section">
+            <div class="settings-section-header">
+              <div class="settings-section-icon purple">🎯</div>
+              <div>
+                <div class="settings-section-title">Preferenze Globali</div>
+                <div class="settings-section-desc">Vengono aggiunte a tutti i riassunti</div>
+              </div>
+            </div>
+            <div class="settings-body">
+              <div class="settings-field">
+                <label>Il mio stile di studio</label>
+                <textarea 
+                  id="global-prefs-input"
+                  placeholder="Es: Preferisco riassunti con molti esempi pratici. Evidenzia sempre le definizioni in grassetto. Includi sempre i passaggi matematici completi. Aggiungi box riassuntivi alla fine di ogni sezione..."
+                ></textarea>
+              </div>
+              <button class="btn btn-primary" onclick="saveGlobalPrefs()">💾 Salva Preferenze</button>
+            </div>
+          </div>
+
+          <div class="settings-section">
+            <div class="settings-section-header">
+              <div class="settings-section-icon cyan">📝</div>
+              <div>
+                <div class="settings-section-title">Prompt per Materia</div>
+                <div class="settings-section-desc">Personalizza il protocollo di riassunto per ogni materia</div>
+              </div>
+            </div>
+            <div class="settings-body">
+              <div class="config-label" style="margin-bottom: 8px;">Seleziona materia da modificare</div>
+              <div class="prompt-subject-selector" id="prompt-subject-selector">
+                <!-- populated by JS -->
+              </div>
+              <div class="settings-field" style="margin-top: 12px;">
+                <label id="prompt-editor-label">Prompt per: Fisica</label>
+                <textarea id="prompt-editor" placeholder="Caricamento..."></textarea>
+              </div>
+              <div style="display:flex; gap:8px; margin-top: 8px;">
+                <button class="btn btn-primary" onclick="savePrompt()">💾 Salva Prompt</button>
+                <button class="btn btn-ghost" onclick="resetPrompt()">↩️ Ripristina default</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- GOOGLE AI STUDIO STATO & PERMESSI -->
+          <div class="settings-section" id="section-gemini-access">
+            <div class="settings-section-header">
+              <div class="settings-section-icon blue">🛡️</div>
+              <div>
+                <div class="settings-section-title">Google AI Studio — Stato e Permessi</div>
+                <div class="settings-section-desc">Gestione centralizzata quote, privacy, allowlist e modelli autorizzati</div>
+              </div>
+            </div>
+            <div class="settings-body">
+              <!-- Profilo Operativo Card Grid -->
+              <div class="access-manager-grid">
+                <div class="access-info-card">
+                  <div class="access-label">Progetto Google Attivo</div>
+                  <div class="access-val" id="profile-project-id">Caricamento...</div>
+                  <div class="access-sub" id="profile-masked-key">Chiave: ...</div>
+                </div>
+                <div class="access-info-card">
+                  <div class="access-label">Tier & Billing</div>
+                  <div class="access-val"><span class="badge-status authorized" id="profile-tier-badge">Free Tier Standard</span></div>
+                  <div class="access-sub" style="color: var(--text-muted);">ALLOW_PAID_GEMINI = false</div>
+                </div>
+                <div class="access-info-card">
+                  <div class="access-label">Consenso Documenti</div>
+                  <div class="access-val" id="profile-consent-status"><span class="badge-status authorized">Accettato</span></div>
+                  <div class="access-sub" id="profile-consent-desc">Free Tier Data Policy</div>
+                </div>
+                <div class="access-info-card">
+                  <div class="access-label">Reset Quota (Pacific Time)</div>
+                  <div class="access-val" id="profile-reset-countdown">--:--:--</div>
+                  <div class="access-sub" id="profile-reset-date">Mezzanotte PT</div>
+                </div>
+              </div>
+
+              <!-- Controlli Operativi & Policy -->
+              <div style="margin-top: 14px; padding: 12px; background: rgba(255,255,255,0.02); border: 1px solid var(--border); border-radius: 8px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                  <div>
+                    <label style="font-size: 11.5px; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 4px;">Politica Operativa Study Genius:</label>
+                    <select id="select-operation-policy" style="background: var(--bg-card); color: var(--text-primary); border: 1px solid var(--border); border-radius: 6px; padding: 5px 10px; font-size: 12px;" onchange="changeOperationPolicy(this.value)">
+                      <option value="FREE_TIER_PRUDENT" selected>Free Tier Prudente (Predefinito - Zero Costi)</option>
+                      <option value="LOCAL_ONLY">Solo Locale (Esclude totalmente chiamate esterne)</option>
+                    </select>
+                  </div>
+                  <div style="display: flex; gap: 8px;">
+                    <button class="btn btn-ghost btn-sm" onclick="refreshGeminiProfile()" title="Interroga ai.models.list() ed esegue capability test">
+                      <span>🔄</span> Aggiorna Catalogo
+                    </button>
+                    <button class="btn btn-ghost btn-sm" id="btn-toggle-consent" onclick="togglePrivacyConsent()">
+                      <span>🚫</span> Revoca Consenso
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modelli Assegnati ai Ruoli -->
+              <div style="margin-top: 16px;">
+                <div class="config-label" style="margin-bottom: 8px;">🎯 Modelli Assegnati ai Ruoli Didattici</div>
+                <div class="roles-summary-grid" id="roles-summary-grid">
+                  <div class="role-card">
+                    <div class="role-header">
+                      <span class="role-title">DOCUMENT_TRIAGE</span>
+                      <span class="badge-status authorized">Primario</span>
+                    </div>
+                    <div class="role-model" id="role-model-triage">gemini-3.5-flash-lite</div>
+                    <div style="font-size: 10.5px; color: var(--text-muted);">Classificazione BBox economica rapida</div>
+                  </div>
+                  <div class="role-card">
+                    <div class="role-header">
+                      <span class="role-title">VISUAL_EXTRACTION</span>
+                      <span class="badge-status authorized">Primario</span>
+                    </div>
+                    <div class="role-model" id="role-model-extraction">gemini-3.8-flash</div>
+                    <div style="font-size: 10.5px; color: var(--text-muted);">Estrazione strutturata contratti Tier C</div>
+                  </div>
+                  <div class="role-card">
+                    <div class="role-header">
+                      <span class="role-title">SCIENTIFIC_REVIEW</span>
+                      <span class="badge-status authorized">Riservato</span>
+                    </div>
+                    <div class="role-model" id="role-model-review">gemini-2.5-pro</div>
+                    <div style="font-size: 10.5px; color: var(--text-muted);">Gating mirato su anomalie o conflitti</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Registro Modelli & Quote -->
+              <div style="margin-top: 16px;">
+                <div class="config-label" style="margin-bottom: 8px;">📋 Registro Modelli Google AI Studio & Stato Quote</div>
+                <div class="models-table-container">
+                  <table class="models-status-table" id="models-status-table">
+                    <thead>
+                      <tr>
+                        <th>Modello</th>
+                        <th>Stato / Autorizzazione</th>
+                        <th>RPD (Giorno PT)</th>
+                        <th>RPM (Attuale/Max)</th>
+                        <th>Motivo / Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody id="models-table-body">
+                      <!-- Popolato dinamicamente da JS -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="settings-section">
+            <div class="settings-section-header">
+              <div class="settings-section-icon green">🔑</div>
+              <div>
+                <div class="settings-section-title">API Keys</div>
+                <div class="settings-section-desc">Configurate nel file .env nella cartella StudyGenius</div>
+              </div>
+            </div>
+            <div class="settings-body">
+              <div style="display: flex; flex-direction: column; gap: 10px; font-size: 13px; color: var(--text-secondary);">
+                <div class="api-status">
+                  <div class="api-status-dot" id="settings-gemini-dot"></div>
+                  <strong style="color: var(--text-primary);">Gemini (Google AI Studio)</strong>
+                  <span id="settings-gemini-status">Verifica...</span>
+                </div>
+                <div class="api-status">
+                  <div class="api-status-dot" id="settings-deepseek-dot"></div>
+                  <strong style="color: var(--text-primary);">DeepSeek</strong>
+                  <span id="settings-deepseek-status">Verifica...</span>
+                </div>
+                <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">
+                  Per modificare le API key, apri il file <code>.env</code> nella cartella StudyGenius.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /content-area -->
+    </main>
+  </div>
+
+  <!-- ===== LOADING OVERLAY ===== -->
+  <div id="loading-overlay">
+    <div class="loading-spinner"></div>
+    <div class="loading-text" id="loading-text">Elaborazione in corso...</div>
+    <div class="loading-subtext" id="loading-subtext">Gemini sta leggendo i tuoi PDF</div>
+  </div>
+
+  <!-- ===== TOAST CONTAINER ===== -->
+  <div id="toast-container"></div>
+
+  <!-- ===== SUBJECT MODAL ===== -->
+  <div id="modal-overlay" onclick="if(event.target===this)closeModal()">
+    <div class="modal" id="subject-modal">
+      <div class="modal-title">Scegli la Materia</div>
+      <div class="modal-desc">Seleziona la materia per usare il prompt ottimizzato</div>
+      <div class="subject-grid" id="modal-subject-grid" style="grid-template-columns: repeat(4, 1fr); gap: 8px;"></div>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" onclick="closeModal()">Annulla</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="conceptMapRendererClient.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

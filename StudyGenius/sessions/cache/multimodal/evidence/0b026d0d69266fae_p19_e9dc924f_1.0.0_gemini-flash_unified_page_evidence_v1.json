@@ -1,0 +1,65 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p19-v1",
+    "source": {
+      "page": 19,
+      "bbox": [
+        0.18,
+        0.05,
+        0.9,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "schema",
+      "subtype": "schema_marcia_pi",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "III. Schemi di marcia P&I"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema di marcia completo (P&I) con linee di servizio inferiori (Vapore, Recupero condense, Acqua, Recupero acqua), pompe di riserva A/B con gruppi di pressurizzazione e strumentazione estesa."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "C-1",
+      "D-1",
+      "D-2",
+      "E-1",
+      "E-2",
+      "E-3",
+      "PC-1 A/B",
+      "PC-2 A/B",
+      "PC-3 A/B",
+      "PC-4 A/B",
+      "Vapore",
+      "Recupero condense",
+      "Acqua",
+      "Recupero acqua"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:21.886Z"
+}

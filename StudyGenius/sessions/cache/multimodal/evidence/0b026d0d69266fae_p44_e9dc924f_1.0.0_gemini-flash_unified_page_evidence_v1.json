@@ -1,0 +1,58 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p44-v1",
+    "source": {
+      "page": 44,
+      "bbox": [
+        0.15,
+        0.31,
+        0.94,
+        0.93
+      ]
+    },
+    "classification": {
+      "type": "schematic",
+      "subtype": "foglio_specifiche_colonna_a_piatti",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Foglio di specifica per colonna a piatti"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Modulo standard vuoto per la specifica tecnica di una colonna a piatti (SIEVE-TRAY COLUMN)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "SIEVE-TRAY COLUMN",
+      "Identification",
+      "Function",
+      "Operation",
+      "Materials handled",
+      "Design data",
+      "Utilities"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:34.395Z"
+}

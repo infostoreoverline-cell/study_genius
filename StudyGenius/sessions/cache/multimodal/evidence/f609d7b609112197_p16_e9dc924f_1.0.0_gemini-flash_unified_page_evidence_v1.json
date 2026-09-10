@@ -1,0 +1,81 @@
+{
+  "0": {
+    "figureId": "f609d7b6_p16-v1",
+    "source": {
+      "page": 16,
+      "bbox": [
+        0.32,
+        0.17,
+        0.54,
+        0.83
+      ]
+    },
+    "classification": {
+      "type": "quantitative_plot",
+      "subtype": "solubility_vs_ph",
+      "confidence": 0.96
+    },
+    "caption": {
+      "text": "Figura 6: Schema qualitativo dell'aumento di solubilità quando la specie anionica viene protonata a pH piu' basso."
+    },
+    "axes": {
+      "x": {
+        "label": "pH",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      },
+      "y": {
+        "label": "\\log S",
+        "unit": null,
+        "scale": "linear",
+        "confidence": 0.95
+      }
+    },
+    "series": [
+      {
+        "name": "log S vs pH",
+        "representation": "line",
+        "confidence": 0.93
+      }
+    ],
+    "qualitativeObservations": [
+      "Andamento lineare decrescente a pH acidi",
+      "plateau a pH neutri e alcalini (pH > 7.5)"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "-12",
+      "-10",
+      "-8",
+      "-6",
+      "-4",
+      "-2",
+      "pH",
+      "\\log S"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:37:31.768Z"
+}

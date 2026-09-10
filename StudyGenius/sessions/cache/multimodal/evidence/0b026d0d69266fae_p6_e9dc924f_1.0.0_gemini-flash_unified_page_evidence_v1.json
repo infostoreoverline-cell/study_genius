@@ -1,0 +1,52 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p6-v1",
+    "source": {
+      "page": 6,
+      "bbox": [
+        0.13,
+        0.03,
+        0.73,
+        0.72
+      ]
+    },
+    "classification": {
+      "type": "illustration",
+      "subtype": "impianto_chimico_background",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Schemi di impianto"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": "none",
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Immagine di sfondo decorativa/rappresentativa raffigurante un impianto chimico industriale con colonne di distillazione e tubazioni."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Schemi di impianto"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "OMIT_OR_PLACEHOLDER",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T20:18:27.442Z"
+}

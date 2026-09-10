@@ -1,0 +1,61 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p38-v1",
+    "source": {
+      "page": 38,
+      "bbox": [
+        0.21,
+        0.13,
+        0.65,
+        0.64
+      ]
+    },
+    "classification": {
+      "type": "block_diagram",
+      "subtype": "anello_di_controllo",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Anello (loop) di controllo"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Diagramma a blocchi di un anello di controllo retroazionato",
+      "Componenti: Regolatore, Organo di regolazione, Processo, Sensore",
+      "Segnali: Set-point, Variabile indipendente, Variabile controllante, Variabile controllata"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Set-point",
+      "Regolatore",
+      "Organo di regolazione",
+      "Variabile controllante (Q')",
+      "Processo",
+      "Variabile controllata (H)",
+      "Sensore",
+      "Variabile indipendente"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:22.994Z"
+}

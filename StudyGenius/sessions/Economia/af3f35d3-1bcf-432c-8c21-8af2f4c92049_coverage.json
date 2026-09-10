@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-05T15:06:47.559Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "=== DOCUMENTO DIGITALE: Finanza MIO.pdf (19 pagine) ===",
+      "items": [
+        {
+          "nodeId": "concept-af3f35-1",
+          "label": "=== DOCUMENTO DIGITALE: Finanza MIO.pdf (19 pagine) ===",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-af3f35-1",
+          "label": "=== DOCUMENTO DIGITALE: Finanza MIO.pdf (19 pagine) ==="
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 1,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

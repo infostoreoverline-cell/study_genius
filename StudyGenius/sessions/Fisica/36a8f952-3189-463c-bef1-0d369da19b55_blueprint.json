@@ -1,0 +1,134 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "36a8f952-3189-463c-bef1-0d369da19b55",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER eb102306_p1-v1 (\"Figura 1: Schema dei punti in cui si verifica la cavitazione classica\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER eb102306_p1-v1 (\"Figura 1: Schema dei punti in cui si verifica la cavitazione classica\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER eb102306_p1-v1 (\"Figura 1: Schema dei punti in cui si verifica la cavitazione classica\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-36a8f9-1",
+        "concept-36a8f9-2"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "visualCoverage": [
+        {
+          "id": "vcm-1",
+          "conceptId": "eb102306_p1-v1",
+          "sourceId": "eb102306_p1-v1",
+          "label": "Figura 1: Schema dei punti in cui si verifica la cavitazione classica",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        },
+        {
+          "id": "vcm-2",
+          "conceptId": "eb102306_p2-v1",
+          "sourceId": "eb102306_p2-v1",
+          "label": "Figura 2: Formazione e collasso di una bolla di vapore.",
+          "detectedStructure": "MASS_FLOW",
+          "cognitiveNeed": "UNDERSTANDING",
+          "strategicDecision": "RECONSTRUCT",
+          "candidateRepresentations": [
+            "flowsheet_blocks",
+            "typographic_table",
+            "membrane_cell_schema"
+          ],
+          "chosenRepresentation": "flowsheet_blocks",
+          "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+          "provenanceIntent": "SOURCE_EXTRACTED",
+          "status": "PLANNED",
+          "chapterId": null
+        }
+      ],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-36a8f9-1",
+        "concept-36a8f9-2"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T21:03:06.068Z",
+  "visualCoverageMatrix": [
+    {
+      "id": "vcm-1",
+      "conceptId": "eb102306_p1-v1",
+      "sourceId": "eb102306_p1-v1",
+      "label": "Figura 1: Schema dei punti in cui si verifica la cavitazione classica",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-2",
+      "conceptId": "eb102306_p2-v1",
+      "sourceId": "eb102306_p2-v1",
+      "label": "Figura 2: Formazione e collasso di una bolla di vapore.",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    }
+  ]
+}

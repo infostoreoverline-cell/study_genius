@@ -1,0 +1,54 @@
+{
+  "0": {
+    "figureId": "eb102306_p2-v1",
+    "source": {
+      "page": 2,
+      "bbox": [
+        0.21,
+        0.08,
+        0.35,
+        0.66
+      ]
+    },
+    "classification": {
+      "type": "diagram",
+      "subtype": "schema_formazione_bolle",
+      "confidence": 0.95
+    },
+    "caption": {
+      "text": "Figura 2: Formazione e collasso di una bolla di vapore."
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Diagramma schematico che mostra la crescita di bolle di vapore in condizioni di vuoto crescente e il successivo collasso in condizioni di pressione statica crescente, con generazione di microgetti sulla superficie."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Increasing Vacuum",
+      "Increasing Static Pressure",
+      "Vacuum Bubble Collapses, Damaging Surface"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T21:03:06.043Z"
+}

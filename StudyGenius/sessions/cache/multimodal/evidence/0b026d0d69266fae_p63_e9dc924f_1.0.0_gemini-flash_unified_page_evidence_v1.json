@@ -1,0 +1,46 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p63-v1",
+    "source": {
+      "page": 63,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "classification": {
+      "type": "schematic_illustration",
+      "subtype": "background_photo_contact_slide",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Contatti - Andrea Santomaso, DII, Università degli Studi di Padova"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Immagine di sfondo raffigurante apparecchiature industriali e chimiche (colonne di distillazione e tubazioni)",
+      "Box centrale semitrasparente con informazioni di contatto istituzionali"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "UNIVERSITÀ DEGLI STUDI DI PADOVA",
+      "Contatti",
+      "Andrea Santomaso",
+      "andrea.santomaso@unipd.it",
+      "049 8275491",
+      "DII, Via Marzolo 9, 35131 Padova",
+      "Fondamenti di Impianti Chimici - Corso di Laurea in Chimica Industriale - ©2024 prof. A.C. Santomaso"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "OMIT_DECORATIVE",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T20:19:28.596Z"
+}

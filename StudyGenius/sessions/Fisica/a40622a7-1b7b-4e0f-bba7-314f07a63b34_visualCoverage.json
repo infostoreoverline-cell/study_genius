@@ -1,0 +1,242 @@
+{
+  "matrix": [
+    {
+      "id": "vcm-1",
+      "conceptId": "0b026d0d_p6-v1",
+      "sourceId": "0b026d0d_p6-v1",
+      "label": "Schemi di impianto",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-2",
+      "conceptId": "0b026d0d_p18-v1",
+      "sourceId": "0b026d0d_p18-v1",
+      "label": "Logo Università degli Studi di Padova",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-3",
+      "conceptId": "0b026d0d_p39-v1",
+      "sourceId": "0b026d0d_p39-v1",
+      "label": "Altri documenti di impianto",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-4",
+      "conceptId": "0b026d0d_p41-v1",
+      "sourceId": "0b026d0d_p41-v1",
+      "label": "Documenti grafici - Schemi, Specifiche, Disegni esecutivi",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-5",
+      "conceptId": "0b026d0d_p57-v1",
+      "sourceId": "0b026d0d_p57-v1",
+      "label": "Esempi",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    },
+    {
+      "id": "vcm-6",
+      "conceptId": "0b026d0d_p63-v1",
+      "sourceId": "0b026d0d_p63-v1",
+      "label": "Contatti - Andrea Santomaso, DII, Università degli Studi di Padova",
+      "detectedStructure": "MASS_FLOW",
+      "cognitiveNeed": "UNDERSTANDING",
+      "strategicDecision": "RECONSTRUCT",
+      "candidateRepresentations": [
+        "flowsheet_blocks",
+        "typographic_table",
+        "membrane_cell_schema"
+      ],
+      "chosenRepresentation": "flowsheet_blocks",
+      "pedagogicalWhy": "Visualizza correnti di alimentazione, ricircoli, stadi di separazione e bilanci",
+      "provenanceIntent": "SOURCE_EXTRACTED",
+      "status": "PLANNED",
+      "chapterId": null
+    }
+  ],
+  "audit": {
+    "timestamp": "2026-09-09T20:19:52.131Z",
+    "totalPlannedVisuals": 6,
+    "satisfiedVisuals": 0,
+    "convertedJustified": 0,
+    "omittedWithoutJustification": 6,
+    "textOnlyDecisions": 0,
+    "items": [
+      {
+        "id": "vcm-1",
+        "conceptId": "0b026d0d_p6-v1",
+        "sourceId": "0b026d0d_p6-v1",
+        "label": "Schemi di impianto",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      },
+      {
+        "id": "vcm-2",
+        "conceptId": "0b026d0d_p18-v1",
+        "sourceId": "0b026d0d_p18-v1",
+        "label": "Logo Università degli Studi di Padova",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      },
+      {
+        "id": "vcm-3",
+        "conceptId": "0b026d0d_p39-v1",
+        "sourceId": "0b026d0d_p39-v1",
+        "label": "Altri documenti di impianto",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      },
+      {
+        "id": "vcm-4",
+        "conceptId": "0b026d0d_p41-v1",
+        "sourceId": "0b026d0d_p41-v1",
+        "label": "Documenti grafici - Schemi, Specifiche, Disegni esecutivi",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      },
+      {
+        "id": "vcm-5",
+        "conceptId": "0b026d0d_p57-v1",
+        "sourceId": "0b026d0d_p57-v1",
+        "label": "Esempi",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      },
+      {
+        "id": "vcm-6",
+        "conceptId": "0b026d0d_p63-v1",
+        "sourceId": "0b026d0d_p63-v1",
+        "label": "Contatti - Andrea Santomaso, DII, Università degli Studi di Padova",
+        "strategicDecision": "RECONSTRUCT",
+        "chosenRepresentation": "flowsheet_blocks",
+        "provenanceIntent": "SOURCE_EXTRACTED",
+        "status": "OMITTED_UNJUSTIFIED",
+        "auditNote": "Visuale pianificato nella Coverage Matrix ma ASSENTE senza giustificazione didattica"
+      }
+    ],
+    "hardFails": [
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-1",
+        "conceptId": "0b026d0d_p6-v1",
+        "label": "Schemi di impianto",
+        "message": "L'esigenza visuale pianificata \"Schemi di impianto\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      },
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-2",
+        "conceptId": "0b026d0d_p18-v1",
+        "label": "Logo Università degli Studi di Padova",
+        "message": "L'esigenza visuale pianificata \"Logo Università degli Studi di Padova\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      },
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-3",
+        "conceptId": "0b026d0d_p39-v1",
+        "label": "Altri documenti di impianto",
+        "message": "L'esigenza visuale pianificata \"Altri documenti di impianto\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      },
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-4",
+        "conceptId": "0b026d0d_p41-v1",
+        "label": "Documenti grafici - Schemi, Specifiche, Disegni esecutivi",
+        "message": "L'esigenza visuale pianificata \"Documenti grafici - Schemi, Specifiche, Disegni esecutivi\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      },
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-5",
+        "conceptId": "0b026d0d_p57-v1",
+        "label": "Esempi",
+        "message": "L'esigenza visuale pianificata \"Esempi\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      },
+      {
+        "code": "VISUAL_REQUIREMENT_OMITTED_WITHOUT_JUSTIFICATION",
+        "itemId": "vcm-6",
+        "conceptId": "0b026d0d_p63-v1",
+        "label": "Contatti - Andrea Santomaso, DII, Università degli Studi di Padova",
+        "message": "L'esigenza visuale pianificata \"Contatti - Andrea Santomaso, DII, Università degli Studi di Padova\" (flowsheet_blocks) è assente nel testo finale senza motivazione formale!"
+      }
+    ],
+    "warnings": [],
+    "passed": false
+  },
+  "deficiencies": [],
+  "visualScore": 100
+}

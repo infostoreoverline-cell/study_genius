@@ -1,0 +1,183 @@
+{
+  "timestamp": "2026-09-09T09:05:19.635Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 47200c4e_p3-v1 (\"Phil. Trans. R. Soc. Lond. A 302, 247-252 (1981) - ELECTROSYNTHESIS Speculations on industrial electrochemistry By P. H. Gamlen and H. L. Roberts\"):",
+      "items": [
+        {
+          "nodeId": "concept-ec6bfe-1",
+          "label": "DIRETTIVA PER 47200c4e_p3-v1 (\"Phil. Trans. R. Soc. Lond. A 302, 247-252 (1981) - ELECTROSYNTHESIS Speculations on industrial electrochemistry By P. H. Gamlen and H. L. Roberts\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-2",
+          "label": "DIRETTIVA PER 47200c4e_p3-v2 (\"H2O electrolysis, CO2 electroreduction, N2 electroreduction\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-3",
+          "label": "DIRETTIVA PER 47200c4e_p4-v1 (\"Cella unitaria NaCl - Struttura cubica a facce centrate (a = b = c)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-4",
+          "label": "DIRETTIVA PER 47200c4e_p4-v2 (\"Raggi ionici\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-5",
+          "label": "DIRETTIVA PER 47200c4e_p4-v3 (\"Solvatazione degli ioni\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-ec6bfe-1",
+          "label": "DIRETTIVA PER 47200c4e_p3-v1 (\"Phil. Trans. R. Soc. Lond. A 302, 247-252 (1981) - ELECTROSYNTHESIS Speculations on industrial electrochemistry By P. H. Gamlen and H. L. Roberts\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-2",
+          "label": "DIRETTIVA PER 47200c4e_p3-v2 (\"H2O electrolysis, CO2 electroreduction, N2 electroreduction\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-3",
+          "label": "DIRETTIVA PER 47200c4e_p4-v1 (\"Cella unitaria NaCl - Struttura cubica a facce centrate (a = b = c)\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-4",
+          "label": "DIRETTIVA PER 47200c4e_p4-v2 (\"Raggi ionici\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-5",
+          "label": "DIRETTIVA PER 47200c4e_p4-v3 (\"Solvatazione degli ioni\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 47200c4e_p5-v1 (\"Schema di cella elettrolitica (a sinistra) e cella galvanica o pila (a destra).\"):",
+      "items": [
+        {
+          "nodeId": "concept-ec6bfe-6",
+          "label": "DIRETTIVA PER 47200c4e_p5-v1 (\"Schema di cella elettrolitica (a sinistra) e cella galvanica o pila (a destra).\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-7",
+          "label": "DIRETTIVA PER 47200c4e_p7-v1 (\"Schema dettagliato della cella a diaframma per il processo cloro-alcali.\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-8",
+          "label": "DIRETTIVA PER 47200c4e_p8-v1 (\"Semireazioni di ossidoriduzione e corrispondenti potenziali standard per attività unitaria (V).\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-9",
+          "label": "DIRETTIVA PER 47200c4e_p10-v1 (\"Schema di cella elettrolitica a mercurio per il processo cloro-alcali\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-10",
+          "label": "DIRETTIVA PER 47200c4e_p11-v1 (\"Schema a blocchi delle celle a diaframma nel processo cloro-alcali\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-ec6bfe-6",
+          "label": "DIRETTIVA PER 47200c4e_p5-v1 (\"Schema di cella elettrolitica (a sinistra) e cella galvanica o pila (a destra).\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-7",
+          "label": "DIRETTIVA PER 47200c4e_p7-v1 (\"Schema dettagliato della cella a diaframma per il processo cloro-alcali.\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-8",
+          "label": "DIRETTIVA PER 47200c4e_p8-v1 (\"Semireazioni di ossidoriduzione e corrispondenti potenziali standard per attività unitaria (V).\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-9",
+          "label": "DIRETTIVA PER 47200c4e_p10-v1 (\"Schema di cella elettrolitica a mercurio per il processo cloro-alcali\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-10",
+          "label": "DIRETTIVA PER 47200c4e_p11-v1 (\"Schema a blocchi delle celle a diaframma nel processo cloro-alcali\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 47200c4e_p12-v1 (\"Schema di cella elettrolitica a membrana polimerica per il processo cloro-alcali\"):",
+      "items": [
+        {
+          "nodeId": "concept-ec6bfe-11",
+          "label": "DIRETTIVA PER 47200c4e_p12-v1 (\"Schema di cella elettrolitica a membrana polimerica per il processo cloro-alcali\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-ec6bfe-12",
+          "label": "DIRETTIVA PER 47200c4e_p12-v2 (\"Formula chimica del polimero Nafion\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-ec6bfe-11",
+          "label": "DIRETTIVA PER 47200c4e_p12-v1 (\"Schema di cella elettrolitica a membrana polimerica per il processo cloro-alcali\"):"
+        },
+        {
+          "nodeId": "concept-ec6bfe-12",
+          "label": "DIRETTIVA PER 47200c4e_p12-v2 (\"Formula chimica del polimero Nafion\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 12,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

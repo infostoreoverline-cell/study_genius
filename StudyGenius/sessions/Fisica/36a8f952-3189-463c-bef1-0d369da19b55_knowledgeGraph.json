@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "2.0.0",
+  "graphVersion": 1,
+  "sessionId": "36a8f952-3189-463c-bef1-0d369da19b55",
+  "subject": "Fisica",
+  "nodes": [
+    {
+      "id": "concept-36a8f9-1",
+      "type": "CONCEPT",
+      "label": "DIRETTIVA PER eb102306_p1-v1 (\"Figura 1: Schema dei punti in cui si verifica la cavitazione classica\"):",
+      "content": "",
+      "chapterId": "cap1",
+      "canonicalExplanationId": "canonical-fisica-direttiva-per-eb102306-p1-v1-f",
+      "isCanonical": true,
+      "canonicalRef": "Capitolo 1",
+      "firstUse": null,
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false,
+        "canonicalExplanationId": "canonical-fisica-direttiva-per-eb102306-p1-v1-f",
+        "isCanonical": true,
+        "canonicalRef": "Capitolo 1",
+        "isReview": false,
+        "isFormallyDerived": true
+      },
+      "version": 1
+    },
+    {
+      "id": "concept-36a8f9-2",
+      "type": "CONCEPT",
+      "label": "DIRETTIVA PER eb102306_p2-v1 (\"Figura 2: Formazione e collasso di una bolla di vapore.\"):",
+      "content": "",
+      "chapterId": "cap1",
+      "canonicalExplanationId": "canonical-fisica-direttiva-per-eb102306-p2-v1-f",
+      "isCanonical": true,
+      "canonicalRef": "Capitolo 1",
+      "firstUse": null,
+      "sourceRefs": [],
+      "derivedFrom": [],
+      "requires_visual": false,
+      "status": "verified",
+      "attrs": {
+        "importance": 5,
+        "examRelevance": 4,
+        "derivationValue": 3,
+        "memorizationValue": 3,
+        "commonErrorRate": 3,
+        "requires_visual": false,
+        "canonicalExplanationId": "canonical-fisica-direttiva-per-eb102306-p2-v1-f",
+        "isCanonical": true,
+        "canonicalRef": "Capitolo 1",
+        "isReview": false,
+        "isFormallyDerived": true
+      },
+      "version": 1
+    }
+  ],
+  "edges": []
+}

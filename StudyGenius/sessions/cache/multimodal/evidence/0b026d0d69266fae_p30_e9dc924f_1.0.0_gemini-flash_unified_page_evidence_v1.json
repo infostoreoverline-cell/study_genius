@@ -1,0 +1,48 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p30-v1",
+    "source": {
+      "page": 30,
+      "bbox": [
+        0.18,
+        0.05,
+        0.9,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram_symbols",
+      "subtype": "symbol_legend",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Simbologia simboli grafici: Scambiatori (E) e Forni (B)"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Tabella di simboli grafici per scambiatori di calore (orizzontale a fascio tubiero, verticale a fascio tubiero, tipo Kettle, a tubo incamiciato, a tubo alettato, evaporatore) e forni (a serpentino, elettrico)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Scambiatori (E)",
+      "Forni (B)",
+      "Orizzontale a fascio tubiero a testa fissa o flottante",
+      "Verticale a fascio tubiero a testa fissa o flottante",
+      "Tipo Kettle",
+      "A tubo incamiciato",
+      "A tubo alettato",
+      "Evaporatore",
+      "A Serpentino",
+      "Elettrico"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:01.271Z"
+}

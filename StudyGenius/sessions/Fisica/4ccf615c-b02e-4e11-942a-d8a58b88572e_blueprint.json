@@ -1,0 +1,246 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "4ccf615c-b02e-4e11-942a-d8a58b88572e",
+  "subject": "Fisica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "Master Plan Accademico - Chimica Fisica II",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Master Plan Accademico - Chimica Fisica II"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Master Plan Accademico - Chimica Fisica II"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "Corso di Laurea in Chimica Industriale - Università degli Studi di Padova",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Corso di Laurea in Chimica Industriale - Università degli Studi di Padova"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Corso di Laurea in Chimica Industriale - Università degli Studi di Padova"
+      ],
+      "prerequisites": [
+        "cap1"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "A.A. 2024-2025 | Docente: Marco Ruzzi",
+      "objectives": [
+        "Padronanza teorica e applicativa di: A.A. 2024-2025 | Docente: Marco Ruzzi"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: A.A. 2024-2025 | Docente: Marco Ruzzi"
+      ],
+      "prerequisites": [
+        "cap2"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "Shard 1: Note Introduttive e Logica Classica",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Shard 1: Note Introduttive e Logica Classica"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Shard 1: Note Introduttive e Logica Classica"
+      ],
+      "prerequisites": [
+        "cap3"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap5",
+      "title": "1. Titolo del Capitolo e Mappa Concettuale",
+      "objectives": [
+        "Padronanza teorica e applicativa di: 1. Titolo del Capitolo e Mappa Concettuale"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: 1. Titolo del Capitolo e Mappa Concettuale"
+      ],
+      "prerequisites": [
+        "cap4"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap6",
+      "title": "Capitolo 1: Fondamenti Epistemologici della Meccanica Quantistica",
+      "objectives": [
+        "Padronanza teorica e applicativa di: Capitolo 1: Fondamenti Epistemologici della Meccanica Quantistica"
+      ],
+      "learningObjectives": [
+        "Padronanza teorica e applicativa di: Capitolo 1: Fondamenti Epistemologici della Meccanica Quantistica"
+      ],
+      "prerequisites": [
+        "cap5"
+      ],
+      "conceptOrder": [],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-07T12:46:31.835Z"
+}

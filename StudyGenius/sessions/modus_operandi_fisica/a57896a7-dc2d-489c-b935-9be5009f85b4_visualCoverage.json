@@ -1,0 +1,17 @@
+{
+  "matrix": [],
+  "audit": {
+    "timestamp": "2026-09-09T19:25:58.467Z",
+    "totalPlannedVisuals": 0,
+    "satisfiedVisuals": 0,
+    "convertedJustified": 0,
+    "omittedWithoutJustification": 0,
+    "textOnlyDecisions": 0,
+    "items": [],
+    "hardFails": [],
+    "warnings": [],
+    "passed": true
+  },
+  "deficiencies": [],
+  "visualScore": 100
+}

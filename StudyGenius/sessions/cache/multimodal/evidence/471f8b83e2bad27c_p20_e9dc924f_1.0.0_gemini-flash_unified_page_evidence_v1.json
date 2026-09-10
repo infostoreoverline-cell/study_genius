@@ -1,0 +1,48 @@
+{
+  "0": {
+    "figureId": "471f8b83_p20-v1",
+    "source": {
+      "page": 20,
+      "bbox": [
+        0.17,
+        0.73,
+        0.83,
+        0.85
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_tridimensionale_evaporatore_film_cadente",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatore a film cadente"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Spaccato tridimensionale di un evaporatore a film cadente con indicazione delle correnti di ingresso (A, D), uscita (B, C, E) e componenti numerati da 1 a 5."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:33.194Z"
+}

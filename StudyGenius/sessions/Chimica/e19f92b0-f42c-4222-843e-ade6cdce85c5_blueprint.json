@@ -1,0 +1,320 @@
+{
+  "blueprintVersion": 1,
+  "sessionId": "e19f92b0-f42c-4222-843e-ade6cdce85c5",
+  "subject": "Chimica",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 054f4cfe_p2-v1 (\"Classificazione dei polimeri in naturali, sintetici, inorganici e organici\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p2-v1 (\"Classificazione dei polimeri in naturali, sintetici, inorganici e organici\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p2-v1 (\"Classificazione dei polimeri in naturali, sintetici, inorganici e organici\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-e19f92-1",
+        "concept-e19f92-2",
+        "concept-e19f92-3",
+        "concept-e19f92-4",
+        "concept-e19f92-5"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-e19f92-1",
+        "concept-e19f92-2",
+        "concept-e19f92-3",
+        "concept-e19f92-4",
+        "concept-e19f92-5"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 054f4cfe_p9-v2 (\"Volume Colosseo ~1.3 mln m³ (~38 x Colosseum)\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p9-v2 (\"Volume Colosseo ~1.3 mln m³ (~38 x Colosseum)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p9-v2 (\"Volume Colosseo ~1.3 mln m³ (~38 x Colosseum)\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-e19f92-6",
+        "concept-e19f92-7",
+        "concept-e19f92-8",
+        "concept-e19f92-9",
+        "concept-e19f92-10"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-e19f92-6",
+        "concept-e19f92-7",
+        "concept-e19f92-8",
+        "concept-e19f92-9",
+        "concept-e19f92-10"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 054f4cfe_p15-v1 (\"1) PET: POLIETILENE TEREFTALATO\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p15-v1 (\"1) PET: POLIETILENE TEREFTALATO\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p15-v1 (\"1) PET: POLIETILENE TEREFTALATO\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-e19f92-11",
+        "concept-e19f92-12",
+        "concept-e19f92-13",
+        "concept-e19f92-14",
+        "concept-e19f92-15"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-e19f92-11",
+        "concept-e19f92-12",
+        "concept-e19f92-13",
+        "concept-e19f92-14",
+        "concept-e19f92-15"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER 054f4cfe_p18-v1 (\"4) LDPE: POLIETILENE A BASSA DENSITA'\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p18-v1 (\"4) LDPE: POLIETILENE A BASSA DENSITA'\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p18-v1 (\"4) LDPE: POLIETILENE A BASSA DENSITA'\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-e19f92-16",
+        "concept-e19f92-17",
+        "concept-e19f92-18",
+        "concept-e19f92-19",
+        "concept-e19f92-20"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-e19f92-16",
+        "concept-e19f92-17",
+        "concept-e19f92-18",
+        "concept-e19f92-19",
+        "concept-e19f92-20"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap5",
+      "title": "DIRETTIVA PER 054f4cfe_p22-v1 (\"Charles Goodyear\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p22-v1 (\"Charles Goodyear\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p22-v1 (\"Charles Goodyear\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-e19f92-21",
+        "concept-e19f92-22",
+        "concept-e19f92-23",
+        "concept-e19f92-24",
+        "concept-e19f92-25"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-e19f92-21",
+        "concept-e19f92-22",
+        "concept-e19f92-23",
+        "concept-e19f92-24",
+        "concept-e19f92-25"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    },
+    {
+      "chapterId": "cap6",
+      "title": "DIRETTIVA PER 054f4cfe_p25-v1 (\"Hermann Staudinger con modello molecolare\"):",
+      "objectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p25-v1 (\"Hermann Staudinger con modello molecolare\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "learningObjectives": [
+        "Comprendere a fondo l'argomento DIRETTIVA PER 054f4cfe_p25-v1 (\"Hermann Staudinger con modello molecolare\"):",
+        "Saper dimostrare le formule chiave e risolvere gli esercizi tipici"
+      ],
+      "prerequisites": [],
+      "conceptOrder": [
+        "concept-e19f92-26",
+        "concept-e19f92-27",
+        "concept-e19f92-28",
+        "concept-e19f92-29",
+        "concept-e19f92-30"
+      ],
+      "conceptBlocks": [],
+      "firstUseContracts": [],
+      "notationRegistry": {},
+      "derivationPlans": [],
+      "graphPlans": [],
+      "crossReferences": [],
+      "requiredNodes": [
+        "concept-e19f92-26",
+        "concept-e19f92-27",
+        "concept-e19f92-28",
+        "concept-e19f92-29",
+        "concept-e19f92-30"
+      ],
+      "requiredSections": [
+        "intuition",
+        "formal-definition",
+        "derivation",
+        "applications",
+        "errors",
+        "exam"
+      ],
+      "needsGraph": false,
+      "graphId": null,
+      "graphNodes": [],
+      "sequence": [
+        "problema",
+        "definizione",
+        "derivazione",
+        "applicazioni",
+        "errori",
+        "exam"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-09T09:42:06.856Z"
+}

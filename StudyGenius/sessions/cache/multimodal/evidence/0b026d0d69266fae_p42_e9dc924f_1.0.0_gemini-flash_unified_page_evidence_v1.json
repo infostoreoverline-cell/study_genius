@@ -1,0 +1,56 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p42-v1",
+    "source": {
+      "page": 42,
+      "bbox": [
+        0.15,
+        0.05,
+        0.95,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "engineering_drawing",
+      "subtype": "schema_colonna_distillazione_e_foglio_specifiche",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "IMPIANTO PRODUZIONE BENZINE - SEPARAZIONE PROPANO: A PIATTI FORATI"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Disegno tecnico di colonna a piatti forati con dettagli geometrici, quote in millimetri, e tabella completa delle specifiche di progetto e distinta bocchelli."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "IMPIANTO PRODUZIONE BENZINE",
+      "SEPARAZIONE PROPANO",
+      "A PIATTI FORATI",
+      "T-1",
+      "MARCIA"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:24:34.389Z"
+}

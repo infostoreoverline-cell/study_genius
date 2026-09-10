@@ -1,0 +1,65 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p13-v1",
+    "source": {
+      "page": 13,
+      "bbox": [
+        0.2,
+        0.05,
+        0.9,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "schema_di_processo_semplificato",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "II. Schema di processo semplificato"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": "none",
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema a blocchi e apparecchiature di un impianto chimico (colonne C-01, C-02, scambiatori E-01, E-02, E-03, serbatoi D-01, D-02, pompe G-01, G-02, G-03)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "C-01",
+      "C-02",
+      "E-01",
+      "E-02",
+      "E-03",
+      "D-01",
+      "D-02",
+      "G-01",
+      "G-02",
+      "G-03",
+      "Aria depurata",
+      "Aria + Benzene",
+      "Olio",
+      "Benzene"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:09.724Z"
+}

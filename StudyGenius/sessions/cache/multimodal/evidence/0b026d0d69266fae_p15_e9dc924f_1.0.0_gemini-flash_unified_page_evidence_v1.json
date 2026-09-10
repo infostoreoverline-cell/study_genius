@@ -1,0 +1,97 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p15-v1",
+    "source": {
+      "page": 15,
+      "bbox": [
+        0.18,
+        0.05,
+        0.92,
+        0.95
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "schema_di_processo_quantificato_con_tabella",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "II. Schema di processo quantificato"
+    },
+    "axes": {
+      "x": {
+        "label": "Corrente",
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": "Proprietà di processo",
+        "unit": "varie",
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schema di processo con numerazione delle correnti (da 1 a 18) associata a una tabella contenente Pressione, Temperatura, Stato Fisico, Portata e Composizione percentuale in peso."
+    ],
+    "explicitValues": [
+      {
+        "corrente": "1",
+        "pressione_atm": 2,
+        "temperatura_C": 25,
+        "stato_fisico": "G",
+        "portata_kg_h": 2500,
+        " benzene_pct": 5,
+        "aria_pct": 95
+      },
+      {
+        "corrente": "2",
+        "pressione_atm": 2,
+        "temperatura_C": 25,
+        "stato_fisico": "G",
+        "portata_kg_h": 2380,
+        " benzene_pct": 0.2,
+        "aria_pct": 99.8
+      },
+      {
+        "corrente": "3",
+        "pressione_atm": 2,
+        "temperatura_C": 25,
+        "stato_fisico": "L",
+        "portata_kg_h": 3445,
+        " benzene_pct": 3.5,
+        "olio_pct": 96.6
+      },
+      {
+        "corrente": "18",
+        "pressione_atm": 1,
+        "temperatura_C": 25,
+        "stato_fisico": "L",
+        "portata_kg_h": 5,
+        "olio_pct": 100
+      }
+    ],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "C-01",
+      "C-02",
+      "E-01",
+      "E-02",
+      "E-03",
+      "D-01",
+      "D-02",
+      "G-01",
+      "G-02",
+      "G-03"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:09.725Z"
+}

@@ -1,0 +1,58 @@
+{
+  "pipelineVersion": "3.0.0",
+  "graphSchemaVersion": "2.0.0",
+  "sessionId": "81ac9405-e44f-4b94-886c-97357f3ab0af",
+  "subject": "Fisica",
+  "currentPhase": "RENDER_PDF",
+  "completedPhases": [
+    "INSPECT",
+    "EXTRACT",
+    "MAP_GRAPH",
+    "PLAN_BLUEPRINT",
+    "GENERATE_CHAPTERS",
+    "VERIFY",
+    "REPAIR",
+    "COMPILE_MASTER"
+  ],
+  "phaseOutputs": {
+    "INSPECT": {
+      "charCount": 59390
+    },
+    "EXTRACT": {
+      "nodesCount": 30
+    },
+    "MAP_GRAPH": {
+      "chaptersCount": 6
+    },
+    "PLAN_BLUEPRINT": {
+      "shardsCount": 1
+    },
+    "REPAIR": {
+      "fullLength": 12030
+    }
+  },
+  "chapters": {},
+  "invalidatedChapters": [],
+  "retries": {},
+  "timestamps": {
+    "startedAt": "2026-09-09T13:09:00.858Z",
+    "lastUpdatedAt": "2026-09-09T13:09:49.662Z",
+    "EXTRACT": "2026-09-09T13:09:00.861Z",
+    "MAP_GRAPH": "2026-09-09T13:09:00.862Z",
+    "PLAN_BLUEPRINT": "2026-09-09T13:09:00.865Z",
+    "GENERATE_CHAPTERS": "2026-09-09T13:09:00.865Z",
+    "VERIFY": "2026-09-09T13:09:26.853Z",
+    "REPAIR": "2026-09-09T13:09:26.883Z",
+    "COMPILE_MASTER": "2026-09-09T13:09:49.662Z",
+    "RENDER_PDF": "2026-09-09T13:09:49.662Z"
+  },
+  "masteryState": {
+    "masteredNodes": [],
+    "reviewNeededNodes": [],
+    "prerequisiteGaps": []
+  },
+  "recurringErrors": [],
+  "activeContract": null,
+  "nextRecommendedAction": null,
+  "status": "running"
+}

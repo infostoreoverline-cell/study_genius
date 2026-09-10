@@ -1,0 +1,429 @@
+{
+  "timestamp": "2026-09-09T09:42:35.584Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 054f4cfe_p2-v1 (\"Classificazione dei polimeri in naturali, sintetici, inorganici e organici\"):",
+      "items": [
+        {
+          "nodeId": "concept-e19f92-1",
+          "label": "DIRETTIVA PER 054f4cfe_p2-v1 (\"Classificazione dei polimeri in naturali, sintetici, inorganici e organici\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-2",
+          "label": "DIRETTIVA PER 054f4cfe_p3-v1 (\"Schema di polimerizzazione da monomero a polimero (es. stirene a polistirene)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-3",
+          "label": "DIRETTIVA PER 054f4cfe_p4-v1 (\"Reazione di polimerizzazione dello stirene a polistirene per l'Esercizio 1\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-4",
+          "label": "DIRETTIVA PER 054f4cfe_p8-v1 (\"POLIMERI: DOVE VANNO DOPO L'USO? - Dal 1950 al 2015. Numeri in milioni di tonnellate. Sci. Adv. 2017, 3, 25; data from Ellen McArthur Foundation\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-5",
+          "label": "DIRETTIVA PER 054f4cfe_p9-v1 (\"Volume DiSC ~60,000 m³ (~833 x DiSC)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-e19f92-1",
+          "label": "DIRETTIVA PER 054f4cfe_p2-v1 (\"Classificazione dei polimeri in naturali, sintetici, inorganici e organici\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-2",
+          "label": "DIRETTIVA PER 054f4cfe_p3-v1 (\"Schema di polimerizzazione da monomero a polimero (es. stirene a polistirene)\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-3",
+          "label": "DIRETTIVA PER 054f4cfe_p4-v1 (\"Reazione di polimerizzazione dello stirene a polistirene per l'Esercizio 1\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-4",
+          "label": "DIRETTIVA PER 054f4cfe_p8-v1 (\"POLIMERI: DOVE VANNO DOPO L'USO? - Dal 1950 al 2015. Numeri in milioni di tonnellate. Sci. Adv. 2017, 3, 25; data from Ellen McArthur Foundation\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-5",
+          "label": "DIRETTIVA PER 054f4cfe_p9-v1 (\"Volume DiSC ~60,000 m³ (~833 x DiSC)\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 054f4cfe_p9-v2 (\"Volume Colosseo ~1.3 mln m³ (~38 x Colosseum)\"):",
+      "items": [
+        {
+          "nodeId": "concept-e19f92-6",
+          "label": "DIRETTIVA PER 054f4cfe_p9-v2 (\"Volume Colosseo ~1.3 mln m³ (~38 x Colosseum)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-7",
+          "label": "DIRETTIVA PER 054f4cfe_p10-v1 (\"IMPATTO AMBIENTALE DEI POLIMERI - Resin production, 1,085 Mt (61%), Conversion, 535 Mt (30%), EoL, 161 Mt (9%)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-8",
+          "label": "DIRETTIVA PER 054f4cfe_p11-v1 (\"EU PLASTIC STRATEGY - A European Strategy for Plastics in a Circular Economy\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-9",
+          "label": "DIRETTIVA PER 054f4cfe_p12-v1 (\"I SIMBOLI DELLA PLASTICA: QUAL E' LA CHIMICA?\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-10",
+          "label": "DIRETTIVA PER 054f4cfe_p14-v1 (\"amorfo, semicristallino, cristallino\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-e19f92-6",
+          "label": "DIRETTIVA PER 054f4cfe_p9-v2 (\"Volume Colosseo ~1.3 mln m³ (~38 x Colosseum)\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-7",
+          "label": "DIRETTIVA PER 054f4cfe_p10-v1 (\"IMPATTO AMBIENTALE DEI POLIMERI - Resin production, 1,085 Mt (61%), Conversion, 535 Mt (30%), EoL, 161 Mt (9%)\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-8",
+          "label": "DIRETTIVA PER 054f4cfe_p11-v1 (\"EU PLASTIC STRATEGY - A European Strategy for Plastics in a Circular Economy\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-9",
+          "label": "DIRETTIVA PER 054f4cfe_p12-v1 (\"I SIMBOLI DELLA PLASTICA: QUAL E' LA CHIMICA?\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-10",
+          "label": "DIRETTIVA PER 054f4cfe_p14-v1 (\"amorfo, semicristallino, cristallino\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap3",
+      "title": "DIRETTIVA PER 054f4cfe_p15-v1 (\"1) PET: POLIETILENE TEREFTALATO\"):",
+      "items": [
+        {
+          "nodeId": "concept-e19f92-11",
+          "label": "DIRETTIVA PER 054f4cfe_p15-v1 (\"1) PET: POLIETILENE TEREFTALATO\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-12",
+          "label": "DIRETTIVA PER 054f4cfe_p15-v2 (\"Unità ripetitiva: acido tereftalico + etilene glicole\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-13",
+          "label": "DIRETTIVA PER 054f4cfe_p16-v1 (\"2) HDPE: POLIETILENE AD ALTA DENSITA'\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-14",
+          "label": "DIRETTIVA PER 054f4cfe_p16-v2 (\"Unità ripetitiva: etilene\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-15",
+          "label": "DIRETTIVA PER 054f4cfe_p17-v1 (\"3) PVC: POLI VINIL CLORURO\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-e19f92-11",
+          "label": "DIRETTIVA PER 054f4cfe_p15-v1 (\"1) PET: POLIETILENE TEREFTALATO\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-12",
+          "label": "DIRETTIVA PER 054f4cfe_p15-v2 (\"Unità ripetitiva: acido tereftalico + etilene glicole\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-13",
+          "label": "DIRETTIVA PER 054f4cfe_p16-v1 (\"2) HDPE: POLIETILENE AD ALTA DENSITA'\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-14",
+          "label": "DIRETTIVA PER 054f4cfe_p16-v2 (\"Unità ripetitiva: etilene\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-15",
+          "label": "DIRETTIVA PER 054f4cfe_p17-v1 (\"3) PVC: POLI VINIL CLORURO\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap4",
+      "title": "DIRETTIVA PER 054f4cfe_p18-v1 (\"4) LDPE: POLIETILENE A BASSA DENSITA'\"):",
+      "items": [
+        {
+          "nodeId": "concept-e19f92-16",
+          "label": "DIRETTIVA PER 054f4cfe_p18-v1 (\"4) LDPE: POLIETILENE A BASSA DENSITA'\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-17",
+          "label": "DIRETTIVA PER 054f4cfe_p19-v1 (\"5) PP: POLIPROPILENE\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-18",
+          "label": "DIRETTIVA PER 054f4cfe_p20-v1 (\"6) PS: POLISTIRENE\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-19",
+          "label": "DIRETTIVA PER 054f4cfe_p21-v1 (\"Struttura chimica del poli(metil metacrilato) e del relativo monomero\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-20",
+          "label": "DIRETTIVA PER 054f4cfe_p21-v2 (\"Applicazioni del PMMA (es. vetri di sicurezza, lenti a contatto)\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-e19f92-16",
+          "label": "DIRETTIVA PER 054f4cfe_p18-v1 (\"4) LDPE: POLIETILENE A BASSA DENSITA'\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-17",
+          "label": "DIRETTIVA PER 054f4cfe_p19-v1 (\"5) PP: POLIPROPILENE\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-18",
+          "label": "DIRETTIVA PER 054f4cfe_p20-v1 (\"6) PS: POLISTIRENE\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-19",
+          "label": "DIRETTIVA PER 054f4cfe_p21-v1 (\"Struttura chimica del poli(metil metacrilato) e del relativo monomero\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-20",
+          "label": "DIRETTIVA PER 054f4cfe_p21-v2 (\"Applicazioni del PMMA (es. vetri di sicurezza, lenti a contatto)\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap5",
+      "title": "DIRETTIVA PER 054f4cfe_p22-v1 (\"Charles Goodyear\"):",
+      "items": [
+        {
+          "nodeId": "concept-e19f92-21",
+          "label": "DIRETTIVA PER 054f4cfe_p22-v1 (\"Charles Goodyear\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-22",
+          "label": "DIRETTIVA PER 054f4cfe_p22-v2 (\"Reazione di vulcanizzazione del poli(isoprene) con zolfo\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-23",
+          "label": "DIRETTIVA PER 054f4cfe_p23-v1 (\"Leo Bakeland\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-24",
+          "label": "DIRETTIVA PER 054f4cfe_p23-v2 (\"Sintesi e reticolazione della bachelite da fenolo e formaldeide\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-25",
+          "label": "DIRETTIVA PER 054f4cfe_p24-v1 (\"Hermann Staudinger con modello molecolare\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-e19f92-21",
+          "label": "DIRETTIVA PER 054f4cfe_p22-v1 (\"Charles Goodyear\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-22",
+          "label": "DIRETTIVA PER 054f4cfe_p22-v2 (\"Reazione di vulcanizzazione del poli(isoprene) con zolfo\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-23",
+          "label": "DIRETTIVA PER 054f4cfe_p23-v1 (\"Leo Bakeland\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-24",
+          "label": "DIRETTIVA PER 054f4cfe_p23-v2 (\"Sintesi e reticolazione della bachelite da fenolo e formaldeide\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-25",
+          "label": "DIRETTIVA PER 054f4cfe_p24-v1 (\"Hermann Staudinger con modello molecolare\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap6",
+      "title": "DIRETTIVA PER 054f4cfe_p25-v1 (\"Hermann Staudinger con modello molecolare\"):",
+      "items": [
+        {
+          "nodeId": "concept-e19f92-26",
+          "label": "DIRETTIVA PER 054f4cfe_p25-v1 (\"Hermann Staudinger con modello molecolare\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-27",
+          "label": "DIRETTIVA PER 054f4cfe_p26-v1 (\"Wallace Carothers in laboratorio\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-28",
+          "label": "DIRETTIVA PER 054f4cfe_p26-v2 (\"Paracadute in Nylon\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-29",
+          "label": "DIRETTIVA PER 054f4cfe_p27-v1 (\"Watson & Crick, Ziegler & Natta, Flory\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-e19f92-30",
+          "label": "DIRETTIVA PER 054f4cfe_p28-v1 (\"Merrifield, De Gennes, Heeger, MacDiarmid, Shirakawa, Chauvin, Grubbs, Schrock\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-e19f92-26",
+          "label": "DIRETTIVA PER 054f4cfe_p25-v1 (\"Hermann Staudinger con modello molecolare\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-27",
+          "label": "DIRETTIVA PER 054f4cfe_p26-v1 (\"Wallace Carothers in laboratorio\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-28",
+          "label": "DIRETTIVA PER 054f4cfe_p26-v2 (\"Paracadute in Nylon\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-29",
+          "label": "DIRETTIVA PER 054f4cfe_p27-v1 (\"Watson & Crick, Ziegler & Natta, Flory\"):"
+        },
+        {
+          "nodeId": "concept-e19f92-30",
+          "label": "DIRETTIVA PER 054f4cfe_p28-v1 (\"Merrifield, De Gennes, Heeger, MacDiarmid, Shirakawa, Chauvin, Grubbs, Schrock\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 30,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

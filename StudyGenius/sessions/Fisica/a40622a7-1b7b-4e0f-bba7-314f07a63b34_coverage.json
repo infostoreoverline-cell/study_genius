@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-09-09T20:19:52.130Z",
+  "chapters": [
+    {
+      "chapterId": "cap1",
+      "title": "DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+      "items": [
+        {
+          "nodeId": "concept-a40622-1",
+          "label": "DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a40622-2",
+          "label": "DIRETTIVA PER 0b026d0d_p18-v1 (\"Logo Università degli Studi di Padova\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a40622-3",
+          "label": "DIRETTIVA PER 0b026d0d_p39-v1 (\"Altri documenti di impianto\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a40622-4",
+          "label": "DIRETTIVA PER 0b026d0d_p41-v1 (\"Documenti grafici - Schemi, Specifiche, Disegni esecutivi\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        },
+        {
+          "nodeId": "concept-a40622-5",
+          "label": "DIRETTIVA PER 0b026d0d_p57-v1 (\"Esempi\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-a40622-1",
+          "label": "DIRETTIVA PER 0b026d0d_p6-v1 (\"Schemi di impianto\"):"
+        },
+        {
+          "nodeId": "concept-a40622-2",
+          "label": "DIRETTIVA PER 0b026d0d_p18-v1 (\"Logo Università degli Studi di Padova\"):"
+        },
+        {
+          "nodeId": "concept-a40622-3",
+          "label": "DIRETTIVA PER 0b026d0d_p39-v1 (\"Altri documenti di impianto\"):"
+        },
+        {
+          "nodeId": "concept-a40622-4",
+          "label": "DIRETTIVA PER 0b026d0d_p41-v1 (\"Documenti grafici - Schemi, Specifiche, Disegni esecutivi\"):"
+        },
+        {
+          "nodeId": "concept-a40622-5",
+          "label": "DIRETTIVA PER 0b026d0d_p57-v1 (\"Esempi\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    },
+    {
+      "chapterId": "cap2",
+      "title": "DIRETTIVA PER 0b026d0d_p63-v1 (\"Contatti - Andrea Santomaso, DII, Università degli Studi di Padova\"):",
+      "items": [
+        {
+          "nodeId": "concept-a40622-6",
+          "label": "DIRETTIVA PER 0b026d0d_p63-v1 (\"Contatti - Andrea Santomaso, DII, Università degli Studi di Padova\"):",
+          "type": "CONCEPT",
+          "required": true,
+          "generated": false,
+          "verified": false
+        }
+      ],
+      "missingNodes": [
+        {
+          "nodeId": "concept-a40622-6",
+          "label": "DIRETTIVA PER 0b026d0d_p63-v1 (\"Contatti - Andrea Santomaso, DII, Università degli Studi di Padova\"):"
+        }
+      ],
+      "coverageRatio": 0,
+      "passed": false
+    }
+  ],
+  "totalRequired": 6,
+  "totalCovered": 0,
+  "overallCoverage": 0,
+  "passed": false
+}

@@ -1,0 +1,62 @@
+{
+  "0": {
+    "figureId": "471f8b83_p22-v1",
+    "source": {
+      "page": 22,
+      "bbox": [
+        0.15,
+        0.67,
+        0.92,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_impianto",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatore a film agitato “Luwa” (agitated film, thin film)"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Sezione longitudinale di un evaporatore a film agitato con rotore centrale, camicia di riscaldamento (heating jacket), alimentazione (feed), scarico vapori (vapour outlet) e scarico prodotto (product outlet)."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Rotor drive",
+      "Top rotor bearing",
+      "Separator",
+      "Feed",
+      "Vapour outlet",
+      "Heating medium",
+      "Rotor",
+      "Heating jacket",
+      "Bottom bearing",
+      "Product outlet",
+      "Filmato"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:47.379Z"
+}

@@ -1,0 +1,66 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p53-v1",
+    "source": {
+      "page": 53,
+      "bbox": [
+        0.26,
+        0.45,
+        0.89,
+        0.9
+      ]
+    },
+    "classification": {
+      "type": "process_flow_diagram",
+      "subtype": "schema_apparecchiature_separazione",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Operazioni di separazione di fasi basate sulla differenza di densità tra le fasi stesse"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Schemi di P&ID per apparecchiature di separazione tra fasi: separatore gas-liquido, separatore liquido-liquido, sedimentatore, filtro rotativo sotto vuoto, reattore gas-liquido con catalizzatore disperso."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "Aliment.",
+      "Gas",
+      "PC",
+      "LC",
+      "Liquido",
+      "Alimentazione",
+      "Liq.pesante",
+      "Liq.leggero",
+      "Soluz.",
+      "Fango",
+      "Sedimentatore",
+      "Filtro rotativo sotto vuoto",
+      "Solido",
+      "Reattore gas-liquido con catalizzatore disperso",
+      "FC"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:25:09.380Z"
+}

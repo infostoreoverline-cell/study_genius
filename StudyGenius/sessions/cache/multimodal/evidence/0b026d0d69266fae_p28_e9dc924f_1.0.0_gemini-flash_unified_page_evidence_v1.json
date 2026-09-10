@@ -1,0 +1,58 @@
+{
+  "0": {
+    "figureId": "0b026d0d_p28-v1",
+    "source": {
+      "page": 28,
+      "bbox": [
+        0.15,
+        0.08,
+        0.92,
+        0.92
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "engineering_symbols_mills_filters_centrifuges",
+      "confidence": 0.99
+    },
+    "caption": {
+      "text": "Mulini (PM), Filtri (PF), Centrifughe (PC)"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": "none",
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Tabella di simbologia per mulini, filtri e centrifughe"
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "A mascelle",
+      "A martelli",
+      "A cilindri",
+      "Rotativo a vuoto",
+      "A pressa",
+      "Generica",
+      "Continua a coclea"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:23:51.272Z"
+}

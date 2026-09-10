@@ -1,0 +1,70 @@
+{
+  "0": {
+    "figureId": "471f8b83_p23-v1",
+    "source": {
+      "page": 23,
+      "bbox": [
+        0.24,
+        0.49,
+        0.82,
+        0.8
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_impianto",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatori a film cadente e a film agitato"
+    },
+    "axes": {
+      "x": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      },
+      "y": {
+        "label": null,
+        "unit": null,
+        "scale": null,
+        "confidence": 1
+      }
+    },
+    "series": [],
+    "qualitativeObservations": [
+      "Rappresentazione affiancata di entrambi gli schemi impiantistici degli evaporatori a film cadente e a film agitato per il confronto delle caratteristiche sotto vuoto."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "Rotor drive",
+      "Separator",
+      "Feed",
+      "Vapour outlet",
+      "Heating medium",
+      "Rotor",
+      "Heating jacket",
+      "Bottom bearing",
+      "Product outlet"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:47.380Z"
+}

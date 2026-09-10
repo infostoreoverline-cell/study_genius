@@ -1,0 +1,41 @@
+{
+  "0": {
+    "figureId": "471f8b83_p17-v1",
+    "source": {
+      "page": 17,
+      "bbox": [
+        0.15,
+        0.7,
+        0.67,
+        0.88
+      ]
+    },
+    "classification": {
+      "type": "schematic_diagram",
+      "subtype": "schema_evaporatore_circolazione_forzata",
+      "confidence": 0.98
+    },
+    "caption": {
+      "text": "Evaporatore a circolazione forzata"
+    },
+    "axes": null,
+    "series": [],
+    "qualitativeObservations": [
+      "Schema tecnico di un evaporatore a circolazione forzata verticale con calandria a fascio tubiero e pompa di ricircolo integrata nel tubo di ritorno centrale."
+    ],
+    "explicitValues": [],
+    "estimatedValues": [],
+    "formulaLinks": [],
+    "ocrCorrections": [
+      "1",
+      "2",
+      "3"
+    ],
+    "ambiguities": [],
+    "reconstructionStrategy": "REDRAW_FROM_FORMULA_DATA",
+    "requiresReview": false,
+    "provenance": "SOURCE_EXTRACTED",
+    "status": "BATCH_EXTRACTION_SUCCESS"
+  },
+  "cachedAt": "2026-09-09T19:19:33.192Z"
+}
