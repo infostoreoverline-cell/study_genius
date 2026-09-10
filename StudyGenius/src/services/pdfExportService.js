@@ -978,9 +978,16 @@ async function generatePdf({ content, isMarkdown = true, title, subject, knowled
         const { refineAllDiagramsInMarkdown } = require('../rendering/visualFeedbackLoop');
         console.log(`🎨 [PDF_EXPORT] Esecuzione Visual QA Pipeline (Modo: ${qaMode})...`);
         const refined = await refineAllDiagramsInMarkdown(exportContent, { mode: qaMode, subject });
+        
+        const failedDiagrams = refined.results.filter(r => !r.passed);
+        if (failedDiagrams.length > 0) {
+          throw new Error(`[VISUAL QA] ${failedDiagrams.length} diagramma/i non ha/hanno superato i Quality Gates.`);
+        }
+        
         exportContent = refined.updatedMarkdown;
       } catch (err) {
-        console.warn(`  ⚠️ [VSVP_V2] Ottimizzazione visuale pre-stampa saltata: ${err.message}`);
+        console.error(`  ❌ [VSVP_V2] Errore bloccante nell'ottimizzazione visuale pre-stampa: ${err.message}`);
+        throw new Error(`QA Visuale fallito o errore di rendering: ${err.message}`);
       }
     }
 

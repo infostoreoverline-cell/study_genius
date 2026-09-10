@@ -30,6 +30,8 @@ const { buildSemanticReviewerPrompt, buildBlindExaminerPrompt } = require('../pr
 const { defaultAccessManager } = require('../services/googleAIStudioAccessManager');
 const { callGeminiRole } = require('../services/aiService');
 const { VISUAL_QA_CONFIG } = require('../config');
+const { VisualSpecCompiler } = require('../visual/visualSpecCompiler');
+const os = require('os');
 
 /**
  * Converte un SVG in un buffer PNG ad alta risoluzione
@@ -482,6 +484,133 @@ async function optimizeDiagram(rawSvgString, groundTruthOptions = {}, options = 
 }
 
 /**
+ * Ottimizza una singola VisualSpec attraverso la pipeline iterativa V2 con repair transazionale (Blocco 2B)
+ * La modifica NON tocca mai l'SVG generato, ma agisce solo su layoutDirectives per rigenerarlo deterministicamente.
+ */
+async function optimizeVisualSpec(originalSpec, compiler, groundTruthOptions = {}, options = {}) {
+  const config = { ...VISUAL_QA_CONFIG, ...options };
+  const mode = (config.mode || 'standard').toLowerCase();
+  
+  if (mode === 'off') {
+    const res = await compiler.compile(originalSpec);
+    if (!res.success) throw new Error(res.error);
+    const svgContent = await fs.readFile(res.artifactPath, 'utf8');
+    return { passed: true, svg: svgContent, overallScore: 100, iterations: 0 };
+  }
+
+  const maxMicroRepairs = config.maxMicroRepairs || 3;
+  let currentSpec = JSON.parse(JSON.stringify(originalSpec));
+  
+  const history = {
+    iterations: 0,
+    microRepairsCount: 0
+  };
+
+  let bestCandidate = {
+    svg: null,
+    score: 0,
+    spec: null
+  };
+
+  const groundTruth = groundTruthOptions.diagramType
+    ? createVisualGroundTruth(groundTruthOptions)
+    : inferGroundTruthFromContext('', groundTruthOptions);
+
+  console.log(`\n🎨 [VSVP_V2] Avvio pipeline transazionale VisualSpec per "${originalSpec.visualId}"...`);
+
+  while (history.iterations <= maxMicroRepairs) {
+    history.iterations++;
+    console.log(`\n  --- Giro di Verifica VisualSpec #${history.iterations} (Repair: ${history.microRepairsCount}/${maxMicroRepairs}) ---`);
+
+    const compResult = await compiler.compile(currentSpec);
+    if (!compResult.success) {
+      console.warn(`  ⚠️ [VisualSpecCompiler] Errore di compilazione: ${compResult.error}`);
+      break;
+    }
+    const currentSvg = await fs.readFile(compResult.artifactPath, 'utf8');
+
+    const geoResult = await analyzeSvgGeometry(currentSvg);
+    console.log(`  📐 [Geometric QA] Collisioni: ${geoResult.collisionCount}, Clipping: ${geoResult.clippingCount}`);
+
+    const isFinalTurn = (history.iterations >= maxMicroRepairs || mode === 'maximum');
+    const pngBuffer = await rasterizeSvg(currentSvg, { engine: isFinalTurn ? 'puppeteer' : 'sharp', scale: 2.0 });
+
+    const semanticReport = await runSemanticEvaluation(pngBuffer, groundTruth, geoResult, history, {
+      useDeepModel: (mode === 'maximum' || isFinalTurn)
+    });
+
+    const gate = evaluateQualityGate(geoResult, semanticReport, config, groundTruth);
+    console.log(`  ⚖️ [Quality Gate] Score: ${gate.overallScore}/100 | Approvato: ${gate.passed}`);
+
+    const isBetterScore = gate.overallScore > bestCandidate.score;
+    const isTiedScoreFewerCollisions = (gate.overallScore === bestCandidate.score && 
+      (bestCandidate.collisionCount === undefined || geoResult.collisionCount < bestCandidate.collisionCount));
+    
+    if (isBetterScore || isTiedScoreFewerCollisions) {
+      bestCandidate = {
+        svg: currentSvg,
+        score: gate.overallScore,
+        collisionCount: geoResult.collisionCount,
+        spec: JSON.parse(JSON.stringify(currentSpec)),
+        geoResult,
+        semanticReport
+      };
+    }
+
+    if (gate.passed) {
+      if (mode === 'maximum') {
+        const finalPng = await rasterizeSvg(currentSvg, { engine: 'puppeteer', scale: 2.0 });
+        const blindResult = await runBlindFinalReview(finalPng, groundTruth);
+        if (blindResult.approved) {
+           return { passed: true, svg: currentSvg, overallScore: gate.overallScore, iterations: history.iterations };
+        }
+      } else {
+        return { passed: true, svg: currentSvg, overallScore: gate.overallScore, iterations: history.iterations };
+      }
+    }
+
+    if (history.microRepairsCount >= maxMicroRepairs) break;
+
+    // Repair Transazionale su layoutDirectives
+    if (geoResult.collisions && geoResult.collisions.length > 0) {
+      if (!currentSpec.payload.layoutDirectives) {
+        currentSpec.payload.layoutDirectives = {};
+      }
+      
+      const ld = currentSpec.payload.layoutDirectives;
+      
+      if (!ld.wrapMode || ld.wrapMode !== 'strict') {
+        ld.wrapMode = 'strict';
+        console.log(`  🛠️ [VisualSpec Repair] Impostato wrapMode = 'strict' per forzare accapo`);
+      } else if (!ld.density || ld.density !== 'low') {
+        ld.density = 'low';
+        console.log(`  🛠️ [VisualSpec Repair] Impostata density = 'low' per distanziare i nodi`);
+      } else if (!ld.maxNodeWidth || ld.maxNodeWidth > 110) {
+        ld.maxNodeWidth = 110;
+        console.log(`  🛠️ [VisualSpec Repair] Ridotto maxNodeWidth a 110 per forzare più wrap`);
+      } else if (ld.intent !== 'spread') {
+        ld.intent = 'spread';
+        console.log(`  🛠️ [VisualSpec Repair] Cambiato intent a 'spread' per aumentare tolleranza spaziale`);
+      } else {
+         console.warn(`  ⚠️ Nessun'altra direttiva di layout disponibile. Fine tentativi.`);
+         break;
+      }
+      history.microRepairsCount++;
+    } else {
+      console.log('  ⚠️ Impossibile formulare repair strutturale senza collisioni rilevate.');
+      break;
+    }
+  }
+
+  return {
+    passed: bestCandidate.score >= 88,
+    svg: bestCandidate.svg,
+    overallScore: bestCandidate.score,
+    iterations: history.iterations
+  };
+}
+
+/**
  * Ottimizza tutti i blocchi diagramma e SVG all'interno di un testo Markdown
  * 
  * @param {string} markdownText Testo markdown completo
@@ -497,7 +626,69 @@ async function refineAllDiagramsInMarkdown(markdownText, options = {}) {
   const results = [];
   let counter = 0;
 
-  // 1. Cerca contenitori <div class="academic-diagram ..."><svg ...>...</svg></div>
+  // 1. Elabora i blocchi json:visual-spec per il repair transazionale (Blocco 2B)
+  const visualSpecBlockRegex = /```(?:json:visual-spec|visual-spec)\s*\n([\s\S]*?)\n```/gi;
+  const specMatches = [];
+  let specMatch;
+  while ((specMatch = visualSpecBlockRegex.exec(processed)) !== null) {
+    specMatches.push({
+      fullMatch: specMatch[0],
+      jsonBody: specMatch[1],
+      index: specMatch.index
+    });
+  }
+
+  const tempArtifactsDir = path.join(os.tmpdir(), 'studygenius_visual_specs');
+  await fs.ensureDir(tempArtifactsDir);
+  const compiler = new VisualSpecCompiler({ artifactsDir: tempArtifactsDir });
+
+  for (const item of specMatches) {
+    counter++;
+    const visualId = `spec_${counter}`;
+
+    const contextBefore = processed.slice(Math.max(0, item.index - 300), item.index);
+    const titleMatch = contextBefore.match(/###?\s+(.+)/g);
+    const sectionTitle = titleMatch ? titleMatch[titleMatch.length - 1].replace(/^###?\s+/, '') : '';
+
+    console.log(`\n============================================================`);
+    console.log(`🎯 Ottimizzazione Transazionale VisualSpec #${counter}: "${sectionTitle || visualId}"`);
+    console.log(`============================================================`);
+
+    try {
+       const spec = JSON.parse(item.jsonBody.trim());
+       if (!spec.visualId) spec.visualId = visualId;
+       
+       const optResult = await optimizeVisualSpec(spec, compiler, {
+         visualId: spec.visualId,
+         sectionTitle,
+         contextText: contextBefore,
+         subject: options.subject || 'Fisica',
+         diagramType: spec.kind
+       }, options);
+
+       results.push(optResult);
+
+       // 3. Sostituisci ogni blocco soltanto con l'artifact approvato
+       if (optResult.passed && optResult.svg) {
+          const cssClass = spec.kind === 'concept_map' ? 'academic-concept-map' :
+                           spec.kind === 'xy_plot' ? 'academic-xy-plot' :
+                           'academic-chemistry-renderer';
+
+          // Usiamo l'attributo data-spec-type che diagramEngine.js imposta normalmente
+          const replacementHtml = `\n\n<div class="academic-diagram ${cssClass}" data-spec-type="${spec.kind}" style="page-break-inside: avoid; break-inside: avoid; margin: 20px auto; max-width: 100%; text-align: center; overflow-x: auto;">${optResult.svg}</div>\n\n`;
+          processed = processed.replace(item.fullMatch, replacementHtml);
+       } else {
+         // Se non passa il QA, la stringa intera viene restituita a pdfExportService che genererà il fail-closed
+         // Ma noi non riusciamo a ripararlo, quindi lasciamo l'originale così pdfExportService troverà il JSON 
+         // oppure passiamo l'errore avanti?
+         // RefineAllDiagramsInMarkdown deve restituire false passed.
+       }
+    } catch (err) {
+       console.warn(`  ⚠️ [VSVP_V2] Errore parsing VisualSpec #${counter}: ${err.message}`);
+    }
+  }
+
+  // 2. Cerca contenitori legacy <div class="academic-diagram ..."><svg ...>...</svg></div>
   const diagramBlockRegex = /<div\s+class=["'][^"']*academic-diagram[^"']*["'][^>]*>([\s\S]*?<svg[\s\S]*?<\/svg>)[\s\S]*?<\/div>/gi;
 
   const matches = [];
@@ -519,7 +710,7 @@ async function refineAllDiagramsInMarkdown(markdownText, options = {}) {
     const visualId = `fig_${counter}`;
 
     // Estrai contesto testuale circostante (200 caratteri prima del match)
-    const contextBefore = markdownText.slice(Math.max(0, item.index - 300), item.index);
+    const contextBefore = processed.slice(Math.max(0, item.index - 300), item.index);
     const titleMatch = contextBefore.match(/###?\s+(.+)/g);
     const sectionTitle = titleMatch ? titleMatch[titleMatch.length - 1].replace(/^###?\s+/, '') : '';
 

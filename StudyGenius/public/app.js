@@ -1831,7 +1831,8 @@ async function downloadPDFDirectly() {
       body: JSON.stringify({
         markdown: state.rawContent,
         title: title,
-        subject: subject
+        subject: subject,
+        visualQaMode: 'strict'
       })
     });
 

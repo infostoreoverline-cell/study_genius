@@ -23,6 +23,10 @@ router.post('/export-pdf', async (req, res) => {
       visualQaMode: visualQaMode || reqOptions?.visualQaMode || 'off'
     };
 
+    if (process.env.NODE_ENV === 'production' && effectiveOptions.visualQaMode === 'off') {
+      return res.status(403).json({ error: 'La modalità visualQaMode "off" non è consentita in produzione.' });
+    }
+
     const { buffer, filename } = await generatePdf({
       content,
       isMarkdown,
