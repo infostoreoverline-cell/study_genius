@@ -18,20 +18,37 @@
 const path = require('path');
 const fs   = require('fs-extra');
 const os   = require('os');
+const assert = require('assert');
 
 // ─── Utility test ─────────────────────────────────────────────────────────────
 let passed = 0;
 let failed = 0;
 
+const asyncTests = [];
+
 function test(description, fn) {
-  try {
-    fn();
-    console.log(`  ✅ ${description}`);
-    passed++;
-  } catch (err) {
-    console.error(`  ❌ ${description}`);
-    console.error(`     ${err.message}`);
-    failed++;
+  if (fn.constructor.name === 'AsyncFunction') {
+    asyncTests.push(async () => {
+      try {
+        await fn();
+        console.log(`  ✅ ${description}`);
+        passed++;
+      } catch (err) {
+        console.error(`  ❌ ${description}`);
+        console.error(`     ${err.message}`);
+        failed++;
+      }
+    });
+  } else {
+    try {
+      fn();
+      console.log(`  ✅ ${description}`);
+      passed++;
+    } catch (err) {
+      console.error(`  ❌ ${description}`);
+      console.error(`     ${err.message}`);
+      failed++;
+    }
   }
 }
 
@@ -373,13 +390,159 @@ test('barrier PASS: content null o vuoto', () => {
   expect(pass).toBeTrue();
 });
 
+test('compile: layoutDirectives con chiave sconosciuta rifiutata', async () => {
+  const compiler = new VisualSpecCompiler({ artifactsDir: TEMP_ARTIFACTS_DIR });
+  const spec = {
+    schemaVersion: '1.0',
+    visualId: 'VL_ERR_KEY',
+    kind: 'concept_map',
+    title: 'Test',
+    payload: {
+      nodes: [{ id: 'n1', label: '1' }],
+      edges: [],
+      layoutDirectives: { intent: 'top_down', sconosciuta: true }
+    }
+  };
+  const result = await compiler.compile(spec);
+  expect(result.success).toBeFalse();
+  expect(result.error).toContain('INVALID_LAYOUT_DIRECTIVE');
+});
+
+test('compile: layoutDirectives valide → success', async () => {
+  const compiler = new VisualSpecCompiler({ artifactsDir: TEMP_ARTIFACTS_DIR });
+  const spec = {
+    schemaVersion: '1.0',
+    visualId: 'VL2',
+    kind: 'concept_map',
+    title: 'Test',
+    payload: {
+      nodes: [{ id: 'n1', label: '1' }],
+      edges: [],
+      layoutDirectives: { intent: 'top_down', density: 'compact', wrapMode: 'auto', maxNodeWidth: 150 }
+    }
+  };
+  const result = await compiler.compile(spec);
+  expect(result.success).toBeTrue();
+});
+
+test('compile: invarianza semantica (cambiare layoutDirectives non altera nodi, archi, label o relazioni)', async () => {
+  const compiler = new VisualSpecCompiler({ artifactsDir: TEMP_ARTIFACTS_DIR });
+
+  // Baseline config
+  const baseSpec = {
+    schemaVersion: '1.0',
+    visualId: 'VL3_base',
+    kind: 'concept_map',
+    title: 'Test Invarianza',
+    payload: {
+      nodes: [
+        { id: 'n1', label: 'Nodo Uno' },
+        { id: 'n2', label: 'Nodo Due' }
+      ],
+      edges: [
+        { from: 'n1', to: 'n2', label: 'collega' }
+      ]
+    }
+  };
+
+  const layoutSpec = JSON.parse(JSON.stringify(baseSpec));
+  layoutSpec.visualId = 'VL3_layout';
+  layoutSpec.payload.layoutDirectives = { intent: 'left_right', density: 'loose' };
+
+  // Create deep clone prima della compilazione per il confronto
+  const preCompileBaseNodes = JSON.parse(JSON.stringify(baseSpec.payload.nodes));
+  const preCompileBaseEdges = JSON.parse(JSON.stringify(baseSpec.payload.edges));
+  
+  const preCompileLayoutNodes = JSON.parse(JSON.stringify(layoutSpec.payload.nodes));
+  const preCompileLayoutEdges = JSON.parse(JSON.stringify(layoutSpec.payload.edges));
+
+  const resBase = await compiler.compile(baseSpec);
+  const resLayout = await compiler.compile(layoutSpec);
+
+  expect(resBase.success).toBeTrue();
+  expect(resLayout.success).toBeTrue();
+
+  // Assert the semantic structures were not mutated during compile
+  assert.deepStrictEqual(baseSpec.payload.nodes, preCompileBaseNodes);
+  assert.deepStrictEqual(baseSpec.payload.edges, preCompileBaseEdges);
+  assert.deepStrictEqual(layoutSpec.payload.nodes, preCompileLayoutNodes);
+  assert.deepStrictEqual(layoutSpec.payload.edges, preCompileLayoutEdges);
+  
+  // Assert both have exactly identical semantic structures with each other
+  assert.deepStrictEqual(baseSpec.payload.nodes, layoutSpec.payload.nodes);
+  assert.deepStrictEqual(baseSpec.payload.edges, layoutSpec.payload.edges);
+
+  const svgBase = require('fs').readFileSync(resBase.artifactPath, 'utf8');
+  const svgLayout = require('fs').readFileSync(resLayout.artifactPath, 'utf8');
+
+  // Verify the layouts actually produced different SVGs
+  expect(svgBase !== svgLayout).toBeTrue();
+});
+
+test('compile: layoutDirectives modificano SVG e chiavi scorrette vengono rifiutate', async () => {
+  const compiler = new VisualSpecCompiler({ artifactsDir: TEMP_ARTIFACTS_DIR });
+
+  const createSpec = (id, directives) => ({
+    schemaVersion: '1.0',
+    visualId: id,
+    kind: 'concept_map',
+    title: 'Test',
+    payload: {
+      nodes: [
+        { id: 'n1', label: 'Una etichetta di nodo molto lunga che dovrebbe andare a capo' },
+        { id: 'n2', label: 'Nodo Due' }
+      ],
+      edges: [{ from: 'n1', to: 'n2', label: 'collega' }],
+      layoutDirectives: directives
+    }
+  });
+
+  const compileAndGetSvg = async (spec) => {
+    const res = await compiler.compile(spec);
+    expect(res.success).toBeTrue();
+    return require('fs').readFileSync(res.artifactPath, 'utf8');
+  };
+
+  const svgTopDown = await compileAndGetSvg(createSpec('LD_1', { intent: 'top_down' }));
+  const svgLeftRight = await compileAndGetSvg(createSpec('LD_2', { intent: 'left_right' }));
+  assert.notStrictEqual(svgTopDown, svgLeftRight, 'top_down e left_right producono geometrie differenti');
+
+  const svgCompact = await compileAndGetSvg(createSpec('LD_3', { density: 'compact' }));
+  const svgLoose = await compileAndGetSvg(createSpec('LD_4', { density: 'loose' }));
+  assert.notStrictEqual(svgCompact, svgLoose, 'compact e loose producono distanze differenti');
+
+  const svgWrapAuto = await compileAndGetSvg(createSpec('LD_5', { wrapMode: 'auto' }));
+  const svgWrapNone = await compileAndGetSvg(createSpec('LD_6', { wrapMode: 'none' }));
+  assert.notStrictEqual(svgWrapAuto, svgWrapNone, 'wrapMode auto e none producono rendering differenti');
+  
+  const svgMaxWidth50 = await compileAndGetSvg(createSpec('LD_7', { maxNodeWidth: 50 }));
+  const svgMaxWidth300 = await compileAndGetSvg(createSpec('LD_8', { maxNodeWidth: 300 }));
+  assert.notStrictEqual(svgMaxWidth50, svgMaxWidth300, 'maxNodeWidth diversi producono geometrie differenti');
+  
+  // SVG, XML e coordinate inseriti nelle direttive vengono rifiutati
+  const maliciousDirectives = [
+    { svg: '<svg></svg>' },
+    { xml: '<node/>' },
+    { x: 100, y: 200 }
+  ];
+
+  for (let i = 0; i < maliciousDirectives.length; i++) {
+    const dir = maliciousDirectives[i];
+    const spec = createSpec('LD_ERR_' + i, dir);
+    const result = await compiler.compile(spec);
+    expect(result.success).toBeFalse();
+    expect(result.error).toContain('INVALID_LAYOUT_DIRECTIVE');
+  }
+});
+
 // ─────────────────────────────────────────────────────────────────────────────
 // FINALE
 // ─────────────────────────────────────────────────────────────────────────────
 
 async function runAsync() {
-  // I test async (compile) vengono eseguiti qui
-  await Promise.all([]);  // placeholder — i test above già eseguiti
+  for (const t of asyncTests) {
+    await t();
+  }
 }
 
 async function main() {

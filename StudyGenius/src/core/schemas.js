@@ -299,6 +299,7 @@ const VISUAL_DECISION = {
 };
 
 // --- CHEMICAL INTELLIGENCE TYPES (v2.0) ---
+const CHEMICAL_INTELLIGENCE_TYPES = {
   COORDINATION_COMPLEX: 'coordination_complex',           // Complessi metallici con geometria (sq. planar, ottaedrico, tetraedrico)
   REACTION_MECHANISM: 'reaction_mechanism',               // Schema a frecce curvilinee con pushing elettronico
   CATALYTIC_CYCLE_ORGANOMETALLIC: 'catalytic_cycle_organometallic', // Ciclo catalitico con step di ossidazione/coordinazione
@@ -481,92 +482,123 @@ const VISUAL_SPEC_SCHEMA = {
   $schema: 'http://json-schema.org/draft-07/schema#',
   title: 'VisualSpec',
   type: 'object',
-  required: ['specId', 'specType', 'provenance', 'didacticFocus'],
+  required: ['schemaVersion', 'visualId', 'kind', 'title', 'payload'],
   properties: {
-    specId: { type: 'string' },
-    specType: {
+    schemaVersion: { type: 'string', const: '1.0' },
+    visualId: { type: 'string' },
+    kind: {
       type: 'string',
       enum: [
+        'concept_map', 'xy_plot', 'function_plot', 'chemistry_svg', 'typographic_table',
         'coordination_complex', 'reaction_mechanism', 'catalytic_cycle_organometallic',
         'electron_count_pathway', 'trans_effect_diagram', 'reaction_network',
         'quantitative_plot', 'flowsheet_blocks', 'timeline', 'comparison_matrix',
         'conceptual_roadmap', 'cyclic_mechanism', 'legacy_svg'
       ]
     },
-    // --- Entità chimiche/concettuali ---
-    entities: {
-      type: 'array',
-      items: {
-        type: 'object',
-        required: ['id', 'label'],
-        properties: {
-          id: { type: 'string' },
-          label: { type: 'string' },            // es. "[Pt(Cl)₂(NH₃)₂]"
-          charge: { type: ['number', 'null'] }, // es. +2, -1, 0
-          oxidationState: { type: ['number', 'null'] }, // es. 0, +2, +4
-          electronCount: { type: ['number', 'null'] }, // es. 14, 16, 18
-          geometry: { type: ['string', 'null'],
-            enum: ['square_planar', 'octahedral', 'tetrahedral', 'linear', 'trigonal_bipyramidal', 'square_pyramidal', null]
+    title: { type: 'string' },
+    payload: {
+      type: 'object',
+      properties: {
+        // --- Direttive di layout (modificabili dal PatchEngine) ---
+        layoutDirectives: {
+          type: 'object',
+          properties: {
+            intent: { type: 'string', enum: ['top_down', 'left_right'] },
+            density: { type: 'string', enum: ['compact', 'normal', 'loose'] },
+            wrapMode: { type: 'string', enum: ['auto', 'none'] },
+            maxNodeWidth: { type: 'integer', minimum: 50, maximum: 500 }
           },
-          role: { type: 'string', enum: ['metal_center', 'ligand', 'substrate', 'product', 'intermediate', 'catalyst', 'node'] }
-        }
+          additionalProperties: false
+        },
+        
+        // --- Nodi (per concept_map, ecc) ---
+        nodes: {
+          type: 'array',
+          items: {
+            type: 'object',
+            required: ['id', 'label'],
+            properties: {
+              id: { type: 'string' },
+              label: { type: ['string', 'array'] },
+              category: { type: 'string' },
+              // Campi chimici
+              charge: { type: ['number', 'null'] },
+              oxidationState: { type: ['number', 'null'] },
+              electronCount: { type: ['number', 'null'] },
+              geometry: { type: ['string', 'null'],
+                enum: ['square_planar', 'octahedral', 'tetrahedral', 'linear', 'trigonal_bipyramidal', 'square_pyramidal', null]
+              },
+              role: { type: 'string', enum: ['metal_center', 'ligand', 'substrate', 'product', 'intermediate', 'catalyst', 'node'] }
+            }
+          }
+        },
+        
+        // --- Archi (per concept_map, ecc) ---
+        edges: {
+          type: 'array',
+          items: {
+            type: 'object',
+            required: ['from', 'to'],
+            properties: {
+              from: { type: 'string' },
+              to: { type: 'string' },
+              relation: { type: 'string' },
+              type: { type: 'string', enum: [
+                'oxidative_addition', 'reductive_elimination', 'migratory_insertion',
+                'beta_hydride_elimination', 'ligand_substitution', 'coordination',
+                'decoordination', 'reaction', 'equilibrium', 'catalytic_step',
+                'trans_influence', 'electron_flow', 'feeds', 'produces', 'depends_on'
+              ]},
+              label: { type: ['string', 'array', 'null'] },
+              curved: { type: 'boolean', default: false }
+            }
+          }
+        },
+        
+        // --- Serie (per xy_plot) ---
+        series: {
+          type: 'array'
+        },
+        xAxis: { type: 'object' },
+        yAxis: { type: 'object' },
+        
+        // --- Ligandi ---
+        ligands: {
+          type: 'array',
+          items: {
+            type: 'object',
+            properties: {
+              id: { type: 'string' },
+              formula: { type: 'string' },
+              denticity: { type: 'integer', minimum: 1 },
+              transInfluence: { type: 'number', minimum: 0, maximum: 10 },
+              position: { type: 'string' }
+            }
+          }
+        },
+        
+        // --- Annotazioni ---
+        annotations: {
+          type: 'array',
+          items: {
+            type: 'object',
+            properties: {
+              entityId: { type: 'string' },
+              text: { type: 'string' },
+              type: { type: 'string', enum: ['electron_count', 'oxidation_state', 'trans_influence', 'energy', 'label', 'warning'] }
+            }
+          }
+        },
+        
+        // Proprietà didattiche ereditate
+        didacticFocus: { type: 'string' },
+        examTrap: { type: ['string', 'null'] },
+        readingOrder: { type: 'array', items: { type: 'string' } },
+        provenance: { type: 'string' }, // rimosso enum per genericità in questo draft
+        sourceEvidenceId: { type: ['string', 'null'] }
       }
-    },
-    // --- Ligandi per complessi di coordinazione ---
-    ligands: {
-      type: 'array',
-      items: {
-        type: 'object',
-        properties: {
-          id: { type: 'string' },
-          formula: { type: 'string' },          // es. "Cl", "PPh₃", "CO"
-          denticity: { type: 'integer', minimum: 1 }, // monodentato=1, bidentato=2...
-          transInfluence: { type: 'number', minimum: 0, maximum: 10 }, // 0=basso, 10=altissimo
-          position: { type: 'string' }          // 'N'|'S'|'E'|'W'|'axial_1'|'axial_2'|'equatorial_1'...
-        }
-      }
-    },
-    // --- Frecce semantiche ---
-    arrows: {
-      type: 'array',
-      items: {
-        type: 'object',
-        required: ['from', 'to', 'type'],
-        properties: {
-          from: { type: 'string' },             // entity id
-          to: { type: 'string' },               // entity id
-          type: { type: 'string', enum: [
-            'oxidative_addition', 'reductive_elimination', 'migratory_insertion',
-            'beta_hydride_elimination', 'ligand_substitution', 'coordination',
-            'decoordination', 'reaction', 'equilibrium', 'catalytic_step',
-            'trans_influence', 'electron_flow', 'feeds', 'produces', 'depends_on'
-          ]},
-          label: { type: ['string', 'null'] },
-          curved: { type: 'boolean', default: false }
-        }
-      }
-    },
-    // --- Annotazioni semantiche ---
-    annotations: {
-      type: 'array',
-      items: {
-        type: 'object',
-        properties: {
-          entityId: { type: 'string' },
-          text: { type: 'string' },
-          type: { type: 'string', enum: ['electron_count', 'oxidation_state', 'trans_influence', 'energy', 'label', 'warning'] }
-        }
-      }
-    },
-    // --- Legacy SVG (per mantenere coordinate raw solo in modo esplicito) ---
-    legacySvgContent: { type: ['string', 'null'] },
-    // --- Didattica ---
-    didacticFocus: { type: 'string' },          // Cosa il lettore deve capire
-    examTrap: { type: ['string', 'null'] },     // Errore tipico d'esame da evitare
-    readingOrder: { type: 'array', items: { type: 'string' } }, // Sequenza di lettura (entity ids)
-    // --- Provenienza ---
-    provenance: { type: 'string', enum: Object.values(PROVENANCE_CLASSES) },
-    sourceEvidenceId: { type: ['string', 'null'] }
+    }
   }
 };
 

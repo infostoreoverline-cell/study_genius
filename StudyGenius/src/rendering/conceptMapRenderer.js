@@ -73,9 +73,17 @@ const CHAR_W      = 7.0;   // px/char a 13px
 const LINE_H      = 18;    // px per riga testo
 
 // ─── Misura testo con word-wrap ────────────────────────────────────────────────
-function measureNode(text, fontSize = FONT_SIZE_L1, hasCategory = false) {
+function measureNode(text, fontSize = FONT_SIZE_L1, hasCategory = false, layoutOverrides = {}) {
+  const maxNodeW = layoutOverrides.maxNodeWidth || MAX_NODE_W;
+  const wrapMode = layoutOverrides.wrapMode || 'auto';
+  
   const scale    = fontSize / 13;
-  const maxChars = Math.floor(MAX_NODE_W / (CHAR_W * scale)) - 2;
+  let maxChars = Math.floor(maxNodeW / (CHAR_W * scale)) - 2;
+  
+  if (wrapMode === 'none') {
+    maxChars = 9999;
+  }
+  
   const words    = String(text || '').split(/\s+/).filter(Boolean);
   const lines    = [''];
   for (const w of words) {
@@ -87,7 +95,7 @@ function measureNode(text, fontSize = FONT_SIZE_L1, hasCategory = false) {
     }
   }
   const maxLen = Math.max(...lines.map(l => l.length));
-  const w = Math.min(MAX_NODE_W, Math.max(MIN_NODE_W,
+  const w = Math.min(maxNodeW, Math.max(MIN_NODE_W,
     Math.ceil(maxLen * CHAR_W * scale + PADDING.h * 2)));
   const h = Math.ceil(lines.length * LINE_H * scale + PADDING.v * 2 + 2) + (hasCategory ? 16 : 0);
   return { w, h, lines };
@@ -134,8 +142,19 @@ function buildTree(nodeMap, edges) {
   return { children, roots };
 }
 
-function layoutTopDown(nodeMap, edges) {
+function layoutTopDown(nodeMap, edges, layoutOverrides = {}) {
   const { children, roots } = buildTree(nodeMap, edges);
+
+  // Calcolo densità
+  let levelGap = LEVEL_GAP;
+  let siblingGap = SIBLING_GAP;
+  if (layoutOverrides.density === 'compact') {
+    levelGap = 50;
+    siblingGap = 10;
+  } else if (layoutOverrides.density === 'loose') {
+    levelGap = 120;
+    siblingGap = 40;
+  }
 
   // Assegna livelli BFS
   const level = new Map();
@@ -179,7 +198,7 @@ function layoutTopDown(nodeMap, edges) {
     for (let i = 0; i < kids.length; i++) {
       const kw = computeSubtree(kids[i], seen);
       kidOffsets.push(kidsTotalW);
-      kidsTotalW += kw + (i < kids.length - 1 ? SIBLING_GAP : 0);
+      kidsTotalW += kw + (i < kids.length - 1 ? siblingGap : 0);
     }
 
     const totalW = Math.max(nw, kidsTotalW);
@@ -217,7 +236,7 @@ function layoutTopDown(nodeMap, edges) {
   for (const r of roots) {
     const sw = computeSubtree(r);
     assignPos(r, curOriginX);
-    curOriginX += sw + SIBLING_GAP * 2;
+    curOriginX += sw + siblingGap * 2;
   }
 
   // Calcola altezze Y per livello per evitare sovrapposizioni verticali
@@ -231,15 +250,15 @@ function layoutTopDown(nodeMap, edges) {
   const sortedLevels = [...maxHByLevel.keys()].sort((a, b) => a - b);
   for (const lv of sortedLevels) {
     yByLevel.set(lv, curY);
-    curY += maxHByLevel.get(lv) + LEVEL_GAP;
+    curY += maxHByLevel.get(lv) + levelGap;
   }
   for (const [id, lv] of level) {
     nodeMap.get(id)._y = yByLevel.get(lv);
   }
 }
 
-function layoutLeftRight(nodeMap, edges) {
-  layoutTopDown(nodeMap, edges);
+function layoutLeftRight(nodeMap, edges, layoutOverrides = {}) {
+  layoutTopDown(nodeMap, edges, layoutOverrides);
   // Swap x↔y con scala
   const SCALE_X = 1.5;
   for (const n of nodeMap.values()) {
@@ -266,7 +285,8 @@ function renderConceptMap(spec) {
   const nodes   = payload.nodes || [];
   const edges   = payload.edges || [];
   const title   = spec.title || '';
-  const layoutIntent = payload.layoutIntent || 'top_down';
+  const layoutDirectives = payload.layoutDirectives || {};
+  const layoutIntent = layoutDirectives.intent || 'top_down';
   const showLegend   = payload.showLegend !== false;
 
   if (nodes.length === 0) {
@@ -277,15 +297,15 @@ function renderConceptMap(spec) {
   const nodeMap = new Map();
   for (const node of nodes) {
     const label = nodeLabel(node);
-    const m     = measureNode(label, FONT_SIZE_L1, Boolean(node.category));
+    const m     = measureNode(label, FONT_SIZE_L1, Boolean(node.category), layoutDirectives);
     nodeMap.set(node.id, { ...node, _label: label, _m: m, _x: 0, _y: 0, _level: 0 });
   }
 
   // ─ Applica layout ───────────────────────────────────────────────────────────
   if (layoutIntent === 'left_right') {
-    layoutLeftRight(nodeMap, edges);
+    layoutLeftRight(nodeMap, edges, layoutDirectives);
   } else {
-    layoutTopDown(nodeMap, edges);
+    layoutTopDown(nodeMap, edges, layoutDirectives);
   }
 
   // ─ Bounding box + offset ────────────────────────────────────────────────────

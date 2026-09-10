@@ -272,6 +272,15 @@ function _validateSemantics(spec) {
   const errors = [];
   const payload = spec.payload || {};
 
+  if (payload.layoutDirectives) {
+    const allowedKeys = new Set(['intent', 'density', 'wrapMode', 'maxNodeWidth']);
+    for (const key of Object.keys(payload.layoutDirectives)) {
+      if (!allowedKeys.has(key)) {
+        errors.push(`INVALID_LAYOUT_DIRECTIVE: "${key}" non amesso`);
+      }
+    }
+  }
+
   if (spec.kind === 'concept_map') {
     const nodes = payload.nodes || [];
     const edges = payload.edges || [];
